@@ -1,7 +1,7 @@
 header:
-  locale: en-GB
-  english_name: English (UK)
-  native_name: English (UK)
+  locale: hu-HU
+  english_name: Hungarian
+  native_name: Magyar
   loco_original_id: 0
 strings:
   0: ""
@@ -113,7 +113,7 @@ strings:
   99: Túl magas!
   100: Nem süllyesztheted le itt a földet...
   101: Nem emelheted fel itt a földet...
-  102: Útban van egy objektum
+  102: Objektum van az útban
   103: Játék betöltése
   104: Játék mentése
   105: Kilépés a pályaszerkesztőből
@@ -125,79 +125,79 @@ strings:
   111: Táj-adatterület megtelt!
   112: Nem lehet részben föld fölé, részben föld alá építeni
   113: "{STRINGID}"
-  114: "{SMALLFONT}{COLOUR BLACK}Left-Hand Curve"
-  115: "{SMALLFONT}{COLOUR BLACK}Right-Hand Curve"
-  116: "{SMALLFONT}{COLOUR BLACK}Left-Hand Curve (Small Radius)"
-  117: "{SMALLFONT}{COLOUR BLACK}Right-Hand Curve (Small Radius)"
-  118: "{SMALLFONT}{COLOUR BLACK}Left-Hand Curve (Very Small Radius)"
-  119: "{SMALLFONT}{COLOUR BLACK}Right-Hand Curve (Very Small Radius)"
-  120: "{SMALLFONT}{COLOUR BLACK}Left-Hand Curve (Large Radius)"
-  121: "{SMALLFONT}{COLOUR BLACK}Right-Hand Curve (Large Radius)"
-  122: "{SMALLFONT}{COLOUR BLACK}Straight"
-  123: "{SMALLFONT}{COLOUR BLACK}'S' Bend Left"
-  124: "{SMALLFONT}{COLOUR BLACK}'S' Bend Right"
-  125: "{SMALLFONT}{COLOUR BLACK}'S' Bend to left side of dual track"
-  126: "{SMALLFONT}{COLOUR BLACK}'S' Bend to right side of dual track"
-  127: "{SMALLFONT}{COLOUR BLACK}'S' Bend to single track"
+  114: "{SMALLFONT}{COLOUR BLACK}Balkanyar
+  115: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar"
+  116: "{SMALLFONT}{COLOUR BLACK}Balkanyar (kis ívű)"
+  117: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar (kis ívű)"
+  118: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagyon kis ívű)"
+  119: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar (nagyon kis ívű)"
+  120: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagy ívű)"
+  121: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagy ívű)"
+  122: "{SMALLFONT}{COLOUR BLACK}Egyenes"
+  123: "{SMALLFONT}{COLOUR BLACK}S kanyar (balra)"
+  124: "{SMALLFONT}{COLOUR BLACK}S kanyar (jobbra)"
+  125: "{SMALLFONT}{COLOUR BLACK}S kanyar kétsávos pálya bal oldalára"
+  126: "{SMALLFONT}{COLOUR BLACK}S kanyar kétsávos pálya jobb oldalára"
+  127: "{SMALLFONT}{COLOUR BLACK}S kanyar egysávos pályára"
   128: "{SMALLFONT}{COLOUR BLACK}Turnaround"
-  129: "{SMALLFONT}{COLOUR BLACK}(Click on landscape to start construction)"
-  130: "{SMALLFONT}{COLOUR BLACK}Construct this Track Section"
-  131: "{SMALLFONT}{COLOUR BLACK}Remove Previous Track Section"
-  132: "{SMALLFONT}{COLOUR BLACK}Steep Slope Down"
-  133: "{SMALLFONT}{COLOUR BLACK}Slope Down"
-  134: "{SMALLFONT}{COLOUR BLACK}Level"
-  135: "{SMALLFONT}{COLOUR BLACK}Slope Up"
-  136: "{SMALLFONT}{COLOUR BLACK}Steep Slope Up"
-  137: "{COLOUR WINDOW_2}Build this..."
-  138: "{COLOUR WINDOW_2}Cost: {COLOUR BLACK}{CURRENCY32}"
-  139: Can't build signal here...
-  140: Can't build signals here...
-  141: Can't remove signal...
-  142: Can't remove {POP16}{POP16}{POP16}{STRINGID}...
-  143: Can't build {POP16}{POP16}{POP16}{STRINGID}...
-  144: Raise or lower land first
-  145: Underground view
-  146: Hide foreground tracks & roads
-  147: Station type can only be built at end of road
-  148: Wrong type of station for {STRINGID}
-  149: Station not compatible with {STRINGID}
-  150: Level crossing in the way
-  151: Level crossing only possible with straight road and track at same level
-  152: Junction not possible
-  153: Junction must be entirely level
-  154: "{STRINGID} in the way / wrong height for junction"
+  129: "{SMALLFONT}{COLOUR BLACK}(Kattints a terepre az építés megkezdéséhez)"
+  130: "{SMALLFONT}{COLOUR BLACK}Pályaszakasz építése"
+  131: "{SMALLFONT}{COLOUR BLACK}Előző pályaszakasz eltávolítása"
+  132: "{SMALLFONT}{COLOUR BLACK}Meredek lejtő"
+  133: "{SMALLFONT}{COLOUR BLACK}Lejtő"
+  134: "{SMALLFONT}{COLOUR BLACK}Vízszint"
+  135: "{SMALLFONT}{COLOUR BLACK}Emelkedő"
+  136: "{SMALLFONT}{COLOUR BLACK}Meredek emelkedő"
+  137: "{COLOUR WINDOW_2}Építés..."
+  138: "{COLOUR WINDOW_2}Ár: {COLOUR BLACK}{CURRENCY32}"
+  139: Nem helyezhetsz ide jelzőt...
+  140: Nem helyezhetsz ide jelzőket...
+  141: Innen nem távolíthatod el a jelzőt...
+  142: Nem távolítható el {POP16}{POP16}{POP16}{STRINGID}...
+  143: Nem építhető {POP16}{POP16}{POP16}{STRINGID}...
+  144: Előbb a talaj emelése vagy süllyesztése szükséges
+  145: Földalatti nézet
+  146: Előtérben lévő vágányok és utak elrejtése
+  147: Az állomástípus csak az út végén építhető
+  148: Rossz állomástípus {STRINGID} számára
+  149: Az állomás nem kompatibilis ezzel: {STRINGID}
+  150: Vasúti átjáró van az útban
+  151: Vasúti átjáró csak akkor lehetséges, ha az egyenes út és a vágány azonos magasságban van
+  152: Elágazás nem lehetséges
+  153: Az elágazásnak teljesen vízszintesnek kell lennie
+  154: "{STRINGID} van az útban / rossz magasság csomóponthoz"
   155: Already built here
   156: Unable to cross or create junction with {STRINGID}
   157: Junctions not possible
-  158: Signal
-  159: Station
-  160: Airport
-  161: Ship Port
-  162: Station in the way
-  163: Signal in the way
+  158: Jelző
+  159: Állomás
+  160: Repülőtér
+  161: Hajókikötő
+  162: Állomás van az útban
+  163: Jelző van az útban
   164: Can't remove airport...
   165: Can't remove ship port...
   166: Can't remove station...
   167: Wrong type of track/road!
   168: Bridge types must match
   169: Bridge not suitable for junction
-  170: Track combination not possible
+  170: Nem lehetséges vágányösszetétel
   171: Too many objects in game
   172: Rotate Clockwise
   173: Rotate Anti-Clockwise
   174: "OpenLoco: Starting for the first time..."
   175: "OpenLoco: Checking object files..."
-  176: Load Game
-  177: Quit Game
-  178: Quit Game
-  179: Quit Scenario Editor
+  176: Játék betöltése
+  177: Kilépés a játékból
+  178: Kilépés a játékból
+  179: Kilépés a pályaszerkesztőből
   180: Load Landscape
   181: Save this before loading ?
   182: Save this before quitting ?
   183: Save this before quitting ?
-  184: Save
-  185: Don't Save
-  186: Cancel
+  184: Mentés
+  185: Nincs mentés
+  186: Mégse
   187: OK
 
   188: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} left"
@@ -294,34 +294,34 @@ strings:
   277: "{SMALLFONT}{COLOUR BLACK}Build signal in one direction only (trains will not be allowed to travel in the other direction)"
   278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Max. speed:  {STRINGID}{NEWLINE}Max. height above ground:  {HEIGHT}"
   279: "{SMALLFONT}{COLOUR BLACK}Select station type"
-  280: Station {INT16}
+  280: Álomás {INT16}
   281: "{STRINGID}"
-  282: "{STRINGID} North"
-  283: "{STRINGID} South"
-  284: "{STRINGID} East"
-  285: "{STRINGID} West"
-  286: "{STRINGID} Central"
-  287: "{STRINGID} Transfer"
-  288: "{STRINGID} Halt"
-  289: "{STRINGID} Valley"
-  290: "{STRINGID} Heights"
-  291: "{STRINGID} Woods"
-  292: "{STRINGID} Lakeside"
-  293: "{STRINGID} Exchange"
-  294: "{STRINGID} Airport"
-  295: "{STRINGID} Oilfield"
-  296: "{STRINGID} Mines"
-  297: "{STRINGID} Docks"
-  298: "{STRINGID} Annexe"
-  299: "{STRINGID} Sidings"
-  300: "{STRINGID} Branch"
-  301: Upper {STRINGID}
-  302: Lower {STRINGID}
-  303: "{STRINGID} Heliport"
-  304: "{STRINGID} Forest"
-  305: "{STRINGID} Junction"
-  306: "{STRINGID} Cross"
-  307: "{STRINGID} Views"
+  282: "{STRINGID} Észak"
+  283: "{STRINGID} Dél"
+  284: "{STRINGID} Kelet"
+  285: "{STRINGID} Nyugat"
+  286: "{STRINGID} Központ"
+  287: "{STRINGID} Átszálló"
+  288: "{STRINGID} Megálló"
+  289: "{STRINGID} Völgy"
+  290: "{STRINGID} Hegy"
+  291: "{STRINGID} Pagony"
+  292: "{STRINGID} Tópart"
+  293: "{STRINGID} Átrakó"
+  294: "{STRINGID} Repülőtér"
+  295: "{STRINGID} Olajmező"
+  296: "{STRINGID} Bányák"
+  297: "{STRINGID} Kikötő"
+  298: "{STRINGID} Külső"
+  299: "{STRINGID} Rakodó"
+  300: "{STRINGID} Fogadó"
+  301: Felső {STRINGID}
+  302: Alsó {STRINGID}
+  303: "{STRINGID} Helileszálló"
+  304: "{STRINGID} Erdő"
+  305: "{STRINGID} Csomópont"
+  306: "{STRINGID} Kereszteződés"
+  307: "{STRINGID} Kilátó"
   308: "{STRINGID} 1"
   309: "{STRINGID} 2"
   310: "{STRINGID} 3"
@@ -635,11 +635,11 @@ strings:
   614: "{SMALLFONT}{COLOUR BLACK}Load Saved Game"
   615: "{SMALLFONT}{COLOUR BLACK}Show Tutorial"
   616: "{SMALLFONT}{COLOUR BLACK}Exit from game"
-  617: Hamlet
-  618: Village
-  619: Town
-  620: City
-  621: Metropolis
+  617: Tanya
+  618: Falu
+  619: Város
+  620: Nagyváros
+  621: Világváros
   622: Track/road unsuitable
   623: Track/road unsuitable for station
   624: Station cannot be built on a junction
