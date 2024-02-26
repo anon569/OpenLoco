@@ -166,7 +166,7 @@ strings:
   152: Elágazás nem lehetséges
   153: Az elágazásnak teljesen vízszintesnek kell lennie
   154: "{STRINGID} van az útban / rossz magasság csomóponthoz"
-  155: Already built here
+  155: Itt már épült
   156: Unable to cross or create junction with {STRINGID}
   157: Junctions not possible
   158: Jelző
@@ -175,26 +175,26 @@ strings:
   161: Hajókikötő
   162: Állomás van az útban
   163: Jelző van az útban
-  164: Can't remove airport...
-  165: Can't remove ship port...
-  166: Can't remove station...
-  167: Wrong type of track/road!
-  168: Bridge types must match
+  164: A repülőtér nem távolítható el...
+  165: A kikötő nem távolítható el...
+  166: Az állomás nem távolítható el...
+  167: Rossz típusú pálya/út!
+  168: A hídtípusoknak meg kell egyezniük
   169: Bridge not suitable for junction
-  170: Nem lehetséges vágányösszetétel
-  171: Too many objects in game
-  172: Rotate Clockwise
-  173: Rotate Anti-Clockwise
-  174: "OpenLoco: Starting for the first time..."
-  175: "OpenLoco: Checking object files..."
+  170: A vágányösszetétel nem lehetséges
+  171: Túl sok objektum van a játékban
+  172: Forgatás órajárás szerint
+  173: Forgatás órajárással ellentétesen
+  174: "OpenLoco: Első indítás..."
+  175: "OpenLoco: Objektumfájlok ellenőrzése..."
   176: Játék betöltése
   177: Kilépés a játékból
   178: Kilépés a játékból
   179: Kilépés a pályaszerkesztőből
-  180: Load Landscape
-  181: Save this before loading ?
-  182: Save this before quitting ?
-  183: Save this before quitting ?
+  180: Táj betöltése
+  181: Mented mielőtt betöltenéd ?
+  182: Mented mielőtt kilépnél ?
+  183: Mented mielőtt kilépnél ?
   184: Mentés
   185: Nincs mentés
   186: Mégse
@@ -211,39 +211,39 @@ strings:
   196: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} down fast"
   197: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} up/down"
 
-  198: map
-  199: vehicle list
-  200: new vehicle list
-  201: list
-  202: trees list
-  203: orders list
-  204: station list
-  205: town list
-  206: industry list
-  207: new industry list
-  208: building list
-  209: walls list
-  210: ratings list
-  211: cargo list
-  212: message list
-  213: company list
-  214: scenario list
-  215: credits list
+  198: térkép
+  199: járművek listája
+  200: új járművek listája
+  201: lista
+  202: fák listája
+  203: utasítások listája
+  204: állomások listája
+  205: városok listája
+  206: gazdasági épületek listája
+  207: új gazdasági épületek listája
+  208: épületek listája
+  209: falak listája
+  210: értékelések listája
+  211: áruk liszája
+  212: üzenetek listája
+  213: vállalatok listája
+  214: pályák listája
+  215: készítők listája
 
   216: "{COLOUR WINDOW_2}▲{COLOUR BLACK}  {CURRENCY32}"
   217: "{COLOUR WINDOW_2}▼{COLOUR BLACK}  {CURRENCY32}"
-  218: Unable to switch to selected mode
+  218: Nem lehet a kiválasztott üzemmódra váltani
   219: "{COLOUR WINDOW_2}Cost: {COLOUR BLACK}{CURRENCY32}"
-  220: (player 1)
-  221: (player 2)
-  222: Can't change colour scheme...
-  223: Zoom In
-  224: Zoom Out
-  225: Towns
-  226: Industries
-  227: Airport
-  228: Ship Port
-  229: Landscape Generation Options
+  220: (játékos 1)
+  221: (játékos 2)
+  222: Nem változtatható meg a színséma...
+  223: Nagyítás
+  224: Kicsinyítés
+  225: Városok
+  226: Gazdasági épületek
+  227: Repülőterek
+  228: Kikötők
+  229: Tájgenerálási lehetőségek
   230: ""
   231: 🛤
   232: 🛣️
@@ -261,11 +261,11 @@ strings:
   244: 🛣️☁️🌊
   245: 🛤🛣️☁️🌊
   246: "{STRINGID}"
-  247: "{STRINGID} - Details"
-  248: "{STRINGID} - Finances"
-  249: "{STRINGID} - Cargo Delivered"
-  250: "{STRINGID} - Colour Scheme"
-  251: "{STRINGID} - Challenge"
+  247: "{STRINGID} - Részletek"
+  248: "{STRINGID} - Pénzügyek"
+  249: "{STRINGID} - Elszállított rakomány"
+  250: "{STRINGID} - Színséma"
+  251: "{STRINGID} - Kihívás"
   252: "{SMALLFONT}{COLOUR BLACK}Change direction"
   253: "{SMALLFONT}{COLOUR BLACK}Pass signal at danger"
   254: "{SMALLFONT}{COLOUR BLACK}Remove {POP16}{STRINGID} from track/road"
@@ -349,8 +349,8 @@ strings:
   332: "{SMALLFONT}{COLOUR BLACK}Sell {POP16}{STRINGID}{NEWLINE}(Or drag individual vehicle here to sell it)"
   333: "{SMALLFONT}{COLOUR BLACK}Build new vehicle for this {POP16}{STRINGID}"
   334: "{COLOUR BLACK}(click on view to set {STRINGID} starting position)"
-  335: Vehicles are not compatible
-  336: Too many vehicles in game
+  335: A járművek nem kompatibilisek
+  336: Túl sok jármű van a játékban
   337: ""
   338: ""
   339: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
@@ -1318,10 +1318,10 @@ strings:
   1288: "{POP16}{POP16}{NEWLINE 31 8} {STRINGID}"
   1289: "{SPRITE}{NEWLINE 31 8} {STRINGID} Construction"
   1290: "{STRINGID} local authority refuses permission!"
-  1291: Towns
-  1292: Build New Towns
-  1293: Build Individual Town Buildings
-  1294: Build Miscellaneous Buildings
+  1291: Városok
+  1292: Új városok építése
+  1293: Egyedi városi épületek építése
+  1294: Egyéb épületek építése
   1295: "{COLOUR BLACK}Population"
   1296: "{COLOUR BLACK}Population ▼"
   1297: "{SMALLFONT}{COLOUR BLACK}Sort list by population"
@@ -1807,18 +1807,18 @@ strings:
   1769: "{NEWLINE 0 3}{INT16_1DP}%{SPRITE 2325}{NEWLINE 0 13}“{STRINGID}”"
   1770: "{NEWLINE 0 3}{INT16_1DP}%{SPRITE 2324}{NEWLINE 0 13}“{STRINGID}”"
   1771: "{NEWLINE 0 8}{CURRENCY48}"
-  1772: Platelayer
-  1773: Engineer
-  1774: Traffic Manager
-  1775: Transport Coordinator
-  1776: Route Supervisor
-  1777: Director
-  1778: Chief Executive
-  1779: Chairman
-  1780: President
-  1781: Tycoon
-  1782: "{INT16} company"
-  1783: "{INT16} companies"
+  1772: Pályamunkás
+  1773: Mérnök
+  1774: Szállítmányozási osztályvezető
+  1775: Szállítási koordinátor
+  1776: Útvonalfelügyelő
+  1777: Igazgató
+  1778: Vezérigazgató
+  1779: Alelnök
+  1780: Elnök
+  1781: Iparmágnás
+  1782: "{INT16} vállalat"
+  1783: "{INT16} vállalat"
   1784: "{RAWDATE MY SHORT}"
   1785: "{INT16_1DP}%"
   1786: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
@@ -1829,29 +1829,29 @@ strings:
   1791: "{SMALLFONT}{COLOUR BLACK}{CURRENCY48}"
   1792: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
   1793: "{SMALLFONT}{COLOUR WHITE}{STRINGID}"
-  1794: Airport type is not suitable for this aircraft
+  1794: A repülőtér típusa nem megfelelő ehhez a repülőgéphez
   1795: "{COLOUR BLACK}£"
   1796: "{INT16} days"
   1797: "{CURRENCY32}"
   1798: "{SMALLFONT}{COLOUR BLACK}Payment for transporting {INT16} units of cargo a distance of {INT16} blocks"
   1799: "{SMALLFONT}{COLOUR BLACK}Transit time"
-  1800: "*  Paused  *"
-  1801: Town authority won't allow another airport to be constructed here
-  1802: Towns
-  1803: Industries
-  1804: Roads
-  1805: Railways
-  1806: Stations
-  1807: Vegetation
-  1808: Aircraft Routes
-  1809: Ship Routes
+  1800: "*  Szünet  *"
+  1801: A városi önkormányzat nem engedi, hogy itt újabb repülőtér épüljön
+  1802: Város
+  1803: Gazdasági épület
+  1804: Út
+  1805: Vasút
+  1806: Állomás
+  1807: Növényzet
+  1808: Repülőgép-útvonal
+  1809: Hajóútvonal
   1810: ""
   1811: Building {STRINGID} near {STRINGID}
   1812: Building {STRINGID} near {STRINGID}
   1813: Building {STRINGID} near {STRINGID}
   1814: Checking services near {STRINGID}
   1815: Surveying landscape near {STRINGID}
-  1816: "{COLOUR RED}Bankrupt!"
+  1816: "{COLOUR RED}Csőd!"
   1817: "{SMALLFONT}{COLOUR BLACK}Pause game"
   1818: "{SMALLFONT}{COLOUR BLACK}Normal speed"
   1819: "{SMALLFONT}{COLOUR BLACK}Fast forward"
