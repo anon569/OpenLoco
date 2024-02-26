@@ -376,15 +376,15 @@ strings:
   359: Can't build this underwater!
   360: Can only build this above ground!
   361: Can only build this on level land
-  362: Load Game
-  363: Load Landscape
-  364: Save Landscape
-  365: Save Game
-  366: Save Scenario
+  362: Játék betöltése
+  363: Táj betöltése
+  364: Táj mentése
+  365: Játék mentése
+  366: Pálya mentése
   367: OpenLoco Saved Game File
   368: OpenLoco Scenario File
   369: OpenLoco Landscape File
-  370: Game Save Failed!
+  370: A játék mentése sikertelen!
   371: Failed to load saved game...{NEWLINE}File contains invalid data!
   372: Hide foreground scenery & buildings
   373: Can only be built on water!
@@ -401,18 +401,18 @@ strings:
   384: "Type new name for {STRINGID} station:"
   385: Can't rename station...
   386: Invalid name for station
-  387: Can't move vehicle...
+  387: A jármű nem helyezhető át...
   388: Can't reverse train...
-  389: Can't sell vehicle...
-  390: Can't sell {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
+  389: Nem lehet eladni a járművet...
+  390: Nem lehet eladni ezt: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
   391: "{STRINGID}"
   392: "{STRINGID}"
   393: "{STRINGID} station platform"
   394: "{STRINGID} station building / bus stop"
   395: "{SMALLFONT}{COLOUR BLACK}Highlight catchment area of this station"
-  396: Mute
-  397: Play Music
-  398: "{COLOUR RED}Bankrupt!"
+  396: Némítás
+  397: Zenelejátszás
+  398: "{COLOUR RED}Csőd!"
   399: "{STRINGID} not allowed to wait for a full load at {STRINGID}"
   400: "{STRINGID} has slipped to a halt on an incline"
   401: "{STRINGID} now accepts {STRINGID}"
@@ -1975,16 +1975,16 @@ strings:
   1925: "{COLOUR BLACK}{TINYFONT}Brake"
   1926: "{SMALLFONT}{COLOUR BLACK}Move the selected order up in the list"
   1927: "{SMALLFONT}{COLOUR BLACK}Move the selected order down in the list"
-  1928: Unable to run the game directly from read-only media
+  1928: A játék nem futtatható közvetlenül a csak olvasható adathordozóról
 
   1929: Atari Inc. Credits...
   1930: "{COLOUR WINDOW_2}Licensed to Atari Inc."
   1931: Atari Inc. Credits
 
-  1932: Game versions are incompatible - Unable to connect!
-  1933: "{SMALLFONT}{COLOUR BLACK}Send a short text message to the other player"
-  1934: the other player
-  1935: "The other player has exited the game: Two player mode has been disconnected"
+  1932: A játékverziók nem kompatibilisek - Nem lehet csatlakozni!
+  1933: "{SMALLFONT}{COLOUR BLACK}Rövid szöveges üzenet küldése a másik játékosnak"
+  1934: a másik játékos
+  1935: "A másik játékos kilépett a játékból: A kétjátékos mód megszakadt"
 
   1936: "{COLOUR YELLOW}Use of this product is subject to the terms of a license agreement{NEWLINE}found in the product's “ReadMe” file and in the manual"
   1937: "{COLOUR YELLOW}ESRB Notice: Game experience may change during online play"
