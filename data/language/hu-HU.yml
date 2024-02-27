@@ -274,14 +274,14 @@ strings:
   257: "{SMALLFONT}{COLOUR BLACK}Place {POP16}{STRINGID} in airport"
   258: "{SMALLFONT}{COLOUR BLACK}Remove {POP16}{STRINGID} from water"
   259: "{SMALLFONT}{COLOUR BLACK}Place {POP16}{STRINGID} in dock"
-  260: Can't start {POP16}{POP16}{POP16}{STRINGID}...
-  261: Can't select manual mode for {POP16}{POP16}{POP16}{STRINGID}...
-  262: Can't stop {POP16}{POP16}{POP16}{STRINGID}...
+  260: Nem indítható: {POP16}{POP16}{POP16}{STRINGID}...
+  261: Kézi üzemmód nem választható: {POP16}{POP16}{POP16}{STRINGID}...
+  262: Nem lehet leállítani: {POP16}{POP16}{POP16}{STRINGID}...
   263: "{VELOCITY}"
-  264: Unlimited{POP16}
-  265: Stop
-  266: Start
-  267: Manual
+  264: Végtelen{POP16}
+  265: Megállás
+  266: Indítás
+  267: Kézi
   268: "{SMALLFONT}{COLOUR BLACK}Select how much track/road to upgrade"
   269: "{SMALLFONT}{COLOUR BLACK}Stop/Start {POP16}{STRINGID}"
   270: "{COLOUR BLACK}{STRINGID}"
@@ -497,29 +497,29 @@ strings:
   476: "{POP16}{POP16}{STRINGID}"
   477: Can't lower water level here...
   478: Can't raise water level here...
-  479: (None)
+  479: (Nincs)
   480: "{STRING}"
-  481: "{COLOUR RED}Closed - - "
+  481: "{COLOUR RED}Zárva - - "
   482: "{COLOUR YELLOW}{STRINGID} - - "
   483: Land slope unsuitable
-  484: Can't build this underwater!
+  484: Nem építhető víz alá!
   485: Land type not suitable
   486: "{COLOUR BLACK}▴"
   487: "{COLOUR BLACK}▾"
-  488: train
-  489: trains
-  490: Train
-  491: Trains
-  492: "{INT16} train"
-  493: "{INT16} trains"
-  494: Train {INT16}
-  495: boat
-  496: boats
-  497: Boat
-  498: Boats
-  499: "{INT16} boat"
-  500: "{INT16} boats"
-  501: Boat {INT16}
+  488: vonat
+  489: vonat
+  490: Vonat
+  491: Vonat
+  492: "{INT16} vonat"
+  493: "{INT16} vonat"
+  494: Vonat {INT16}
+  495: hajó
+  496: hajó
+  497: Hajó
+  498: Hajó
+  499: "{INT16} hajó"
+  500: "{INT16} hajó"
+  501: Hajó {INT16}
   502: track
   503: tracks
   504: Track
@@ -527,65 +527,65 @@ strings:
   506: "{INT16} track"
   507: "{INT16} tracks"
   508: Track {INT16}
-  509: docking platform
-  510: docking platforms
-  511: Docking platform
-  512: Docking platforms
-  513: "{INT16} docking platform"
-  514: "{INT16} docking platforms"
-  515: Docking platform {INT16}
-  516: station
-  517: stations
-  518: Station
-  519: Stations
-  520: "{INT16} station"
-  521: "{INT16} stations"
-  522: Station {INT16}
-  523: vehicle
-  524: vehicles
-  525: Vehicle
-  526: Vehicles
-  527: "{INT16} vehicle"
-  528: "{INT16} vehicles"
-  529: Vehicle {INT16}
-  530: building
-  531: buildings
-  532: Building
-  533: Buildings
-  534: "{INT16} building"
-  535: "{INT16} buildings"
-  536: Building {INT16}
-  537: structure
-  538: structures
-  539: Structure
-  540: Structures
-  541: "{INT16} structure"
-  542: "{INT16} structures"
-  543: Structure {INT16}
-  544: ship
-  545: ships
-  546: Ship
-  547: Ships
-  548: "{INT16} ship"
-  549: "{INT16} ships"
-  550: Ship {INT16}
-  551: town
-  552: towns
-  553: Town
-  554: Towns
-  555: "{INT16} town"
-  556: "{INT16} towns"
-  557: Town {INT16}
-  558: industry
-  559: industries
-  560: Industry
-  561: Industries
-  562: "{INT16} industry"
-  563: "{INT16} industries"
-  564: Industry {INT16}
-  565: "{SMALLFONT}{COLOUR BLACK}Rotate objects by 90°"
-  566: Level land required
-  567: Can't change land type...
+  509: dokk
+  510: dokk
+  511: Dokk
+  512: Dokk
+  513: "{INT16} dokk"
+  514: "{INT16} dokk"
+  515: Dokk {INT16}
+  516: állomás
+  517: állomás
+  518: Állomás
+  519: Állomás
+  520: "{INT16} állomás"
+  521: "{INT16} állomás"
+  522: Állomás {INT16}
+  523: jármű
+  524: jármű
+  525: Jármű
+  526: Jármű
+  527: "{INT16} jármű"
+  528: "{INT16} jármű"
+  529: Jármű {INT16}
+  530: épület
+  531: épület
+  532: Épület
+  533: Épület
+  534: "{INT16} épület"
+  535: "{INT16} épület"
+  536: Épület {INT16}
+  537: tereptárgy
+  538: tereptárgy
+  539: Tereptárgy
+  540: Tereptárgy
+  541: "{INT16} tereptárgy"
+  542: "{INT16} tereptárgy"
+  543: Tereptárgy {INT16}
+  544: hajó
+  545: hajó
+  546: Hajó
+  547: Hajó
+  548: "{INT16} hajó"
+  549: "{INT16} hajó"
+  550: Hajó {INT16}
+  551: város
+  552: város
+  553: Város
+  554: Város
+  555: "{INT16} város"
+  556: "{INT16} város"
+  557: Város {INT16}
+  558: gazdasági épület
+  559: gazdasági épület
+  560: Gazdasági épület
+  561: Gazdasági épület
+  562: "{INT16} gazdasági épület"
+  563: "{INT16} gazdasági épület"
+  564: Gazdasági épület {INT16}
+  565: "{SMALLFONT}{COLOUR BLACK}Objektumok elforgatása 90°-kal"
+  566: Vízszintes talaj szükséges
+  567: A talajtípus megváltoztatása nem lehetséges...
   568: "{OUTLINE}{COLOUR GREEN}+ {CURRENCY32}"
   569: "{OUTLINE}{COLOUR RED}- {CURRENCY32}"
   570: "{OUTLINE}{COLOUR WINDOW_1}+ {CURRENCY32}"
@@ -598,13 +598,13 @@ strings:
   577: "{SMALLFONT}{COLOUR BLACK}Show {POP16}{STRINGID} route details"
   578: "{SMALLFONT}{COLOUR BLACK}Show {POP16}{STRINGID} running costs and income"
   579: "{SMALLFONT}{COLOUR BLACK}Select new start position for construction"
-  580: "{SMALLFONT}{COLOUR BLACK}Rotate 90°"
-  581: "{STRINGID} in the way"
+  580: "{SMALLFONT}{COLOUR BLACK}Elforgatás 90°-kal°"
+  581: "{STRINGID} útban van"
   582: "{CURRENCY32}"
   583: Can't build this here...
   584: "{DATE MY}"
   585: OpenLoco
-  586: Please insert your Locomotion CD in the following drive:-
+  586: Kérlek, helyezd a Locomotion CD-t a következő meghajtóba:-
   587: "{COLOUR WINDOW_2}Expenditure/Income"
   588: Train Income
   589: Train Running Costs
