@@ -139,7 +139,7 @@ strings:
   125: "{SMALLFONT}{COLOUR BLACK}S kanyar kétsávos pálya bal oldalára"
   126: "{SMALLFONT}{COLOUR BLACK}S kanyar kétsávos pálya jobb oldalára"
   127: "{SMALLFONT}{COLOUR BLACK}S kanyar egysávos pályára"
-  128: "{SMALLFONT}{COLOUR BLACK}Turnaround"
+  128: "{SMALLFONT}{COLOUR BLACK}Forduló"
   129: "{SMALLFONT}{COLOUR BLACK}(Kattints a terepre az építés megkezdéséhez)"
   130: "{SMALLFONT}{COLOUR BLACK}Pályaszakasz építése"
   131: "{SMALLFONT}{COLOUR BLACK}Előző pályaszakasz eltávolítása"
@@ -293,7 +293,7 @@ strings:
   276: "{SMALLFONT}{COLOUR BLACK}Build signals in both directions"
   277: "{SMALLFONT}{COLOUR BLACK}Build signal in one direction only (trains will not be allowed to travel in the other direction)"
   278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Max. speed:  {STRINGID}{NEWLINE}Max. height above ground:  {HEIGHT}"
-  279: "{SMALLFONT}{COLOUR BLACK}Select station type"
+  279: "{SMALLFONT}{COLOUR BLACK}Az állomás típusának kiválasztása"
   280: Álomás {INT16}
   281: "{STRINGID}"
   282: "{STRINGID} Észak"
@@ -654,27 +654,27 @@ strings:
   633: "{COLOUR WINDOW_2}Company Value: {COLOUR BLACK}{CURRENCY48}"
   634: "{COLOUR WINDOW_2}Profit from Vehicles: {COLOUR BLACK}{CURRENCY48} per month"
 
-  635: January
-  636: February
-  637: March
-  638: April
-  639: May
-  640: June
-  641: July
-  642: August
-  643: September
-  644: October
-  645: November
-  646: December
+  635: január
+  636: február
+  637: március
+  638: április
+  639: május
+  640: június
+  641: július
+  642: augusztus
+  643: szeptember
+  644: október
+  645: november
+  646: december
 
   647: "{SMALLFONT}{COLOUR BLACK}{DATE DMY}{STRINGID}"
-  648: Select Scenario for New Game
+  648: Válassz pályát az új játékhoz
   649: ""
-  650: "{COLOUR WINDOW_2}Sound Quality:"
-  651: Low
-  652: Medium
-  653: High
-  654: Options
+  650: "{COLOUR WINDOW_2}Hangminőség:"
+  651: Alacsony
+  652: Közepes
+  653: Magas
+  654: Beállítások
   655: "{COLOUR WINDOW_2}Currency:"
   656: "{COLOUR WINDOW_2}Distance and Speed:"
   657: "{COLOUR WINDOW_2}Heights:"
@@ -1590,24 +1590,24 @@ strings:
   1554: airports
   1555: docks
   1556: "{COLOUR WINDOW_2}Company started: {COLOUR BLACK}{DATE MY}"
-  1557: "{COLOUR WINDOW_2}Performance Index: {COLOUR BLACK}{INT16_1DP}% {NEWLINE}  “{STRINGID}”"
-  1558: "{COLOUR WINDOW_2}Performance Index: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2325}{NEWLINE}  “{STRINGID}”"
-  1559: "{COLOUR WINDOW_2}Performance Index: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2324}{NEWLINE}  “{STRINGID}”"
-  1560: "{COLOUR WINDOW_2}Owner: {COLOUR BLACK}{STRINGID}"
-  1561: low
-  1562: medium
-  1563: high
-  1564: "{COLOUR WINDOW_2}Intelligence: {COLOUR BLACK}{INT16} ({STRINGID})"
-  1565: "{COLOUR WINDOW_2}Aggressiveness: {COLOUR BLACK}{INT16} ({STRINGID})"
-  1566: "{COLOUR WINDOW_2}Competitiveness: {COLOUR BLACK}{INT16} ({STRINGID})"
+  1557: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}% {NEWLINE}  “{STRINGID}”"
+  1558: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2325}{NEWLINE}  “{STRINGID}”"
+  1559: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2324}{NEWLINE}  “{STRINGID}”"
+  1560: "{COLOUR WINDOW_2}Tulajdonos: {COLOUR BLACK}{STRINGID}"
+  1561: alacsony
+  1562: közepes
+  1563: magas
+  1564: "{COLOUR WINDOW_2}Intelligencia: {COLOUR BLACK}{INT16} ({STRINGID})"
+  1565: "{COLOUR WINDOW_2}Agresszivitás: {COLOUR BLACK}{INT16} ({STRINGID})"
+  1566: "{COLOUR WINDOW_2}Versenyképesség: {COLOUR BLACK}{INT16} ({STRINGID})"
   1567: "{SMALLFONT}{COLOUR BLACK}Toggle between single player and two player mode"
   1568: "{OUTLINE}{COLOUR WINDOW_2}Single Player Mode"
   1569: "{OUTLINE}{COLOUR WINDOW_2}Two Player Mode: Connected to {STRINGID}"
-  1570: Beginner
-  1571: Easy
-  1572: Medium
-  1573: Challenging
-  1574: Expert
+  1570: Kezdő
+  1571: Könnyű
+  1572: Közepes
+  1573: Nehéz
+  1574: Szakértő
   1575: Region / Object Selection
   1576: Landscape Editor
   1577: Scenario Options
@@ -1809,8 +1809,8 @@ strings:
   1771: "{NEWLINE 0 8}{CURRENCY48}"
   1772: Pályamunkás
   1773: Mérnök
-  1774: Szállítmányozási osztályvezető
-  1775: Szállítási koordinátor
+  1774: Forgalomigazgató
+  1775: Szállításszervező
   1776: Útvonalfelügyelő
   1777: Igazgató
   1778: Vezérigazgató
@@ -2064,32 +2064,32 @@ strings:
   2009: "{COLOUR WINDOW_2}Challenge progress: {COLOUR BLACK}{INT16}%"
   2010: "{COLOUR WINDOW_2}Challenge: {COLOUR BLACK}Completed"
   2011: "{COLOUR WINDOW_2}Challenge: {COLOUR BLACK}Failed"
-  2012: "Replace existing file: “{STRINGID}”?"
+  2012: "Felülírod a meglévő fájlt: “{STRINGID}”?"
   2013: Replace
   2014: "Delete file: “{STRINGID}”?"
   2015: Delete
   2016: "Error: Invalid filename"
   2017: Industry Name
   2018: "Enter new name for {STRINGID}:"
-  2019: Can't rename industry...
-  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Max. speed: {STRINGID}{NEWLINE 45 11}Height limit: {HEIGHT}"
-  2021: Duplicate CD Keys found - Unable to connect!
-  2022: "{COLOUR BLACK}{SMALLFONT}(Computer Name = {STRINGID})"
-  2023: 1st
-  2024: 2nd
-  2025: 3rd
-  2026: 4th
-  2027: 5th
-  2028: 6th
-  2029: 7th
-  2030: 8th
-  2031: 9th
-  2032: 10th
-  2033: 11th
-  2034: 12th
-  2035: 13th
-  2036: 14th
-  2037: 15th
+  2019: Nem lehet átnevezni a gazdasági épületet......
+  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Max. sebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
+  2021: Másolt CD-kulcsokat találtunk - Nem lehet kapcsolódni!
+  2022: "{COLOUR BLACK}{SMALLFONT}(Számítógépnév = {STRINGID})"
+  2023: 1.
+  2024: 2.
+  2025: 3.
+  2026: 4.
+  2027: 5.
+  2028: 6.
+  2029: 7.
+  2030: 8.
+  2031: 9.
+  2032: 10.
+  2033: 11.
+  2034: 12.
+  2035: 13.
+  2036: 14.
+  2037: 15.
   2038: "{COLOUR BLACK}{INT16} selected (maximum {INT16})"
   2039: ""
   2040: ""
@@ -2177,7 +2177,7 @@ strings:
   2122: m
   2123: hp
   2124: kW
-  2125: "{COLOUR WINDOW_2}Language:"
+  2125: "{COLOUR WINDOW_2}Nyelv:"
   2126: "{COLOUR WINDOW_2}Disable vehicle breakdowns"
   2127: "{COLOUR WINDOW_2}Screen mode:"
   2128: Windowed
@@ -2197,12 +2197,12 @@ strings:
   2142: "{SMALLFONT}{COLOUR BLACK}This disables AI from 'thinking', rendering them ineffective.{NEWLINE}In new games, this also prevents new AI companies from forming."
   2143: "{COLOUR WINDOW_2}Autosave amount:"
   2144: "{COLOUR WINDOW_2}Autosave frequency:"
-  2145: "Never"
-  2146: "Every month"
-  2147: "Every {INT32} months"
-  2148: "{COLOUR WINDOW_2}Generator:"
-  2149: Original
-  2150: Improved
+  2145: "Soha"
+  2146: "Havonta"
+  2147: "{INT32} havonta"
+  2148: "{COLOUR WINDOW_2}Generátor:"
+  2149: Eredeti
+  2150: Javított
   2151: "Modify vehicle"
   2152: "Clone vehicle"
   2153: "Can't clone vehicle..."
@@ -2219,7 +2219,7 @@ strings:
   2164: "{SMALLFONT}{COLOUR BLACK}Removes the restriction of rendering at 40Hz."
   2165: "Hardware"
   2166: "Map rendering"
-  2167: "Tile inspector"
+  2167: "Mezővizsgáló"
   2168: "{SMALLFONT}{COLOUR BLACK}Activate to select a tile on the map to inspect."
   2169: "Surface"
   2170: "Track"
@@ -2236,13 +2236,13 @@ strings:
   2181: "Y:"
   2182: "{COLOUR WINDOW_2}{INT16}"
   2183: "Tile element data"
-  2184: "Cheats"
-  2185: "Financial cheats"
-  2186: "Company cheats"
-  2187: "Vehicle cheats"
-  2188: "Town cheats"
-  2189: "Clear loan"
-  2190: "Clear"
+  2184: "Csalások"
+  2185: "Pénzügyi csalások"
+  2186: "Vállalati csalások"
+  2187: "Járműcsalások"
+  2188: "Város csalások"
+  2189: "Kölcsön törlése"
+  2190: "Törlés"
   2191: "{COLOUR BLACK}{CURRENCY32}"
   2192: "Select target company"
   2193: "Select cheat to apply"
@@ -2266,8 +2266,8 @@ strings:
   2211: "Transporting cargo"
   2212: "{MOVE_X 10}Carrying {STRINGID} {SPRITE}"
   2213: "»{MOVE_X 10}Carrying {STRINGID} {SPRITE}"
-  2214: "No station selected"
-  2215: "No cargo type selected"
+  2214: "Nincs kiválasztva állomás"
+  2215: "Nincs kiválasztott rakománytípus"
   2216: "{SMALLFONT}{COLOUR BLACK}Open a station window to filter by station"
   2217: "{SMALLFONT}{COLOUR BLACK}Select a cargo type from the list of available cargo"
   2218: "Construction: Previous tab"
@@ -2280,12 +2280,12 @@ strings:
   2225: "Construction: Remove at current position"
   2226: "Construction: Select position"
   2227: "Trains reverse at signals"
-  2228: Autopay
+  2228: Automata fizetés
   2229: "{SMALLFONT}{COLOUR BLACK}Once per day, any current funds you have will be used to pay off your loan, if you have one."
-  2230: "{COLOUR WINDOW_2}Year:"
-  2231: "{COLOUR WINDOW_2}Month:"
-  2232: "{COLOUR WINDOW_2}Day:"
-  2233: Set date
+  2230: "{COLOUR WINDOW_2}Év:"
+  2231: "{COLOUR WINDOW_2}Hónap:"
+  2232: "{COLOUR WINDOW_2}Nap:"
+  2233: Dátum beállítása
   2234: "{COLOUR BLACK}{UINT16 RAW}"
   2235: "{COLOUR BLACK}{INT32}"
   2236: "{COLOUR BLACK}{INT32}"
@@ -2332,10 +2332,10 @@ strings:
   2277: "{COLOUR BLACK}Object ID"
   2278: "{COLOUR BLACK}Type"
   2279: "{COLOUR BLACK}Checksum"
-  2280: "Play sound effects for new messages"
-  2281: "{SMALLFONT}{COLOUR BLACK}When enabled, new messages will be accompanied by a sound effect of an appropriately cheering crowd."
+  2280: "Hanghatások lejátszása új üzenetek esetén"
+  2281: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, az új üzeneteket egy megfelelően éljenző tömeg hanghatása kíséri."
   2282: "{SMALLFONT}{COLOUR BLACK}Reverse the route order table"
-  2283: "Name and type"
+  2283: "Név és típus"
   2284: "BH"
   2285: "CH"
   2286: "D"
@@ -2357,12 +2357,12 @@ strings:
   2302: "Powered"
   2303: "Unlocked"
   2304: "Locked"
-  2305: "Cargo"
-  2306: "All cargo types"
+  2305: "Rakomány"
+  2306: "Minden rakománytípus"
   2307: "{MOVE_X 10}{STRINGID} {SPRITE}"
   2308: "»{MOVE_X 10}{STRINGID} {SPRITE}"
   2309: "{COLOUR BLACK}{STRINGID} {SPRITE}"
-  2310: "Cargoless"
+  2310: "Rakomány nélküli"
   2311: "Disable vehicle load penalty"
   2312: "{SMALLFONT}{COLOUR BLACK}When enabled, disables the vehicle loading speed penalty when vehicle length exceeds station length"
   2313: "See-through buildings"
