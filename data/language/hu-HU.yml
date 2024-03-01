@@ -292,9 +292,9 @@ strings:
   275: "{SMALLFONT}{COLOUR BLACK}Select signal type"
   276: "{SMALLFONT}{COLOUR BLACK}Build signals in both directions"
   277: "{SMALLFONT}{COLOUR BLACK}Build signal in one direction only (trains will not be allowed to travel in the other direction)"
-  278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Max. speed:  {STRINGID}{NEWLINE}Max. height above ground:  {HEIGHT}"
+  278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Végsebesség:  {STRINGID}{NEWLINE}Max. height above ground:  {HEIGHT}"
   279: "{SMALLFONT}{COLOUR BLACK}Az állomás típusának kiválasztása"
-  280: Álomás {INT16}
+  280: Állomás {INT16}
   281: "{STRINGID}"
   282: "{STRINGID} Észak"
   283: "{STRINGID} Dél"
@@ -342,12 +342,12 @@ strings:
   325: "{STRINGID} 18"
   326: "{STRINGID} 19"
   327: "{STRINGID} 20"
-  328: "{COLOUR WINDOW_2}{POP16}Weight: {COLOUR BLACK}{INT32}t"
-  329: "{COLOUR WINDOW_2}Total power: {COLOUR BLACK}{POWER}{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT32}t"
-  330: "{COLOUR WINDOW_2}Max. speed: {COLOUR BLACK}{VELOCITY}{POP16}{COLOUR WINDOW_2} Reliability: {COLOUR BLACK}{INT16}%"
-  331: "{COLOUR WINDOW_2}Max. speed: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Reliability: {COLOUR BLACK}{INT16}%"
-  332: "{SMALLFONT}{COLOUR BLACK}Sell {POP16}{STRINGID}{NEWLINE}(Or drag individual vehicle here to sell it)"
-  333: "{SMALLFONT}{COLOUR BLACK}Build new vehicle for this {POP16}{STRINGID}"
+  328: "{COLOUR WINDOW_2}{POP16}Súly: {COLOUR BLACK}{INT32}t"
+  329: "{COLOUR WINDOW_2}Összteljesítmény: {COLOUR BLACK}{POWER}{COLOUR WINDOW_2} Súly: {COLOUR BLACK}{INT32}t"
+  330: "{COLOUR WINDOW_2}Végsebesség: {COLOUR BLACK}{VELOCITY}{POP16}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
+  331: "{COLOUR WINDOW_2}Végsebesség: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
+  332: "{SMALLFONT}{COLOUR BLACK}Eladás: {POP16}{STRINGID}{NEWLINE}(Vagy húzd ide az egyes járműveket az eladáshoz)"
+  333: "{SMALLFONT}{COLOUR BLACK}Új jármű építése a számára: {POP16}{STRINGID}"
   334: "{COLOUR BLACK}(click on view to set {STRINGID} starting position)"
   335: A járművek nem kompatibilisek
   336: Túl sok jármű van a játékban
@@ -356,11 +356,11 @@ strings:
   339: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
   340: "{NEWLINE}Built:  {DATE MY}"
   341: "{NEWLINE}Value:  {CURRENCY32}"
-  342: "{NEWLINE}Power:  {POWER}"
-  343: "{NEWLINE}Weight:  {INT16}t"
-  344: "{NEWLINE}Max. Speed:  {VELOCITY}"
+  342: "{NEWLINE}Teljesítmény:  {POWER}"
+  343: "{NEWLINE}Súly:  {INT16}t"
+  344: "{NEWLINE}Végsebesség:  {VELOCITY}"
   345: " ({VELOCITY} on {STRINGID})"
-  346: "{NEWLINE}Reliability:  {INT16}%"
+  346: "{NEWLINE}Megbízhatóság:  {INT16}%"
   347: "{STRINGID} {STRINGID}"
   348: Single section
   349: Block section
@@ -463,9 +463,9 @@ strings:
   442: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Owned by {STRINGID}"
   443: "{MOVE_X 10}{STRINGID}"
   444: ✓{MOVE_X 10}{STRINGID}
-  445: Can't remove this...
-  446: Walls & Fences
-  447: Plant Trees
+  445: Nem távolítható el...
+  446: Falak és kerítések
+  447: Faültetés
   448: Can't position this here...
   449: Can't plant this here...
   450: "{OUTLINE}{COLOUR WINDOW_2}{STRINGID}"
@@ -621,20 +621,20 @@ strings:
   600: Construction
   601: Vehicle Purchases
   602: Vehicle Disposals
-  603: Loan Interest
-  604: Miscellaneous
+  603: Kölcsön kamat
+  604: Egyéb
   605: "{UINT16 RAW}"
   606: +{CURRENCY48}
   607: "{CURRENCY48}"
-  608: "{COLOUR WINDOW_2}Loan:"
+  608: "{COLOUR WINDOW_2}Kölcsön:"
   609: "{POP16}{POP16}{POP16}{POP16}{CURRENCY32}"
-  610: Can't borrow any more money!
-  611: Not enough cash available!
-  612: Can't pay back loan!
-  613: "{SMALLFONT}{COLOUR BLACK}Start New Game"
-  614: "{SMALLFONT}{COLOUR BLACK}Load Saved Game"
-  615: "{SMALLFONT}{COLOUR BLACK}Show Tutorial"
-  616: "{SMALLFONT}{COLOUR BLACK}Exit from game"
+  610: Nem kölcsönözhetsz több pénzt!
+  611: Nincs elég pénzed!
+  612: Nem törleszthetsz a kölcsönből!
+  613: "{SMALLFONT}{COLOUR BLACK}Új játék"
+  614: "{SMALLFONT}{COLOUR BLACK}Játék betöltése"
+  615: "{SMALLFONT}{COLOUR BLACK}Oktató mód indítása"
+  616: "{SMALLFONT}{COLOUR BLACK}Kilépés a játékból"
   617: Tanya
   618: Falu
   619: Város
@@ -678,16 +678,16 @@ strings:
   655: "{COLOUR WINDOW_2}Currency:"
   656: "{COLOUR WINDOW_2}Distance and Speed:"
   657: "{COLOUR WINDOW_2}Heights:"
-  658: Imperial
-  659: Metric
-  660: Units
-  661: Real Values
-  662: "{COLOUR WINDOW_2}Display Resolution:"
-  663: Landscape Smoothing
-  664: "{SMALLFONT}{COLOUR BLACK}Toggle landscape tile edge smoothing on/off"
-  665: Gridlines on Landscape
-  666: "{SMALLFONT}{COLOUR BLACK}Toggle gridlines on landscape on/off"
-  667: The bank refuses to increase your loan!
+  658: Angolszász
+  659: Metrikus
+  660: Egységek
+  661: Valós értékek
+  662: "{COLOUR WINDOW_2}Képernyőfelbontás:"
+  663: Táj simítása
+  664: "{SMALLFONT}{COLOUR BLACK}Tájmezők széleinek simítása be/ki"
+  665: Rácsvonalak a tájon
+  666: "{SMALLFONT}{COLOUR BLACK}Rácsvonalak a tájon be/ki"
+  667: A bank nem hajlandó megemelni a kölcsönödet!
   668: "{SMALLFONT}{COLOUR BLACK}Click on landscape to remove trees and buildings"
   669: "{SMALLFONT}{COLOUR BLACK}Clear smaller area of land"
   670: "{SMALLFONT}{COLOUR BLACK}Clear larger area of land"
@@ -1282,7 +1282,7 @@ strings:
   1252: "{NEWLINE}{COLOUR WINDOW_2} Requires: {COLOUR BLACK}"
   1253: "{NEWLINE}{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
   1254: "{NEWLINE}{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
-  1255: "{NEWLINE}{COLOUR WINDOW_2} Max. Speed: {COLOUR BLACK}{VELOCITY}"
+  1255: "{NEWLINE}{COLOUR WINDOW_2} Végsebesség: {COLOUR BLACK}{VELOCITY}"
   1256: "{NEWLINE}{COLOUR WINDOW_2} Designed: {COLOUR BLACK}{UINT16 RAW}"
   1257: "{NEWLINE}{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
   1258: " + {STRINGID}"
@@ -1725,21 +1725,21 @@ strings:
   1687: "{COLOUR WINDOW_2}Preferred Intelligence:"
   1688: "{COLOUR WINDOW_2}Preferred Aggressiveness:"
   1689: "{COLOUR WINDOW_2}Preferred Competitiveness:"
-  1690: Any
-  1691: Low
-  1692: Medium
-  1693: High
-  1694: "{COLOUR WINDOW_2}Starting loan:"
+  1690: Bármelyik
+  1691: Alacsony
+  1692: Közepes
+  1693: Magas
+  1694: "{COLOUR WINDOW_2}Induló kölcsön:"
   1695: "{CURRENCY32}"
-  1696: "{COLOUR WINDOW_2}Maximum loan size:"
+  1696: "{COLOUR WINDOW_2}Maximális kölcsönösszeg:"
   1697: "{POP16}{POP16}{CURRENCY32}"
-  1698: "{COLOUR WINDOW_2}Loan interest rate:"
+  1698: "{COLOUR WINDOW_2}Kölcsön kamatlába:"
   1699: "{POP16}{POP16}{POP16}{POP16}{INT16}%"
   1700: Change...
-  1701: "{COLOUR WINDOW_2}Scenario Name: {COLOUR BLACK}{STRINGID}"
-  1702: "{COLOUR WINDOW_2}Scenario Group:"
-  1703: "{COLOUR WINDOW_2}Scenario Details:"
-  1704: Scenario Name
+  1701: "{COLOUR WINDOW_2}Pálya neve: {COLOUR BLACK}{STRINGID}"
+  1702: "{COLOUR WINDOW_2}Pályacsoport:"
+  1703: "{COLOUR WINDOW_2}Pálya részletei:"
+  1704: Pálya neve
   1705: Enter name for scenario:-
   1706: Scenario Details
   1707: Enter description of this scenario:-
@@ -1762,7 +1762,7 @@ strings:
   1724: "{COLOUR WINDOW_2} Obsolete from: {COLOUR BLACK}{UINT16 RAW}"
   1725: "{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
   1726: "{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
-  1727: "{COLOUR WINDOW_2} Max. Speed: {COLOUR BLACK}{VELOCITY}"
+  1727: "{COLOUR WINDOW_2} Végsebesség: {COLOUR BLACK}{VELOCITY}"
   1728: "{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
   1729: Establishing connection...
   1730: Everywhere
@@ -2072,7 +2072,7 @@ strings:
   2017: Industry Name
   2018: "Enter new name for {STRINGID}:"
   2019: Nem lehet átnevezni a gazdasági épületet......
-  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Max. sebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
+  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Végsebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
   2021: Másolt CD-kulcsokat találtunk - Nem lehet kapcsolódni!
   2022: "{COLOUR BLACK}{SMALLFONT}(Számítógépnév = {STRINGID})"
   2023: 1.
@@ -2281,7 +2281,7 @@ strings:
   2226: "Construction: Select position"
   2227: "Trains reverse at signals"
   2228: Automata fizetés
-  2229: "{SMALLFONT}{COLOUR BLACK}Once per day, any current funds you have will be used to pay off your loan, if you have one."
+  2229: "{SMALLFONT}{COLOUR BLACK}Naponta egyszer az aktuális pénzösszeged felhasználásra kerül a kölcsönöd törlesztésére, ha van."
   2230: "{COLOUR WINDOW_2}Év:"
   2231: "{COLOUR WINDOW_2}Hónap:"
   2232: "{COLOUR WINDOW_2}Nap:"
@@ -2290,10 +2290,10 @@ strings:
   2235: "{COLOUR BLACK}{INT32}"
   2236: "{COLOUR BLACK}{INT32}"
   2237: "{DATE DMY}"
-  2238: "Game speed: Normal"
-  2239: "Game speed: Fast forward"
-  2240: "Game speed: Extra fast forward"
-  2241: "{COLOUR WINDOW_2}Capacity: {COLOUR BLACK}{STRINGID}"
+  2238: "Játék sebessége: normál"
+  2239: "Játék sebessége: gyors"
+  2240: "Játék sebessége: extra gyors"
+  2241: "{COLOUR WINDOW_2}Kapacitás: {COLOUR BLACK}{STRINGID}"
   2242: "{NEWLINE}{COLOUR WINDOW_2} Obsolete: {COLOUR BLACK}{UINT16 RAW}"
   2243: "Vehicle is locked!"
   2244: "Display locked vehicles"
@@ -2307,9 +2307,9 @@ strings:
   2252: "{SMALLFONT}{COLOUR BLACK}When enabled, panning the main game view will have inverted movement"
   2253: "Show cash popups"
   2254: "{SMALLFONT}{COLOUR BLACK}Toggle visibility of cash popups from construction and vehicles on/off"
-  2255: "Start Server"
-  2256: "Close Server"
-  2257: "Disconnect"
+  2255: "Szerver indítása"
+  2256: "Szerver bezárása"
+  2257: "Kilépés"
   2258: "{COLOUR WINDOW_2}Length: {COLOUR BLACK}{INT32_2DP} tile(s), {INT32} cars"
   2259: "{COLOUR WINDOW_2}Length: {COLOUR BLACK}{INT32_2DP} tile(s)"
   2260: "{COLOUR WINDOW_2} Length: {COLOUR BLACK}{INT32_2DP} tile(s)"
@@ -2345,11 +2345,11 @@ strings:
   2290: "{SMALLFONT}{COLOUR BLACK}Clear height of the tile element"
   2291: "{SMALLFONT}{COLOUR BLACK}Direction of the tile element"
   2292: "{SMALLFONT}{COLOUR BLACK}Ghost status of the tile element"
-  2293: "Beginner"
-  2294: "Advanced"
-  2295: "Expert"
-  2296: "Vanilla"
-  2297: "Custom"
+  2293: "Kezdő"
+  2294: "Haladó"
+  2295: "Szakértő"
+  2296: "Alap"
+  2297: "Egyedi"
   2298: "Components"
   2299: "Sort by year designed"
   2300: "Sort by name"
