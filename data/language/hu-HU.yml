@@ -520,13 +520,13 @@ strings:
   499: "{INT16} hajó"
   500: "{INT16} hajó"
   501: Hajó {INT16}
-  502: track
-  503: tracks
-  504: Track
-  505: Tracks
-  506: "{INT16} track"
-  507: "{INT16} tracks"
-  508: Track {INT16}
+  502: pálya
+  503: pálya
+  504: Pálya
+  505: Pálya
+  506: "{INT16} pálya"
+  507: "{INT16} pálya"
+  508: Pálya {INT16}
   509: dokk
   510: dokk
   511: Dokk
@@ -606,19 +606,19 @@ strings:
   585: OpenLoco
   586: Kérlek, helyezd a Locomotion CD-t a következő meghajtóba:-
   587: "{COLOUR WINDOW_2}Expenditure/Income"
-  588: Train Income
-  589: Train Running Costs
-  590: Bus Income
-  591: Bus Running Costs
-  592: Truck Income
-  593: Truck Running Costs
-  594: Tram Income
-  595: Tram Running Costs
-  596: Aircraft Income
-  597: Aircraft Running Costs
-  598: Ship Income
-  599: Ship Running Costs
-  600: Construction
+  588: Vonatok bevételei
+  589: Vonatok működési költségei
+  590: Buszok bevételei
+  591: Buszok működési költségei
+  592: Teherautók bevételei
+  593: Teherautók működési költségei
+  594: Villamosok bevételei
+  595: Villamosok működési költségei
+  596: Repülőgépek bevételei
+  597: Repülőgépek működési költségei
+  598: Hajók bevételei
+  599: Hajók működési költségei
+  600: Építkezés
   601: Vehicle Purchases
   602: Vehicle Disposals
   603: Kölcsön kamat
@@ -640,11 +640,11 @@ strings:
   619: Város
   620: Nagyváros
   621: Világváros
-  622: Track/road unsuitable
-  623: Track/road unsuitable for station
-  624: Station cannot be built on a junction
-  625: Signals cannot be built on a junction
-  626: Signals cannot be built in stations
+  622: Pálya/út nem megfelelő
+  623: Pálya/út nem megfelelő az állomás számára
+  624: Nem lehet kereszteződésre állomást építeni
+  625: Nem lehet kereszteződésre jelzőket építeni
+  626: Nem lehet állomásokban jelzőket elhelyezni
   627: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID}"
   628: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID}"
   629: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID} {STRINGID}"
@@ -715,12 +715,12 @@ strings:
   692: "{COLOUR WINDOW_2}Trams: {COLOUR BLACK}{INT16}"
   693: "{COLOUR WINDOW_2}Aircraft: {COLOUR BLACK}{INT16}"
   694: "{COLOUR WINDOW_2}Ships: {COLOUR BLACK}{INT16}"
-  695: "{NEWLINE}Challenge failed!"
-  696: "{NEWLINE}Challenge completed!"
-  697: "{SMALLFONT}{COLOUR BLACK}Performance Index: {INT16_1DP}% “{STRINGID}”"
-  698: "{SMALLFONT}{COLOUR BLACK}Company Value: {CURRENCY48}{NEWLINE}Profit from vehicles: {CURRENCY48}/month"
-  699: "{NEWLINE}Challenge progress: {INT16}%{STRINGID}"
-  700: "{NEWLINE}Time left: {COLOUR BLACK}{INT16} years {INT16} months"
+  695: "{NEWLINE}A kihívás sikertelen!"
+  696: "{NEWLINE}Kihívás teljesítve!"
+  697: "{SMALLFONT}{COLOUR BLACK}Teljesítménymutató: {INT16_1DP}% “{STRINGID}”"
+  698: "{SMALLFONT}{COLOUR BLACK}Vállalati érték: {CURRENCY48}{NEWLINE}Járművekből származó nyereség: {CURRENCY48}/hó"
+  699: "{NEWLINE}Kihívás előrehaladása: {INT16}%{STRINGID}"
+  700: "{NEWLINE}Hátralévő idő: {COLOUR BLACK}{INT16} év {INT16} hónap"
   701: Customize Keys...
   702: Keyboard Shortcuts
   703: Reset Keys
@@ -757,7 +757,7 @@ strings:
   734: Show Company Information
   735: Show Finances
   736: Show Announcements List
-  737: Screenshot
+  737: Képmentés
   738: Cancel or Show Last Announcement
   739: Send Message (2-player mode)
 
