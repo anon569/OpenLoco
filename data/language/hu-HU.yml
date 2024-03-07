@@ -2165,17 +2165,17 @@ strings:
   2110: A climate type must be selected
   2111: A map generation data type must be selected
   2112: A region type must be selected
-  2113: mph
-  2114: kmh⁻¹
-  2115: "hour:"
-  2116: "hours:"
+  2113: mi/h
+  2114: km/h
+  2115: "óra:"
+  2116: "órák:"
   2117: mins
   2118: "min:"
   2119: secs
   2120: " units"
-  2121: ft
+  2121: láb
   2122: m
-  2123: hp
+  2123: LE
   2124: kW
   2125: "{COLOUR WINDOW_2}Nyelv:"
   2126: "{COLOUR WINDOW_2}Disable vehicle breakdowns"
@@ -2183,7 +2183,7 @@ strings:
   2128: Windowed
   2129: Fullscreen
   2130: Fullscreen (borderless window)
-  2131: Default sound device
+  2131: Alapértelmezett hangeszköz
   2132: "{COLOUR WINDOW_2}Window scale factor:"
   2133: "{COLOUR BLACK}+"
   2134: "{COLOUR BLACK}-"
@@ -2191,8 +2191,8 @@ strings:
   2136: "{COLOUR WINDOW_2}Zoom to cursor position"
   2137: "{SMALLFONT}{COLOUR BLACK}When enabled, zooming in will centre around the cursor, as opposed to the screen centre."
   2138: "{COLOUR WINDOW_2}Play title screen music"
-  2139: "Quit to menu"
-  2140: "Exit OpenLoco"
+  2139: "Kilépés a menübe"
+  2140: "Kilépés az OpenLoco-ból"
   2141: "{COLOUR WINDOW_2}Disable AI companies"
   2142: "{SMALLFONT}{COLOUR BLACK}This disables AI from 'thinking', rendering them ineffective.{NEWLINE}In new games, this also prevents new AI companies from forming."
   2143: "{COLOUR WINDOW_2}Autosave amount:"
@@ -2203,9 +2203,9 @@ strings:
   2148: "{COLOUR WINDOW_2}Generátor:"
   2149: Eredeti
   2150: Javított
-  2151: "Modify vehicle"
-  2152: "Clone vehicle"
-  2153: "Can't clone vehicle..."
+  2151: "Jármű módosítása"
+  2152: "Jármű klónozása"
+  2153: "A jármű nem klónozható..."
   2154: "Locate vehicle on main view"
   2155: "Follow vehicle on main view"
   2156: "Enable cheats/debugging toolbar menu"
@@ -2317,9 +2317,9 @@ strings:
   2262: "{NEWLINE}Length:  {INT32_2DP} tile(s)"
   2263: "{COLOUR WINDOW_2}{UINT16}/{UINT16}"
   2264: "Giant screenshot"
-  2265: "{COLOUR WINDOW_2} Filename: {COLOUR BLACK}{STRINGID}"
-  2266: "Scenario options"
-  2267: "Object selection"
+  2265: "{COLOUR WINDOW_2} Fájlnév: {COLOUR BLACK}{STRINGID}"
+  2266: "Pálya beállításai"
+  2267: "Objektumok kiválasztása"
   2268: "Gameplay tweaks"
   2269: "Preferred owner"
   2270: "Autosave preferences"
@@ -2327,7 +2327,7 @@ strings:
   2272: "{SMALLFONT}{COLOUR BLACK}When enabled, towns will not renew or expand over time"
   2273: "Complete scenario challenge"
   2274: "Clear"
-  2275: "Error loading objects"
+  2275: "Hiba az objektumok betöltése során"
   2276: "{COLOUR BLACK}The file could not be loaded as some of the objects referenced in it are missing or corrupt. A list of these objects is given below."
   2277: "{COLOUR BLACK}Object ID"
   2278: "{COLOUR BLACK}Type"
@@ -2336,10 +2336,10 @@ strings:
   2281: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, az új üzeneteket egy megfelelően éljenző tömeg hanghatása kíséri."
   2282: "{SMALLFONT}{COLOUR BLACK}Reverse the route order table"
   2283: "Név és típus"
-  2284: "BH"
-  2285: "CH"
-  2286: "D"
-  2287: "G"
+  2284: "AM"
+  2285: "ŰM"
+  2286: "I"
+  2287: "S"
   2288: "{SMALLFONT}{COLOUR BLACK}Object name and type of the tile element"
   2289: "{SMALLFONT}{COLOUR BLACK}Base height of the tile element"
   2290: "{SMALLFONT}{COLOUR BLACK}Clear height of the tile element"
@@ -2363,16 +2363,16 @@ strings:
   2308: "»{MOVE_X 10}{STRINGID} {SPRITE}"
   2309: "{COLOUR BLACK}{STRINGID} {SPRITE}"
   2310: "Rakomány nélküli"
-  2311: "Disable vehicle load penalty"
-  2312: "{SMALLFONT}{COLOUR BLACK}When enabled, disables the vehicle loading speed penalty when vehicle length exceeds station length"
-  2313: "See-through buildings"
-  2314: "See-through roads"
-  2315: "See-through scenery"
-  2316: "See-through tracks"
-  2317: "See-through trees"
-  2318: "See-through buildings toggle"
-  2319: "See-through roads toggle"
-  2320: "See-through scenery toggle"
-  2321: "See-through tracks toggle"
-  2322: "See-through trees toggle"
-  2323: "{SMALLFONT}{COLOUR BLACK}Enable to smoothen the outer edges of land raised. Useful for creating mountains."
+  2311: "Járműrakodási büntetés kikapcsolása"
+  2312: "{SMALLFONT}{COLOUR BLACK}Amikor engedélyezve van, letiltja a jármű rakodási sebességének büntetését, ha a jármű hossza meghaladja az állomás hosszát"
+  2313: "Átlátszó épületek"
+  2314: "Átlátszó utak"
+  2315: "Átlátszó díszletek"
+  2316: "Átlátszó pályák"
+  2317: "Átlátszó fák"
+  2318: "Átlátszó épületek be/ki"
+  2319: "Átlátszó utak be/ki"
+  2320: "Átlátszó díszletek be/ki"
+  2321: "Átlátszó pályák be/ki"
+  2322: "Átlátszó fák be/ki"
+  2323: "{SMALLFONT}{COLOUR BLACK}Engedélyezd a megemelt földterületek külső széleinek simításához. Hasznos a hegyek létrehozásához."
