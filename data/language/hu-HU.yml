@@ -1393,15 +1393,15 @@ strings:
   1363: "{STRINGID} - Statistics"
   1364: "{STRINGID} {STRINGID}"
   1365: "{SMALLFONT}{COLOUR BLACK}Demolish this industry"
-  1366: Under construction
+  1366: Építés alatt
   1367: "Producing "
   1368: "Produces "
   1369: "Produce "
   1370: " to produce "
   1371: "Requires "
   1372: "Require "
-  1373: " and "
-  1374: " or "
+  1373: " és "
+  1374: " vagy "
   1375: ", "
   1376: "{SMALLFONT}{COLOUR BLACK}Sort list by industry status"
   1377: "{SMALLFONT}{COLOUR BLACK}Sort list by production percentage transported"
@@ -1420,39 +1420,39 @@ strings:
   1390: "{SMALLFONT}{COLOUR BLACK}Production graph"
   1391: "{COLOUR BLACK}{SMALLFONT}({STRINGID})"
   1392: "{SMALLFONT}{COLOUR BLACK}Completely demolish this town (and any nearby industries)"
-  1393: Can't remove town...
-  1394: All stations near this town must be removed first
-  1395: Too close to another town
-  1396: Too many towns
-  1397: Too close to another town, or position is unsuitable
-  1398: "{SMALLFONT}{COLOUR BLACK}Select size of town to construct"
-  1399: 1 (small)
+  1393: Nem lehet eltávolítani a települést...
+  1394: Előbb minden állomást el kell távolítani a település közelében
+  1395: Túl közel van egy másik településhez
+  1396: Túl sok a település
+  1397: Túl közel van egy másik településhez, vagy a hely nem megfelelő
+  1398: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építendő település méretét"
+  1399: 1 (kicsi)
   1400: "2"
-  1401: 3 (medium)
+  1401: 3 (közepes)
   1402: "4"
   1403: "5"
-  1404: 6 (large)
+  1404: 6 (nagy)
   1405: "7"
-  1406: 8 (gigantic)
-  1407: "{COLOUR BLACK}Town size:"
-  1408: "{COLOUR BLACK}(Click on landscape to build new town)"
-  1409: "{SMALLFONT}{COLOUR BLACK}Expand this town"
-  1410: Too close to another industry
-  1411: Town must be built nearby first
-  1412: "{SMALLFONT}{COLOUR BLACK}Plant a cluster of the selected tree type"
-  1413: "{SMALLFONT}{COLOUR BLACK}Plant a random cluster of trees"
-  1414: "{SMALLFONT}{COLOUR BLACK}Statistics"
-  1415: "{COLOUR WINDOW_2}Received last month:"
-  1416: "{COLOUR WINDOW_2}Produced last month:"
-  1417: "{COLOUR BLACK}{STRINGID} ({INT16}% transported)"
+  1406: 8 (óriási)
+  1407: "{COLOUR BLACK}Település mérete:"
+  1408: "{COLOUR BLACK}(Kattints a tájra az új település építéséhez)"
+  1409: "{SMALLFONT}{COLOUR BLACK}Település bővítése"
+  1410: Túl közel van egy másik gazdasági épülethez
+  1411: Először várost kell a közelben építeni
+  1412: "{SMALLFONT}{COLOUR BLACK}Egy csoport ültetése a kiválasztott fafajtából."
+  1413: "{SMALLFONT}{COLOUR BLACK}Egy véletlenszerű facsoport ültetése"
+  1414: "{SMALLFONT}{COLOUR BLACK}Statisztikák"
+  1415: "{COLOUR WINDOW_2}Előző hónapban érkezett:"
+  1416: "{COLOUR WINDOW_2}Előző hónapban termelt:"
+  1417: "{COLOUR BLACK}{STRINGID} ({INT16}% elszállítva)"
   1418: "{COLOUR BLACK}{INT16}%"
-  1419: Closing down
-  1420: Belongs to {STRINGID}
-  1421: "{STRINGID} belongs to {STRINGID}"
-  1422: Signal belongs to {STRINGID}
+  1419: Bezár
+  1420: {STRINGID} tulajdona
+  1421: "{STRINGID} az ő tulajdona: {STRINGID}"
+  1422: A jelző {STRINGID} tulajdona
   1423: "{COLOUR BLACK}{INT16}%"
   1424: "{COLOUR BLACK}{TINYFONT}{DATE DMY}"
-  1425: Messages
+  1425: Üzenetek
   1426: "{SMALLFONT}{COLOUR BLACK}Show recent messages"
   1427: "{SMALLFONT}{COLOUR BLACK}Message options"
   1428: Message Options
