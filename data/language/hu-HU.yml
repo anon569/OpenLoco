@@ -627,7 +627,7 @@ strings:
   606: +{CURRENCY48}
   607: "{CURRENCY48}"
   608: "{COLOUR WINDOW_2}Kölcsön:"
-  609: "{POP16}{POP16}{POP16}{POP16}{CURRENCY32}"
+  609: "{CURRENCY32}"
   610: Nem kölcsönözhetsz több pénzt!
   611: Nincs elég pénzed!
   612: Nem törleszthetsz a kölcsönből!
@@ -1676,21 +1676,21 @@ strings:
   1638: "{COLOUR WINDOW_2}No. of forests:"
   1639: "{INT16}"
   1640: "{COLOUR WINDOW_2}Minimum forest radius:"
-  1641: "{POP16}{INT16} blocks"
+  1641: "{INT16} blocks"
   1642: "{COLOUR WINDOW_2}Maximum forest radius:"
-  1643: "{POP16}{POP16}{INT16} blocks"
+  1643: "{INT16} blocks"
   1644: "{COLOUR WINDOW_2}Minimum forest density:"
-  1645: "{POP16}{POP16}{POP16}{INT16}%"
+  1645: "{INT16}%"
   1646: "{COLOUR WINDOW_2}Maximum forest density:"
-  1647: "{POP16}{POP16}{POP16}{POP16}{INT16}%"
+  1647: "{INT16}%"
   1648: "{COLOUR WINDOW_2}No. of random individual trees:"
-  1649: "{POP16}{POP16}{POP16}{POP16}{POP16}{INT16}"
+  1649: "{INT16}"
   1650: "{COLOUR WINDOW_2}Minimum altitude for trees:"
-  1651: "{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{HEIGHT}"
+  1651: "{HEIGHT}"
   1652: "{COLOUR WINDOW_2}Maximum altitude for trees:"
-  1653: "{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{HEIGHT}"
+  1653: "{HEIGHT}"
   1654: "{COLOUR WINDOW_2}Minimum land height:"
-  1655: "{POP16}{INT16} units"
+  1655: "{INT16} units"
   1656: "{COLOUR WINDOW_2}Topography style:"
   1657: Flat Land
   1658: Small Hills
@@ -1698,7 +1698,7 @@ strings:
   1660: Half Mountains, Half Hills
   1661: Half Mountains, Half Flat
   1662: "{COLOUR WINDOW_2}Hill density:"
-  1663: "{POP16}{POP16}{INT16}%"
+  1663: "{INT16}%"
   1664: "{COLOUR WINDOW_2}No. of towns:"
   1665: "{INT16}"
   1666: "{COLOUR WINDOW_2}Maximum town size:"
@@ -1720,7 +1720,7 @@ strings:
   1682: "{COLOUR WINDOW_2}Maximum competing companies:"
   1683: "{INT16}"
   1684: "{COLOUR WINDOW_2}Delay before competing companies start:"
-  1685: "{POP16}{INT16} months"
+  1685: "{INT16} months"
   1686: "{COLOUR WINDOW_2}Selection of competing companies"
   1687: "{COLOUR WINDOW_2}Preferred Intelligence:"
   1688: "{COLOUR WINDOW_2}Preferred Aggressiveness:"
@@ -1732,9 +1732,9 @@ strings:
   1694: "{COLOUR WINDOW_2}Induló kölcsön:"
   1695: "{CURRENCY32}"
   1696: "{COLOUR WINDOW_2}Maximális kölcsönösszeg:"
-  1697: "{POP16}{POP16}{CURRENCY32}"
+  1697: "{CURRENCY32}"
   1698: "{COLOUR WINDOW_2}Kölcsön kamatlába:"
-  1699: "{POP16}{POP16}{POP16}{POP16}{INT16}%"
+  1699: "{INT16}%"
   1700: Change...
   1701: "{COLOUR WINDOW_2}Pálya neve: {COLOUR BLACK}{STRINGID}"
   1702: "{COLOUR WINDOW_2}Pályacsoport:"
@@ -1895,7 +1895,7 @@ strings:
   1857: "{CURRENCY32}"
   1858: "{INT16_1DP}%"
   1859: "{INT32}"
-  1860: "{POP16}{POP16}{POP16}{INT16} years"
+  1860: "{INT16} years"
   1861: "{SMALLFONT}(Completed by {STRINGID} in {INT16} years {INT16} months)"
   1862: "{COLOUR WINDOW_2}Success!{NEWLINE}{COLOUR BLACK}  You completed the challenge in {INT16} years {INT16} months"
   1863: "{COLOUR WINDOW_2}Failed!{NEWLINE}{COLOUR BLACK}  You failed to complete the challenge"
@@ -2035,26 +2035,26 @@ strings:
   1981: "{COLOUR WINDOW_2}"
   1982: "{COLOUR WINDOW_2}"
 
-  1983: Distance x Units of Cargo Delivered per Month
-  1984: "{SMALLFONT}{COLOUR BLACK}Graphs of distance cargo delivered by each company"
-  1985: "{COLOUR WINDOW_2}Last journey average speed: {COLOUR BLACK}{VELOCITY}"
-  1986: land
-  1987: air
-  1988: water
-  1989: Train
-  1990: Bus
-  1991: Truck
-  1992: Tram
-  1993: Aircraft
-  1994: Ship
-  1995: "{SMALLFONT}{COLOUR BLACK}Speed records"
-  1996: Speed Records
-  1997: "{COLOUR WINDOW_2}Land service speed record: {COLOUR BLACK}{VELOCITY}"
-  1998: "{COLOUR WINDOW_2}Air service speed record: {COLOUR BLACK}{VELOCITY}"
-  1999: "{COLOUR WINDOW_2}Water service speed record: {COLOUR BLACK}{VELOCITY}"
-  2000: "{COLOUR BLACK}Achieved by {STRINGID} on {DATE DMY}"
-  2001: Confirm Display Mode Change
-  2002: "{COLOUR WINDOW_2}Display resolution changed to {UINT16 RAW} x {UINT16 RAW}"
+  1983: Távolság x elszállított rakomány egységek havonta
+  1984: "{SMALLFONT}{COLOUR BLACK}Grafikon az egyes cégek által szállított rakomány távolságáról"
+  1985: "{COLOUR WINDOW_2}Utolsó út átlagsebessége: {COLOUR BLACK}{VELOCITY}"
+  1986: szárazföldi
+  1987: légi
+  1988: vízi
+  1989: Vonat
+  1990: Busz
+  1991: Teherautó
+  1992: Villamos
+  1993: Repülőgép
+  1994: Hajó
+  1995: "{SMALLFONT}{COLOUR BLACK}Sebességrekordok"
+  1996: Sebességrekordok
+  1997: "{COLOUR WINDOW_2}Szárazföldi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
+  1998: "{COLOUR WINDOW_2}Légi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
+  1999: "{COLOUR WINDOW_2}Vízi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
+  2000: "{COLOUR BLACK}Teljesítette: {STRINGID} ekkor: {DATE DMY}"
+  2001: Megjelenítési mód változásának megerősítése
+  2002: "{COLOUR WINDOW_2}Megváltozott a felbontás: {UINT16 RAW} x {UINT16 RAW}"
   2003: "{COLOUR WINDOW_2}_"
   2004: "{COLOUR WINDOW_2}File name:"
   2005: "{COLOUR WINDOW_2}Folder: {COLOUR BLACK}{STRINGID}"
@@ -2201,35 +2201,35 @@ strings:
   2146: "Havonta"
   2147: "{INT32} havonta"
   2148: "{COLOUR WINDOW_2}Generátor:"
-  2149: Eredeti
-  2150: Javított
+  2149: Eredeti generátor  
+  2150: Simplex generátor
   2151: "Jármű módosítása"
   2152: "Jármű klónozása"
   2153: "A jármű nem klónozható..."
-  2154: "Locate vehicle on main view"
-  2155: "Follow vehicle on main view"
-  2156: "Enable cheats/debugging toolbar menu"
-  2157: "{SMALLFONT}{COLOUR BLACK}This adds an extra button to the game's toolbar, allowing easy access to certain cheats and debugging options."
-  2158: "Enable sandbox mode"
-  2159: "Allow manual driving"
-  2160: "Allow building while paused"
-  2161: "Display fps counter"
-  2162: "{SMALLFONT}{COLOUR BLACK}This shows a counter at the top of the screen, indicating the number of frames drawn per second."
-  2163: "Uncap frame limiter"
-  2164: "{SMALLFONT}{COLOUR BLACK}Removes the restriction of rendering at 40Hz."
-  2165: "Hardware"
-  2166: "Map rendering"
+  2154: "Jármű megkeresése a főnézetben"
+  2155: "Jármű követése a főnézetben"
+  2156: "Csalások/hibakereső eszköztár menü engedélyezése"
+  2157: "{SMALLFONT}{COLOUR BLACK}Ez hozzáad egy extra gombot a játék eszköztárához, amely lehetővé teszi bizonyos csalások és hibakeresési lehetőségek könnyű elérését."
+  2158: "Homokozó mód engedélyezése"
+  2159: "Kézi vezetés engedélyezése"
+  2160: "Építés engedélyezése szünet közben"
+  2161: "FPS-számláló megjelenítése"
+  2162: "{SMALLFONT}{COLOUR BLACK}Ez megjelenít egy számlálót a képernyő tetején, amely jelzi a másodpercenként kirajzolt képkockák számát."
+  2163: "Képkockaszám-korlátozás feloldása"
+  2164: "{SMALLFONT}{COLOUR BLACK}Eltávolítja a 40 Hz-es frissítési korlátot."
+  2165: "Hardver"
+  2166: "Térképmegjelenítés"
   2167: "Mezővizsgáló"
-  2168: "{SMALLFONT}{COLOUR BLACK}Activate to select a tile on the map to inspect."
-  2169: "Surface"
-  2170: "Track"
-  2171: "Station"
-  2172: "Signal"
-  2173: "Building"
-  2174: "Tree"
-  2175: "Wall"
-  2176: "Road"
-  2177: "Industry"
+  2168: "{SMALLFONT}{COLOUR BLACK}Aktiválás után válassz ki egy térképmezőt az ellenőrzéshez."
+  2169: "Felszín"
+  2170: "Vágány"
+  2171: "Állomás"
+  2172: "Jelző"
+  2173: "Épület"
+  2174: "Fa"
+  2175: "Fal"
+  2176: "Út"
+  2177: "Ipar"
   2178: "{COLOUR WINDOW_2} {STRINGID} ({STRINGID})"
   2179: "{COLOUR WINDOW_2} {STRINGID} - {STRINGID} ({STRINGID})"
   2180: "X:"
@@ -2268,18 +2268,18 @@ strings:
   2213: "»{MOVE_X 10}Szállít: {STRINGID} {SPRITE}"
   2214: "Nincs kiválasztva állomás"
   2215: "Nincs kiválasztott rakománytípus"
-  2216: "{SMALLFONT}{COLOUR BLACK}Open a station window to filter by station"
-  2217: "{SMALLFONT}{COLOUR BLACK}Select a cargo type from the list of available cargo"
-  2218: "Construction: Previous tab"
-  2219: "Construction: Next tab"
-  2220: "Construction: Previous track piece"
-  2221: "Construction: Next track piece"
-  2222: "Construction: Previous slope"
-  2223: "Construction: Next slope"
-  2224: "Construction: Build at current position"
-  2225: "Construction: Remove at current position"
-  2226: "Construction: Select position"
-  2227: "Trains reverse at signals"
+2216: "{SMALLFONT}{COLOUR BLACK}Nyiss meg egy állomásablakot az állomás szerinti szűréshez"
+2217: "{SMALLFONT}{COLOUR BLACK}Válassz egy árutípust az elérhető áruk közül"
+2218: "Építés: Előző fül"
+2219: "Építés: Következő fül"
+2220: "Építés: Előző vágányelem"
+2221: "Építés: Következő vágányelem"
+2222: "Építés: Előző lejtő"
+2223: "Építés: Következő lejtő"
+2224: "Építés: Építés a jelenlegi helyen"
+2225: "Építés: Eltávolítás a jelenlegi helyen"
+2226: "Építés: Hely kijelölése"
+2227: "A vonatok jelzőknél visszafordulnak"
   2228: Automata fizetés
   2229: "{SMALLFONT}{COLOUR BLACK}Naponta egyszer az aktuális pénzösszeged felhasználásra kerül a kölcsönöd törlesztésére, ha van."
   2230: "{COLOUR WINDOW_2}Év:"
