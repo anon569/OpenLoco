@@ -2148,23 +2148,23 @@ strings:
   2093: Advanced
   2094: "{SMALLFONT}{COLOUR BLACK}Allow more advanced selection of individual items"
   2095: "{COLOUR WHITE}{BIGFONT}£"
-  2096: New objects installed successfully
-  2097: At least one industry must be selected
-  2098: At least one town building must be selected
-  2099: A company headquarters building type must be selected
-  2100: Only one company headquarters building type must be selected
-  2101: An interface type must be selected
-  2102: At least one vehicle type must be selected
-  2103: At least one land type must be selected
-  2104: A currency type must be selected
-  2105: A water type must be selected
-  2106: A town name style must be selected
-  2107: At least one level crossing type must be selected
-  2108: A street light type must be selected
-  2109: A snow type must be selected (even if not needed)
-  2110: A climate type must be selected
-  2111: A map generation data type must be selected
-  2112: A region type must be selected
+  2096: Új objektumok sikeresen telepítve
+  2097: Legalább egy gazdasági épületet ki kell választani
+  2098: Legalább egy városi épületet ki kell választani
+  2099: Egy cégközpont épülettípust ki kell választani
+  2100: Csak egy cégközpont épülettípust lehet kiválasztani
+  2101: Egy felület-típust ki kell választani
+  2102: Legalább egy járműtípust ki kell választani
+  2103: Legalább egy földtípust ki kell választani
+  2104: Egy pénznemtípust ki kell választani
+  2105: Egy víztípust ki kell választani
+  2106: Egy városnév-stílust ki kell választani
+  2107: Legalább egy vasúti átjárótípust ki kell választani
+  2108: Egy utcai lámpatípust ki kell választani
+  2109: Egy hófajtát ki kell választani (még ha nincs is rá szükség)
+  2110: Egy éghajlattípust ki kell választani
+  2111: Egy térkép-generálási adattípust ki kell választani
+  2112: Egy régiótípust ki kell választani
   2113: mi/h
   2114: km/h
   2115: "óra:"
@@ -2229,7 +2229,7 @@ strings:
   2174: "Fa"
   2175: "Fal"
   2176: "Út"
-  2177: "Ipar"
+  2177: "Gazdasági épület"
   2178: "{COLOUR WINDOW_2} {STRINGID} ({STRINGID})"
   2179: "{COLOUR WINDOW_2} {STRINGID} - {STRINGID} ({STRINGID})"
   2180: "X:"
@@ -2268,18 +2268,18 @@ strings:
   2213: "»{MOVE_X 10}Szállít: {STRINGID} {SPRITE}"
   2214: "Nincs kiválasztva állomás"
   2215: "Nincs kiválasztott rakománytípus"
-2216: "{SMALLFONT}{COLOUR BLACK}Nyiss meg egy állomásablakot az állomás szerinti szűréshez"
-2217: "{SMALLFONT}{COLOUR BLACK}Válassz egy árutípust az elérhető áruk közül"
-2218: "Építés: Előző fül"
-2219: "Építés: Következő fül"
-2220: "Építés: Előző vágányelem"
-2221: "Építés: Következő vágányelem"
-2222: "Építés: Előző lejtő"
-2223: "Építés: Következő lejtő"
-2224: "Építés: Építés a jelenlegi helyen"
-2225: "Építés: Eltávolítás a jelenlegi helyen"
-2226: "Építés: Hely kijelölése"
-2227: "A vonatok jelzőknél visszafordulnak"
+  2216: "{SMALLFONT}{COLOUR BLACK}Nyiss meg egy állomásablakot az állomás szerinti szűréshez"
+  2217: "{SMALLFONT}{COLOUR BLACK}Válassz egy árutípust az elérhető áruk közül"
+  2218: "Építés: Előző fül"
+  2219: "Építés: Következő fül"
+  2220: "Építés: Előző vágányelem"
+  2221: "Építés: Következő vágányelem"
+  2222: "Építés: Előző lejtő"
+  2223: "Építés: Következő lejtő"
+  2224: "Építés: Építés a jelenlegi helyen"
+  2225: "Építés: Eltávolítás a jelenlegi helyen"
+  2226: "Építés: Hely kijelölése"
+  2227: "A vonatok jelzőknél visszafordulnak"
   2228: Automata fizetés
   2229: "{SMALLFONT}{COLOUR BLACK}Naponta egyszer az aktuális pénzösszeged felhasználásra kerül a kölcsönöd törlesztésére, ha van."
   2230: "{COLOUR WINDOW_2}Év:"
