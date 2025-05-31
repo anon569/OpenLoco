@@ -167,8 +167,8 @@ strings:
   153: Az elágazásnak teljesen vízszintesnek kell lennie
   154: "{STRINGID} van az útban / rossz magasság csomóponthoz"
   155: Itt már épült
-  156: Unable to cross or create junction with {STRINGID}
-  157: Junctions not possible
+  156: Nem lehet keresztezni vagy csomópontot létrehozni ezzel: {STRINGID}
+  157: Csomópont létrehozása nem lehetséges
   158: Jelző
   159: Állomás
   160: Repülőtér
@@ -180,7 +180,7 @@ strings:
   166: Az állomás nem távolítható el...
   167: Rossz típusú pálya/út!
   168: A hídtípusoknak meg kell egyezniük
-  169: Bridge not suitable for junction
+  169: Híd nem alkalmas csomóponthoz
   170: A vágányösszetétel nem lehetséges
   171: Túl sok objektum van a játékban
   172: Forgatás órajárás szerint
@@ -200,16 +200,16 @@ strings:
   186: Mégse
   187: OK
 
-  188: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} left"
-  189: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} right"
-  190: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} left fast"
-  191: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} right fast"
-  192: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} left/right"
-  193: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} up"
-  194: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} down"
-  195: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} up fast"
-  196: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} down fast"
-  197: "{SMALLFONT}{COLOUR BLACK}Scroll {STRINGID} up/down"
+  188: "{SMALLFONT}{COLOUR BLACK}{STRINGID} balra görgetése"
+  189: "{SMALLFONT}{COLOUR BLACK}{STRINGID} jobbra görgetése"
+  190: "{SMALLFONT}{COLOUR BLACK}{STRINGID} gyors balra görgetése"
+  191: "{SMALLFONT}{COLOUR BLACK}{STRINGID} gyors jobbra görgetése"
+  192: "{SMALLFONT}{COLOUR BLACK}{STRINGID} balra/jobbra görgetése"
+  193: "{SMALLFONT}{COLOUR BLACK}{STRINGID} felfelé görgetése"
+  194: "{SMALLFONT}{COLOUR BLACK}{STRINGID} lefelé görgetése"
+  195: "{SMALLFONT}{COLOUR BLACK}{STRINGID} gyors felfelé görgetése"
+  196: "{SMALLFONT}{COLOUR BLACK}{STRINGID} gyors lefelé görgetése"
+  197: "{SMALLFONT}{COLOUR BLACK}{STRINGID} felfelé/lefelé görgetése"
 
   198: térkép
   199: járművek listája
@@ -233,7 +233,7 @@ strings:
   216: "{COLOUR WINDOW_2}▲{COLOUR BLACK}  {CURRENCY32}"
   217: "{COLOUR WINDOW_2}▼{COLOUR BLACK}  {CURRENCY32}"
   218: Nem lehet a kiválasztott üzemmódra váltani
-  219: "{COLOUR WINDOW_2}Cost: {COLOUR BLACK}{CURRENCY32}"
+  219: "{COLOUR WINDOW_2}Költség: {COLOUR BLACK}{CURRENCY32}"
   220: (játékos 1)
   221: (játékos 2)
   222: Nem változtatható meg a színséma...
@@ -266,14 +266,14 @@ strings:
   249: "{STRINGID} - Elszállított rakomány"
   250: "{STRINGID} - Színséma"
   251: "{STRINGID} - Kihívás"
-  252: "{SMALLFONT}{COLOUR BLACK}Change direction"
-  253: "{SMALLFONT}{COLOUR BLACK}Pass signal at danger"
-  254: "{SMALLFONT}{COLOUR BLACK}Remove {POP16}{STRINGID} from track/road"
-  255: "{SMALLFONT}{COLOUR BLACK}Place {POP16}{STRINGID} on track/road"
-  256: "{SMALLFONT}{COLOUR BLACK}Remove {POP16}{STRINGID} from airport"
-  257: "{SMALLFONT}{COLOUR BLACK}Place {POP16}{STRINGID} in airport"
-  258: "{SMALLFONT}{COLOUR BLACK}Remove {POP16}{STRINGID} from water"
-  259: "{SMALLFONT}{COLOUR BLACK}Place {POP16}{STRINGID} in dock"
+  252: "{SMALLFONT}{COLOUR BLACK}Irány megfordítása"
+  253: "{SMALLFONT}{COLOUR BLACK}Áthaladás piros jelzésnél"
+  254: "{SMALLFONT}{COLOUR BLACK}{STRINGID} eltávolítása vágányról/útról"
+  255: "{SMALLFONT}{COLOUR BLACK}{STRINGID} elhelyezése vágányon/úton"
+  256: "{SMALLFONT}{COLOUR BLACK}{STRINGID} eltávolítása repülőtérről"
+  257: "{SMALLFONT}{COLOUR BLACK}{STRINGID} elhelyezése repülőtéren"
+  258: "{SMALLFONT}{COLOUR BLACK}{STRINGID} eltávolítása vízből"
+  259: "{SMALLFONT}{COLOUR BLACK}{STRINGID} elhelyezése kikötőben"
   260: Nem indítható: {POP16}{POP16}{POP16}{STRINGID}...
   261: Kézi üzemmód nem választható: {POP16}{POP16}{POP16}{STRINGID}...
   262: Nem lehet leállítani: {POP16}{POP16}{POP16}{STRINGID}...
@@ -282,17 +282,17 @@ strings:
   265: Megállás
   266: Indítás
   267: Kézi
-  268: "{SMALLFONT}{COLOUR BLACK}Select how much track/road to upgrade"
-  269: "{SMALLFONT}{COLOUR BLACK}Stop/Start {POP16}{STRINGID}"
+  268: "{SMALLFONT}{COLOUR BLACK}Vágány/út fejlesztés mértékének kiválasztása"
+  269: "{SMALLFONT}{COLOUR BLACK}Leállítás/indítás: {POP16}{STRINGID}"
   270: "{COLOUR BLACK}{STRINGID}"
-  271: "{SMALLFONT}{COLOUR BLACK}Track/road construction"
-  272: "{SMALLFONT}{COLOUR BLACK}Station construction"
-  273: "{SMALLFONT}{COLOUR BLACK}Signal construction"
-  274: "{SMALLFONT}{COLOUR BLACK}Track electrification and other enhancements"
-  275: "{SMALLFONT}{COLOUR BLACK}Select signal type"
-  276: "{SMALLFONT}{COLOUR BLACK}Build signals in both directions"
-  277: "{SMALLFONT}{COLOUR BLACK}Build signal in one direction only (trains will not be allowed to travel in the other direction)"
-  278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Végsebesség:  {STRINGID}{NEWLINE}Max. height above ground:  {HEIGHT}"
+  271: "{SMALLFONT}{COLOUR BLACK}Vágány-/útépítés"
+  272: "{SMALLFONT}{COLOUR BLACK}Állomásépítés"
+  273: "{SMALLFONT}{COLOUR BLACK}Jelzőépítés"
+  274: "{SMALLFONT}{COLOUR BLACK}Vágány villamosítása és egyéb fejlesztések"
+  275: "{SMALLFONT}{COLOUR BLACK}Jelzőtípus kiválasztása"
+  276: "{SMALLFONT}{COLOUR BLACK}Jelzők építése mindkét irányba"
+  277: "{SMALLFONT}{COLOUR BLACK}Jelző építése egy irányba (a vonatok nem közlekedhetnek a másik irányba)"
+  278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Végsebesség: {STRINGID}{NEWLINE}Max. magasság a talaj felett: {HEIGHT}"
   279: "{SMALLFONT}{COLOUR BLACK}Az állomás típusának kiválasztása"
   280: Állomás {INT16}
   281: "{STRINGID}"
@@ -348,23 +348,23 @@ strings:
   331: "{COLOUR WINDOW_2}Végsebesség: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
   332: "{SMALLFONT}{COLOUR BLACK}Eladás: {POP16}{STRINGID}{NEWLINE}(Vagy húzd ide az egyes járműveket az eladáshoz)"
   333: "{SMALLFONT}{COLOUR BLACK}Új jármű építése a számára: {POP16}{STRINGID}"
-  334: "{COLOUR BLACK}(click on view to set {STRINGID} starting position)"
+  334: "{COLOUR BLACK}(Kattints a nézetre a(z) {STRINGID} kezdő pozíciójának beállításához)"
   335: A járművek nem kompatibilisek
   336: Túl sok jármű van a játékban
   337: ""
   338: ""
   339: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
-  340: "{NEWLINE}Built:  {DATE MY}"
-  341: "{NEWLINE}Value:  {CURRENCY32}"
+  340: "{NEWLINE}Építve:  {DATE MY}"
+  341: "{NEWLINE}Érték:  {CURRENCY32}"
   342: "{NEWLINE}Teljesítmény:  {POWER}"
   343: "{NEWLINE}Súly:  {INT16}t"
   344: "{NEWLINE}Végsebesség:  {VELOCITY}"
-  345: " ({VELOCITY} on {STRINGID})"
+  345: " ({VELOCITY} ekkor: {STRINGID})"
   346: "{NEWLINE}Megbízhatóság:  {INT16}%"
   347: "{STRINGID} {STRINGID}"
-  348: Single section
-  349: Block section
-  350: All connected track
+  348: Egy szakasz
+  349: Blokkszakasz
+  350: Minden összekapcsolt vágány
   351: "Warning: Too much track!{NEWLINE}Some of selected track may not have been upgraded"
   352: "{SMALLFONT}{COLOUR BLACK}Upgrade track with these enhancements"
   353: "{SMALLFONT}{COLOUR BLACK}(Click on selected track to add this)"
