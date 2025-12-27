@@ -2179,10 +2179,10 @@ strings:
   2124: kW
   2125: "{COLOUR WINDOW_2}Nyelv:"
   2126: "{COLOUR WINDOW_2}Disable vehicle breakdowns"
-  2127: "{COLOUR WINDOW_2}Screen mode:"
-  2128: Windowed
-  2129: Fullscreen
-  2130: Fullscreen (borderless window)
+  2127: "{COLOUR WINDOW_2}Képernyőmód:"
+  2128: Ablakos
+  2129: Teljes képernyős
+  2130: Teljes képernyős (keret nélküli ablak)
   2131: Alapértelmezett hangeszköz
   2132: "{COLOUR WINDOW_2}Window scale factor:"
   2133: "{COLOUR BLACK}+"
@@ -2192,11 +2192,11 @@ strings:
   2137: "{SMALLFONT}{COLOUR BLACK}When enabled, zooming in will centre around the cursor, as opposed to the screen centre."
   2138: "{COLOUR WINDOW_2}Play title screen music"
   2139: "Kilépés a menübe"
-  2140: "Kilépés az OpenLoco-ból"
-  2141: "{COLOUR WINDOW_2}Disable AI companies"
-  2142: "{SMALLFONT}{COLOUR BLACK}This disables AI from 'thinking', rendering them ineffective.{NEWLINE}In new games, this also prevents new AI companies from forming."
-  2143: "{COLOUR WINDOW_2}Autosave amount:"
-  2144: "{COLOUR WINDOW_2}Autosave frequency:"
+  2140: "Kilépés az OpenLocoból"
+  2141: "{COLOUR WINDOW_2}MI-cégek letiltása"
+  2142: "{SMALLFONT}{COLOUR BLACK}Ez letiltja az MI „gondolkodását”, így hatástalanná válnak.{NEWLINE}Új játékokban ez azt is megakadályozza, hogy új MI-cégek alakuljanak."
+  2143: "{COLOUR WINDOW_2}Automatikus mentések száma:"
+  2144: "{COLOUR WINDOW_2}Automatikus mentés gyakorisága:"
   2145: "Soha"
   2146: "Havonta"
   2147: "{INT32} havonta"
@@ -2301,12 +2301,12 @@ strings:
   2246: "{NEWLINE}{COLOUR WINDOW_2} Javasolt: {COLOUR BLACK}{UINT16 RAW}"
   2247: "Zárolt járművek építésének engedélyezése"
   2248: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, lehetővé teszi elavult és javasolt járművek építését"
-  2249: "Build Vehicles Window"
+  2249: "Járművek építése ablak"
   2250: "{SMALLFONT}{COLOUR BLACK}Enable to change terrain type instead of elevation"
-  2251: "Invert right mouse dragging"
+  2251: "Jobb egérgombos húzás invertálása"
   2252: "{SMALLFONT}{COLOUR BLACK}When enabled, panning the main game view will have inverted movement"
-  2253: "Show cash popups"
-  2254: "{SMALLFONT}{COLOUR BLACK}Toggle visibility of cash popups from construction and vehicles on/off"
+  2253: "Felugró pénzek megjelenítése"
+  2254: "{SMALLFONT}{COLOUR BLACK}Felugró pénzek ki-/bekapcsolása az építkezéseknél és járműveknél"
   2255: "Szerver indítása"
   2256: "Szerver bezárása"
   2257: "Kilépés"
