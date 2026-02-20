@@ -345,8 +345,8 @@ strings:
   327: "{STRINGID} 20"
   328: "{COLOUR WINDOW_2}{POP16}Súly: {COLOUR BLACK}{INT32}t"
   329: "{COLOUR WINDOW_2}Összteljesítmény: {COLOUR BLACK}{POWER}{COLOUR WINDOW_2} Súly: {COLOUR BLACK}{INT32}t"
-  330: "{COLOUR WINDOW_2}Végsebesség: {COLOUR BLACK}{VELOCITY}{POP16}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
-  331: "{COLOUR WINDOW_2}Végsebesség: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
+  330: "{COLOUR WINDOW_2}Max. sebesség: {COLOUR BLACK}{VELOCITY}{POP16}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
+  331: "{COLOUR WINDOW_2}Max. sebesség: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
   332: "{SMALLFONT}{COLOUR BLACK}Eladás: {POP16}{STRINGID}{NEWLINE}(Vagy húzz ide egy külön járművet az eladáshoz)"
   333: "{SMALLFONT}{COLOUR BLACK}Új jármű építése ehhez: {POP16}{STRINGID}"
   334: "{COLOUR BLACK}(Kattints a nézetre a(z) {STRINGID} kezdőpozíciójának beállításához)"
@@ -359,83 +359,83 @@ strings:
   341: "{NEWLINE}Érték:  {CURRENCY32}"
   342: "{NEWLINE}Teljesítmény:  {POWER}"
   343: "{NEWLINE}Súly:  {INT16}t"
-  344: "{NEWLINE}Végsebesség:  {VELOCITY}"
+  344: "{NEWLINE}Max. sebesség:  {VELOCITY}"
   345: " ({VELOCITY} ekkor: {STRINGID})"
   346: "{NEWLINE}Megbízhatóság:  {INT16}%"
   347: "{STRINGID} {STRINGID}"
   348: Egy szakasz
   349: Blokkszakasz
   350: Minden összekapcsolt vágány
-  351: "Warning: Too much track!{NEWLINE}Some of selected track may not have been upgraded"
-  352: "{SMALLFONT}{COLOUR BLACK}Upgrade track with these enhancements"
-  353: "{SMALLFONT}{COLOUR BLACK}(Click on selected track to add this)"
-  354: "{SMALLFONT}{COLOUR BLACK}Select what to add to track"
-  355: "{SMALLFONT}{COLOUR BLACK}Move main view to show this"
-  356: Off edge of map!
-  357: Cannot build partly above and partly below water!
-  358: Too close to water surface!
-  359: Can't build this underwater!
-  360: Can only build this above ground!
-  361: Can only build this on level land
+  351: "Vigyázat: Túl sok vágány!{NEWLINE}Lehet, hogy néhány kijelölt vágány nem lett fejlesztve"
+  352: "{SMALLFONT}{COLOUR BLACK}Vágány fejlesztése ezekkel a változtatásokkal"
+  353: "{SMALLFONT}{COLOUR BLACK}(Kattints a kijelölt vágányra a hozzáadáshoz)"
+  354: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, mit adsz a vágányhoz"
+  355: "{SMALLFONT}{COLOUR BLACK}Főnézet mozgatása ide"
+  356: A térképen kívülre esik!
+  357: Nem építhető részben a víz felett és részben alatta!
+  358: Túl közel a vízfelszínhez!
+  359: Ez nem építhető a víz alatt!
+  360: Ez csak a föld felett építhető!
+  361: Ez csak teljesen sík talajon építhető!
   362: Játék betöltése
-  363: Táj betöltése
-  364: Táj mentése
+  363: Tájkép betöltése
+  364: Tájkép mentése
   365: Játék mentése
   366: Pálya mentése
-  367: OpenLoco Saved Game File
-  368: OpenLoco Scenario File
-  369: OpenLoco Landscape File
-  370: A játék mentése sikertelen!
-  371: Failed to load saved game...{NEWLINE}File contains invalid data!
-  372: Hide foreground scenery & buildings
-  373: Can only be built on water!
-  374: Can only be built on water if next to a water-based industry!
-  375: Name {STRINGID}
-  376: "Type new name for this {STRINGID}:"
-  377: Can't rename this vehicle...
-  378: Bridge needed
-  379: Too far above ground for this bridge type
-  380: Bridge is already at its maximum height above ground
-  381: "{STRINGID} requires a bridge"
-  382: Bridge type unsuitable for this configuration
-  383: Station Name
-  384: "Type new name for {STRINGID} station:"
-  385: Can't rename station...
-  386: Invalid name for station
-  387: A jármű nem helyezhető át...
-  388: Can't reverse train...
+  367: OpenLoco mentett játékfájl
+  368: OpenLoco pályafájl
+  369: OpenLoco tájképfájl
+  370: Játék mentése sikertelen!
+  371: Nem sikerült betölteni a játékot...{NEWLINE}A fájl érvénytelen adatokat tartalmaz!
+  372: Előtérben lévő tájképelemek és épületek elrejtése
+  373: Csak vízre építhető!
+  374: Csak akkor építhető vízre, ha vízi gazdasági épület mellett van!
+  375: {STRINGID} elnevezése
+  376: "Írd be a(z) {STRINGID} új nevét:"
+  377: Nem lehet átnevezni ezt a járművet...
+  378: Híd szükséges
+  379: Túl magasan van a föld felett ehhez a hídtípushoz
+  380: A híd már elérte a maximális magasságát
+  381: "{STRINGID} építéséhez híd szükséges"
+  382: A hídtípus nem alkalmas ehhez a konfigurációhoz
+  383: Állomás neve
+  384: "Írd be a(z) {STRINGID} állomás új nevét:"
+  385: Nem lehet átnevezni az állomást...
+  386: Érvénytelen állomásnév
+  387: Nem lehet mozgatni a járművet...
+  388: Nem lehet megfordítani a vonatot...
   389: Nem lehet eladni a járművet...
-  390: Nem lehet eladni ezt: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
+  390: Nem lehet eladni: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
   391: "{STRINGID}"
   392: "{STRINGID}"
-  393: "{STRINGID} station platform"
-  394: "{STRINGID} station building / bus stop"
-  395: "{SMALLFONT}{COLOUR BLACK}Highlight catchment area of this station"
+  393: "{STRINGID} állomási peron"
+  394: "{STRINGID} állomásépület / buszmegálló"
+  395: "{SMALLFONT}{COLOUR BLACK}Állomás vonzáskörzetének megjelenítése"
   396: Némítás
-  397: Zenelejátszás
+  397: Zene lejátszása
   398: "{COLOUR RED}Csőd!"
-  399: "{STRINGID} not allowed to wait for a full load at {STRINGID}"
-  400: "{STRINGID} has slipped to a halt on an incline"
-  401: "{STRINGID} now accepts {STRINGID}"
-  402: "{STRINGID} no longer accepts {STRINGID}"
-  403: New Transport Company!{NEWLINE}{STRINGID} starts construction near {STRINGID}!
-  404: "{STRINGID} is not able to land at {STRINGID} due to the airport being unsuitable"
-  405: Citizens Celebrate!{NEWLINE}First {STRINGID} arrive in {STRINGID}!
-  406: Citizens Celebrate!{NEWLINE}First {STRINGID} delivery arrives in {STRINGID}!
-  407: Workers Celebrate!{NEWLINE}First {STRINGID} delivered to {STRINGID}!
-  408: New Vehicle Invented -{NEWLINE}“{STRINGID}”!
-  409: "{STRINGID} is promoted from “{STRINGID}” to “{STRINGID}”!"
-  410: New {STRINGID} under construction near {STRINGID}!
-  411: Congratulations!{NEWLINE}You have successfully completed your challenge!
-  412: Failure!{NEWLINE}You have failed your challenge!
-  413: Beaten!{NEWLINE}{STRINGID} has completed the challenge!
-  414: Bankruptcy Warning!{NEWLINE}{STRINGID} will be closed down in 6 months unless performance improves!
-  415: Final Warning!{NEWLINE}{STRINGID} will be closed down in 3 months unless performance improves!
-  416: Bankrupt!{NEWLINE}{STRINGID} has been declared bankrupt and closed down!
-  417: Bankrupt!{NEWLINE}{STRINGID} has been declared bankrupt and closed down!
-  418: "{STRINGID} has crashed!"
-  419: Corporate Scandal!{NEWLINE}{STRINGID} jailed for attempted robbery!
-  420: New {STRINGID} speed record!{NEWLINE}{STRINGID} achieves average speed of {VELOCITY} between stops!
+  399: "{STRINGID} nem várakozhat teljes rakományra itt: {STRINGID}"
+  400: "{STRINGID} megcsúszott és megállt egy emelkedőn"
+  401: "{STRINGID} mostantól elfogadja ezt: {STRINGID}"
+  402: "{STRINGID} már nem fogadja el ezt: {STRINGID}"
+  403: Új szállítmányozási társaság!{NEWLINE}{STRINGID} megkezdte az építkezést {STRINGID} közelében!
+  404: "{STRINGID} nem tud leszállni itt: {STRINGID}, mert a repülőtér nem alkalmas rá"
+  405: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} megérkezett ide: {STRINGID}!
+  406: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} szállítmány megérkezett ide: {STRINGID}!
+  407: A munkások ünnepelnek!{NEWLINE}Az első {STRINGID} kiszállítva ide: {STRINGID}!
+  408: Új járművet találtak fel -{NEWLINE}„{STRINGID}”!
+  409: "{STRINGID} előléptetést kapott: „{STRINGID}” -> „{STRINGID}”!"
+  410: Új {STRINGID} épül {STRINGID} közelében!
+  411: Gratulálunk!{NEWLINE}Sikeresen teljesítetted a kihívást!
+  412: Kudarc!{NEWLINE}Nem sikerült teljesítened a kihívást!
+  413: Elbuktad!{NEWLINE}{STRINGID} teljesítette a kihívást!
+  414: Csődveszély!{NEWLINE}{STRINGID} 6 hónapon belül bezár, hacsak nem javul a teljesítménye!
+  415: Utolsó figyelmeztetés!{NEWLINE}{STRINGID} 3 hónapon belül bezár, hacsak nem javul a teljesítménye!
+  416: Csőd!{NEWLINE}{STRINGID} csődöt jelentett és bezárt!
+  417: Csőd!{NEWLINE}{STRINGID} csődöt jelentett és bezárt!
+  418: "{STRINGID} karambolozott!"
+  419: Vállalati botrány!{NEWLINE}{STRINGID} börtönbe került rablási kísérlet miatt!
+  420: Új {STRINGID} sebességrekord!{NEWLINE}{STRINGID} elérte a megállók közti {VELOCITY} átlagsebességet !
 
   421: "{MOVE_X 10}{STRINGID}"
   422: »{MOVE_X 10}{STRINGID}
@@ -445,12 +445,12 @@ strings:
   424: "{MOVE_X 10}{STRING}"
   425: »{MOVE_X 10}{STRING}
 
-  426: Height marks on tracks & roads
-  427: Height marks on land
-  428: One-way direction arrows
-  429: Town names displayed
-  430: Station names displayed
-  431: "{NEWLINE}{COLOUR WINDOW_3}Accepts "
+  426: Magassági jelzések a vágányokon és utakon
+  427: Magassági jelzések a talajon
+  428: Egyirányú forgalmat jelző nyilak
+  429: Városnevek megjelenítése
+  430: Állomásnevek megjelenítése
+  431: "{NEWLINE}{COLOUR WINDOW_3}Elfogad: "
   432: "1/8 "
   433: "1/4 "
   434: "3/8 "
@@ -459,52 +459,52 @@ strings:
   437: "3/4 "
   438: "7/8 "
   439: ", "
-  440: "{NEWLINE}{COLOUR WINDOW_3}Produces "
-  441: "{NEWLINE}{COLOUR WINDOW_3}Under construction"
-  442: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Owned by {STRINGID}"
+  440: "{NEWLINE}{COLOUR WINDOW_3}Termel: "
+  441: "{NEWLINE}{COLOUR WINDOW_3}Építés alatt"
+  442: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Tulajdonos: {STRINGID}"
   443: "{MOVE_X 10}{STRINGID}"
   444: ✓{MOVE_X 10}{STRINGID}
-  445: Nem távolítható el...
+  445: Ezt nem lehet eltávolítani...
   446: Falak és kerítések
   447: Faültetés
-  448: Can't position this here...
-  449: Can't plant this here...
+  448: Ezt nem lehet ide helyezni...
+  449: Ide nem lehet fát ültetni...
   450: "{OUTLINE}{COLOUR WINDOW_2}{STRINGID}"
-  451: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Right-Click to Modify"
-  452: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Right-Click to Remove"
+  451: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Jobb klikk a módosításhoz"
+  452: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Jobb klikk az eltávolításhoz"
   453: "{TINYFONT}{COLOUR BLACK}{STRINGID}"
   454: "{COLOUR RED}{STRINGID}"
   455: "{COLOUR BLACK}{STRINGID}"
   456: "{COLOUR BLACK}{STRINGID} {STRINGID}"
   457: "{COLOUR WINDOW_2}{STRINGID}"
   458: "{COLOUR WHITE}{STRINGID}"
-  459: Stopping{POP16}{POP16}
-  460: / Waiting at signal{POP16}{POP16}
-  461: at {VELOCITY}{POP16}
-  462: "{COLOUR RED}Crashed!{POP16}{POP16}"
-  463: "{COLOUR RED}Stuck!{POP16}{POP16}"
-  464: "{COLOUR RED}Broken down{POP16}{POP16}"
-  465: Stopped{POP16}{POP16}
-  466: Loading at {STRINGID}
-  467: Unloading at {STRINGID}
-  468: Approaching {STRINGID}
-  469: Landing at {STRINGID}
-  470: Taxiing at {STRINGID}
-  471: Taking off from {STRINGID}
-  472: Heading for {STRINGID}
-  473: No position{POP16}{POP16}
-  474: Travelling{POP16}{POP16}
+  459: Megáll{POP16}{POP16}
+  460: Vár a jelzőnél{POP16}{POP16}
+  461: {VELOCITY} sebességgel halad{POP16}
+  462: "{COLOUR RED}Balesetet szenvedett!{POP16}{POP16}"
+  463: "{COLOUR RED}Elakadt!{POP16}{POP16}"
+  464: "{COLOUR RED}Meghibásodott!{POP16}{POP16}"
+  465: Megállítva{POP16}{POP16}
+  466: Berakodás itt: {STRINGID}
+  467: Kirakodás itt: {STRINGID}
+  468: {STRINGID} felé közeledik
+  469: Leszáll ide: {STRINGID}
+  470: Gurul {STRINGID} területén
+  471: Felszáll innen: {STRINGID}
+  472: {STRINGID} felé tart
+  473: Nincs pozíció{POP16}{POP16}
+  474: Úton{POP16}{POP16}
   475: "{STRINGID} - {STRINGID}"
   476: "{POP16}{POP16}{STRINGID}"
-  477: Can't lower water level here...
-  478: Can't raise water level here...
+  477: Itt nem lehet süllyeszteni a vízszintet...
+  478: Itt nem lehet emelni a vízszintet...
   479: (Nincs)
   480: "{STRING}"
   481: "{COLOUR RED}Zárva - - "
   482: "{COLOUR YELLOW}{STRINGID} - - "
-  483: Land slope unsuitable
-  484: Nem építhető víz alá!
-  485: Land type not suitable
+  483: A talaj lejtése nem megfelelő
+  484: Ez nem építhető víz alá!
+  485: A talajtípus nem megfelelő
   486: "{COLOUR BLACK}▴"
   487: "{COLOUR BLACK}▾"
   488: vonat
@@ -521,20 +521,20 @@ strings:
   499: "{INT16} hajó"
   500: "{INT16} hajó"
   501: Hajó {INT16}
-  502: pálya
-  503: pálya
-  504: Pálya
-  505: Pálya
-  506: "{INT16} pálya"
-  507: "{INT16} pálya"
-  508: Pálya {INT16}
-  509: dokk
-  510: dokk
-  511: Dokk
-  512: Dokk
-  513: "{INT16} dokk"
-  514: "{INT16} dokk"
-  515: Dokk {INT16}
+  502: vágány
+  503: vágány
+  504: Vágány
+  505: Vágány
+  506: "{INT16} vágány"
+  507: "{INT16} vágány"
+  508: Vágány {INT16}
+  509: dokkoló peron
+  510: dokkoló peron
+  511: Dokkoló peron
+  512: Dokkoló peron
+  513: "{INT16} dokkoló peron"
+  514: "{INT16} dokkoló peron"
+  515: Dokkoló peron {INT16}
   516: állomás
   517: állomás
   518: Állomás
@@ -543,9 +543,9 @@ strings:
   521: "{INT16} állomás"
   522: Állomás {INT16}
   523: jármű
-  524: jármű
+  524: járművek
   525: Jármű
-  526: Jármű
+  526: Járművek
   527: "{INT16} jármű"
   528: "{INT16} jármű"
   529: Jármű {INT16}
@@ -584,41 +584,41 @@ strings:
   562: "{INT16} gazdasági épület"
   563: "{INT16} gazdasági épület"
   564: Gazdasági épület {INT16}
-  565: "{SMALLFONT}{COLOUR BLACK}Objektumok elforgatása 90°-kal"
-  566: Vízszintes talaj szükséges
-  567: A talajtípus megváltoztatása nem lehetséges...
+  565: "{SMALLFONT}{COLOUR BLACK}Objektumok elforgatása 90 fokkal"
+  566: Sík talaj szükséges
+  567: Nem lehet megváltoztatni a talajtípust...
   568: "{OUTLINE}{COLOUR GREEN}+ {CURRENCY32}"
   569: "{OUTLINE}{COLOUR RED}- {CURRENCY32}"
   570: "{OUTLINE}{COLOUR WINDOW_1}+ {CURRENCY32}"
   571: "{OUTLINE}{COLOUR WINDOW_1}- {CURRENCY32}"
   572: "{CURRENCY48}"
   573: "{COLOUR RED}{CURRENCY48}"
-  574: "{SMALLFONT}{COLOUR BLACK}Show view of {POP16}{STRINGID}"
-  575: "{SMALLFONT}{COLOUR BLACK}Show {POP16}{STRINGID} design details and options"
-  576: "{SMALLFONT}{COLOUR BLACK}Show cargo/passengers in {POP16}{STRINGID}"
-  577: "{SMALLFONT}{COLOUR BLACK}Show {POP16}{STRINGID} route details"
-  578: "{SMALLFONT}{COLOUR BLACK}Show {POP16}{STRINGID} running costs and income"
-  579: "{SMALLFONT}{COLOUR BLACK}Select new start position for construction"
-  580: "{SMALLFONT}{COLOUR BLACK}Elforgatás 90°-kal°"
+  574: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} nézetének megjelenítése"
+  575: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} tervezési részletei és beállításai"
+  576: "{SMALLFONT}{COLOUR BLACK}Rakomány/utasok megjelenítése ebben: {POP16}{STRINGID}"
+  577: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} útvonalának részletei"
+  578: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} üzemeltetési költségei és bevételei"
+  579: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építés új kezdőpozícióját"
+  580: "{SMALLFONT}{COLOUR BLACK}Forgatás 90°-kal"
   581: "{STRINGID} útban van"
   582: "{CURRENCY32}"
-  583: Can't build this here...
+  583: Ez nem építhető ide...
   584: "{DATE MY}"
   585: OpenLoco
-  586: Kérlek, helyezd a Locomotion CD-t a következő meghajtóba:-
-  587: "{COLOUR WINDOW_2}Expenditure/Income"
-  588: Vonatok bevételei
-  589: Vonatok működési költségei
-  590: Buszok bevételei
-  591: Buszok működési költségei
-  592: Teherautók bevételei
-  593: Teherautók működési költségei
-  594: Villamosok bevételei
-  595: Villamosok működési költségei
-  596: Repülőgépek bevételei
-  597: Repülőgépek működési költségei
-  598: Hajók bevételei
-  599: Hajók működési költségei
+  586: Kérjük, helyezd be a Locomotion CD-t a következő meghajtóba:-
+  587: "{COLOUR WINDOW_2}Kiadások/Bevételek"
+  588: Vonatok bevétele
+  589: Vonatok üzemeltetési költsége
+  590: Buszok bevétele
+  591: Buszok üzemeltetési költsége
+  592: Teherautók bevétele
+  593: Teherautók üzemeltetési költsége
+  594: Villamosok bevétele
+  595: Villamosok üzemeltetési költsége
+  596: Repülőgépek bevétele
+  597: Repülőgépek üzemeltetési költsége
+  598: Hajók bevétele
+  599: Hajók üzemeltetési költsége
   600: Építkezés
   601: Vehicle Purchases
   602: Vehicle Disposals
@@ -1283,7 +1283,7 @@ strings:
   1252: "{NEWLINE}{COLOUR WINDOW_2} Requires: {COLOUR BLACK}"
   1253: "{NEWLINE}{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
   1254: "{NEWLINE}{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
-  1255: "{NEWLINE}{COLOUR WINDOW_2} Végsebesség: {COLOUR BLACK}{VELOCITY}"
+  1255: "{NEWLINE}{COLOUR WINDOW_2} Max. sebesség: {COLOUR BLACK}{VELOCITY}"
   1256: "{NEWLINE}{COLOUR WINDOW_2} Designed: {COLOUR BLACK}{UINT16 RAW}"
   1257: "{NEWLINE}{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
   1258: " + {STRINGID}"
@@ -1763,7 +1763,7 @@ strings:
   1724: "{COLOUR WINDOW_2} Obsolete from: {COLOUR BLACK}{UINT16 RAW}"
   1725: "{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
   1726: "{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
-  1727: "{COLOUR WINDOW_2} Végsebesség: {COLOUR BLACK}{VELOCITY}"
+  1727: "{COLOUR WINDOW_2} Max. sebesség: {COLOUR BLACK}{VELOCITY}"
   1728: "{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
   1729: Establishing connection...
   1730: Everywhere
@@ -2073,7 +2073,7 @@ strings:
   2017: Industry Name
   2018: "Enter new name for {STRINGID}:"
   2019: Nem lehet átnevezni a gazdasági épületet......
-  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Végsebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
+  2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Max. sebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
   2021: Másolt CD-kulcsokat találtunk - Nem lehet kapcsolódni!
   2022: "{COLOUR BLACK}{SMALLFONT}(Számítógépnév = {STRINGID})"
   2023: 1.
