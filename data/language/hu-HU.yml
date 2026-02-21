@@ -620,40 +620,40 @@ strings:
   598: Hajók bevétele
   599: Hajók üzemeltetési költsége
   600: Építkezés
-  601: Vehicle Purchases
-  602: Vehicle Disposals
-  603: Kölcsön kamat
+  601: Járművásárlások
+  602: Járművek selejtezése
+  603: Hiteltörlesztés kamata
   604: Egyéb
   605: "{UINT16 RAW}"
   606: +{CURRENCY48}
   607: "{CURRENCY48}"
-  608: "{COLOUR WINDOW_2}Kölcsön:"
+  608: "{COLOUR WINDOW_2}Hitel:"
   609: "{CURRENCY32}"
-  610: Nem kölcsönözhetsz több pénzt!
-  611: Nincs elég pénzed!
-  612: Nem törleszthetsz a kölcsönből!
-  613: "{SMALLFONT}{COLOUR BLACK}Új játék"
-  614: "{SMALLFONT}{COLOUR BLACK}Játék betöltése"
-  615: "{SMALLFONT}{COLOUR BLACK}Oktató mód indítása"
+  610: Nem vehetsz fel több hitelt!
+  611: Nincs elég pénz!
+  612: Nem tudod visszafizetni a hitelt!
+  613: "{SMALLFONT}{COLOUR BLACK}Új játék indítása"
+  614: "{SMALLFONT}{COLOUR BLACK}Mentett játék betöltése"
+  615: "{SMALLFONT}{COLOUR BLACK}Oktatóprogram megjelenítése"
   616: "{SMALLFONT}{COLOUR BLACK}Kilépés a játékból"
   617: Tanya
   618: Falu
   619: Város
   620: Nagyváros
   621: Világváros
-  622: Pálya/út nem megfelelő
-  623: Pálya/út nem megfelelő az állomás számára
-  624: Nem lehet kereszteződésre állomást építeni
-  625: Nem lehet kereszteződésre jelzőket építeni
-  626: Nem lehet állomásokban jelzőket elhelyezni
+  622: A vágány/út nem megfelelő
+  623: A vágány/út nem alkalmas állomásnak
+  624: Állomás nem építhető kereszteződésre
+  625: Jelző nem építhető kereszteződésre
+  626: Jelző nem építhető állomásra
   627: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID}"
   628: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID}"
   629: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID} {STRINGID}"
-  630: "{COLOUR WINDOW_2}Cash:  {MOVE_X 81}{COLOUR RED}Bankrupt!"
-  631: "{COLOUR WINDOW_2}Cash:  {MOVE_X 81}{COLOUR BLACK}{CURRENCY48}"
-  632: "{COLOUR WINDOW_2}Cash:  {MOVE_X 81}{COLOUR RED}{CURRENCY48}"
-  633: "{COLOUR WINDOW_2}Company Value: {COLOUR BLACK}{CURRENCY48}"
-  634: "{COLOUR WINDOW_2}Profit from Vehicles: {COLOUR BLACK}{CURRENCY48} per month"
+  630: "{COLOUR WINDOW_2}Pénz:  {MOVE_X 81}{COLOUR RED}Csőd!"
+  631: "{COLOUR WINDOW_2}Pénz:  {MOVE_X 81}{COLOUR BLACK}{CURRENCY48}"
+  632: "{COLOUR WINDOW_2}Pénz:  {MOVE_X 81}{COLOUR RED}{CURRENCY48}"
+  633: "{COLOUR WINDOW_2}Vállalat értéke: {COLOUR BLACK}{CURRENCY48}"
+  634: "{COLOUR WINDOW_2}Járművekből származó profit: {COLOUR BLACK}{CURRENCY48} havonta"
 
   635: január
   636: február
@@ -676,91 +676,91 @@ strings:
   652: Közepes
   653: Magas
   654: Beállítások
-  655: "{COLOUR WINDOW_2}Currency:"
-  656: "{COLOUR WINDOW_2}Distance and Speed:"
-  657: "{COLOUR WINDOW_2}Heights:"
+  655: "{COLOUR WINDOW_2}Pénznem:"
+  656: "{COLOUR WINDOW_2}Távolság és sebesség:"
+  657: "{COLOUR WINDOW_2}Magasságok:"
   658: Angolszász
   659: Metrikus
   660: Egységek
   661: Valós értékek
   662: "{COLOUR WINDOW_2}Képernyőfelbontás:"
-  663: Táj simítása
-  664: "{SMALLFONT}{COLOUR BLACK}Tájmezők széleinek simítása be/ki"
-  665: Rácsvonalak a tájon
-  666: "{SMALLFONT}{COLOUR BLACK}Rácsvonalak a tájon be/ki"
-  667: A bank nem hajlandó megemelni a kölcsönödet!
-  668: "{SMALLFONT}{COLOUR BLACK}Click on landscape to remove trees and buildings"
-  669: "{SMALLFONT}{COLOUR BLACK}Clear smaller area of land"
-  670: "{SMALLFONT}{COLOUR BLACK}Clear larger area of land"
-  671: "{SMALLFONT}{COLOUR BLACK}Adjust smaller area of land"
-  672: "{SMALLFONT}{COLOUR BLACK}Adjust larger area of land"
-  673: "{SMALLFONT}{COLOUR BLACK}Adjust smaller area of water"
-  674: "{SMALLFONT}{COLOUR BLACK}Adjust larger area of water"
-  675: Adjust Land
-  676: Adjust Water
-  677: "{SMALLFONT}{COLOUR BLACK}Click on landscape and drag up/down to raise/lower water level"
-  678: "{SMALLFONT}{COLOUR BLACK}Click on landscape and drag up/down to raise/lower land"
-  679: Clear Area
-  680: Clear Area
-  681: Adjust Land
-  682: Adjust Water
-  683: Plant Trees
-  684: Build Walls
-  685: "{STRINGID} - Vehicle Details"
-  686: "{STRINGID} - Cargo"
-  687: "{STRINGID} - Route"
-  688: "{STRINGID} - Finances"
-  689: "{COLOUR WINDOW_2}Trains: {COLOUR BLACK}{INT16}"
-  690: "{COLOUR WINDOW_2}Buses: {COLOUR BLACK}{INT16}"
-  691: "{COLOUR WINDOW_2}Trucks: {COLOUR BLACK}{INT16}"
-  692: "{COLOUR WINDOW_2}Trams: {COLOUR BLACK}{INT16}"
-  693: "{COLOUR WINDOW_2}Aircraft: {COLOUR BLACK}{INT16}"
-  694: "{COLOUR WINDOW_2}Ships: {COLOUR BLACK}{INT16}"
+  663: Táj élsimítása
+  664: "{SMALLFONT}{COLOUR BLACK}Terepmezők élsimítása be/ki"
+  665: Rácsvonalak a terepen
+  666: "{SMALLFONT}{COLOUR BLACK}Rácsvonalak megjelenítése a terepen be/ki"
+  667: A bank elutasította a hitelkeret növelését!
+  668: "{SMALLFONT}{COLOUR BLACK}Kattints a tájra a fák és épületek eltávolításához"
+  669: "{SMALLFONT}{COLOUR BLACK}Kisebb terület megtisztítása"
+  670: "{SMALLFONT}{COLOUR BLACK}Nagyobb terület megtisztítása"
+  671: "{SMALLFONT}{COLOUR BLACK}Kisebb talajterület módosítása"
+  672: "{SMALLFONT}{COLOUR BLACK}Nagyobb talajterület módosítása"
+  673: "{SMALLFONT}{COLOUR BLACK}Kisebb vízfelület módosítása"
+  674: "{SMALLFONT}{COLOUR BLACK}Nagyobb vízfelület módosítása"
+  675: Talaj módosítása
+  676: Víz módosítása
+  677: "{SMALLFONT}{COLOUR BLACK}Kattints a tájra és húzd fel/le a vízszint módosításához"
+  678: "{SMALLFONT}{COLOUR BLACK}Kattints a tájra és húzd fel/le a talajszint módosításához"
+  679: Terület tisztítása
+  680: Terület tisztítása
+  681: Talaj módosítása
+  682: Víz módosítása
+  683: Faültetés
+  684: Falak építése
+  685: "{STRINGID} - Jármű részletei"
+  686: "{STRINGID} - Rakomány"
+  687: "{STRINGID} - Útvonal"
+  688: "{STRINGID} - Pénzügyek"
+  689: "{COLOUR WINDOW_2}Vonatok: {COLOUR BLACK}{INT16}"
+  690: "{COLOUR WINDOW_2}Buszok: {COLOUR BLACK}{INT16}"
+  691: "{COLOUR WINDOW_2}Teherautók: {COLOUR BLACK}{INT16}"
+  692: "{COLOUR WINDOW_2}Villamosok: {COLOUR BLACK}{INT16}"
+  693: "{COLOUR WINDOW_2}Repülőgépek: {COLOUR BLACK}{INT16}"
+  694: "{COLOUR WINDOW_2}Hajók: {COLOUR BLACK}{INT16}"
   695: "{NEWLINE}A kihívás sikertelen!"
-  696: "{NEWLINE}Kihívás teljesítve!"
-  697: "{SMALLFONT}{COLOUR BLACK}Teljesítménymutató: {INT16_1DP}% “{STRINGID}”"
-  698: "{SMALLFONT}{COLOUR BLACK}Vállalati érték: {CURRENCY48}{NEWLINE}Járművekből származó nyereség: {CURRENCY48}/hó"
-  699: "{NEWLINE}Kihívás előrehaladása: {INT16}%{STRINGID}"
+  696: "{NEWLINE}A kihívás teljesítve!"
+  697: "{SMALLFONT}{COLOUR BLACK}Teljesítményindex: {INT16_1DP}% „{STRINGID}”"
+  698: "{SMALLFONT}{COLOUR BLACK}Vállalat értéke: {CURRENCY48}{NEWLINE}Járművekből származó profit: {CURRENCY48}/hó"
+  699: "{NEWLINE}Kihívás állása: {INT16}%{STRINGID}"
   700: "{NEWLINE}Hátralévő idő: {COLOUR BLACK}{INT16} év {INT16} hónap"
-  701: Customize Keys...
-  702: Keyboard Shortcuts
-  703: Reset Keys
-  704: "{SMALLFONT}{COLOUR BLACK}Set all keyboard shortcuts back to default settings"
-  705: Close Top-most Window
-  706: Close All Floating Windows
-  707: Cancel Construction Mode
-  708: Pause/Unpause Game
-  709: Zoom View Out
-  710: Zoom View In
-  711: Rotate View
-  712: Rotate Construction Object
-  713: Underground View Toggle
-  714: Hide Foreground Tracks & Roads Toggle
-  715: Hide Foreground Scenery Toggle
-  716: Height Marks on Land Toggle
-  717: Height Marks on Tracks & Roads Toggle
-  718: Dir. Arrows on Tracks & Roads Toggle
-  719: Adjust Land
-  720: Adjust Water
-  721: Plant Trees
-  722: Bulldoze Area
-  723: Build Tracks
-  724: Build Roads
-  725: Build Airports
-  726: Build Ship Ports
-  727: Build New Vehicles
-  728: Show Vehicles List
-  729: Show Stations List
-  730: Show Towns List
-  731: Show Industries List
-  732: Show Map
-  733: Show Companies List
-  734: Show Company Information
-  735: Show Finances
-  736: Show Announcements List
-  737: Képmentés
-  738: Cancel or Show Last Announcement
-  739: Send Message (2-player mode)
+  701: Billentyűk testreszabása...
+  702: Billentyűparancsok
+  703: Billentyűk alaphelyzetbe állítása
+  704: "{SMALLFONT}{COLOUR BLACK}Az összes billentyűparancs visszaállítása alapértelmezésre"
+  705: Legfelső ablak bezárása
+  706: Összes lebegő ablak bezárása
+  707: Kilépés az építési módból
+  708: Játék szüneteltetése/folytatása
+  709: Távolítás
+  710: Közelítés
+  711: Nézet elforgatása
+  712: Építési objektum elforgatása
+  713: Föld alatti nézet be/ki
+  714: Előtérben lévő vágányok és utak elrejtése be/ki
+  715: Előtérben lévő tájelemek elrejtése be/ki
+  716: Magassági jelzések a talajon be/ki
+  717: Magassági jelzések a vágányokon/utakon be/ki
+  718: Irányjelző nyilak a vágányokon/utakon be/ki
+  719: Talaj módosítása
+  720: Víz módosítása
+  721: Faültetés
+  722: Terület dózerolása
+  723: Vágányok építése
+  724: Utak építése
+  725: Repülőterek építése
+  726: Kikötők építése
+  727: Új járművek építése
+  728: Járműlista megjelenítése
+  729: Állomáslista megjelenítése
+  730: Városlista megjelenítése
+  731: Gazdasági épületek listájának megjelenítése
+  732: Térkép megjelenítése
+  733: Vállalatok listájának megjelenítése
+  734: Vállalati információk megjelenítése
+  735: Pénzügyek megjelenítése
+  736: Hirdetmények listájának megjelenítése
+  737: Képernyőkép
+  738: Mégse / Utolsó hirdetmény megjelenítése
+  739: Üzenet küldése (2-játékos mód)
 
   # Virtual-Key Codes
   740: ???
@@ -775,14 +775,14 @@ strings:
   749: Tab
   750: ???
   751: ???
-  752: Clear
-  753: Return
+  752: Törlés
+  753: Enter
   754: ???
   755: ???
   756: ???
   757: ???
-  758: Alt/Menu
-  759: Pause
+  758: Alt/Menü
+  759: Szünet
   760: Caps
   761: ???
   762: ???
@@ -795,22 +795,22 @@ strings:
   769: ???
   770: ???
   771: ???
-  772: Spacebar
+  772: Szóköz
   773: PgUp
   774: PgDn
   775: End
   776: Home
-  777: Left
-  778: Up
-  779: Right
-  780: Down
-  781: Select
-  782: Print
-  783: Execute
-  784: Snapshot
-  785: Insert
-  786: Delete
-  787: Help
+  777: Balra
+  778: Fel
+  779: Jobbra
+  780: Le
+  781: Kiválasztás
+  782: Nyomtatás
+  783: Végrehajtás
+  784: Pillanatkép
+  785: Beszúrás
+  786: Törlés
+  787: Súgó
   788: "0"
   789: "1"
   790: "2"
@@ -856,7 +856,7 @@ strings:
   830: Z
   831: ???
   832: ???
-  833: Menu
+  833: Menü
   834: ???
   835: ???
   836: NumPad 0
