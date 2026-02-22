@@ -6,7 +6,7 @@ header:
 strings:
   0: ""
   1: "{POP16}"
-  2: Új társaság{POP16}
+  2: Új vállalat{POP16}
   3: Névtelen{POP16}
   4: Vonat {INT16}
   5: Busz {INT16}
@@ -227,7 +227,7 @@ strings:
   210: Értékelési lista
   211: Rakománylista
   212: Üzenetlista
-  213: Társaságlista
+  213: Vállalatlista
   214: Pályák listájának
   215: Készítők listájának
 
@@ -418,7 +418,7 @@ strings:
   400: "{STRINGID} megcsúszott és megállt egy emelkedőn"
   401: "{STRINGID} mostantól elfogadja ezt: {STRINGID}"
   402: "{STRINGID} már nem fogadja el ezt: {STRINGID}"
-  403: Új szállítmányozási társaság!{NEWLINE}{STRINGID} megkezdte az építkezést {STRINGID} közelében!
+  403: Új szállítmányozási vállalat!{NEWLINE}{STRINGID} építkezésbe kezdett {STRINGID} közelében!
   404: "{STRINGID} nem tud leszállni itt: {STRINGID}, mert a repülőtér nem alkalmas rá"
   405: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} megérkezett ide: {STRINGID}!
   406: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} szállítmány megérkezett ide: {STRINGID}!
@@ -1023,32 +1023,32 @@ strings:
   996: "{STRINGID}:{MOVE_X 215}{STRINGID}{STRINGID}"
   997: "SHIFT + "
   998: "CTRL + "
-  999: Change Keyboard Shortcut
-  1000: "{COLOUR WINDOW_2}Press new shortcut key for:{NEWLINE}{NEWLINE_SMALLER}{COLOUR BLACK}“{STRINGID}”"
-  1001: "{SMALLFONT}{COLOUR BLACK}Click on shortcut description to select new key"
-  1002: Scroll View when Pointer at Screen Edge
-  1003: "{SMALLFONT}{COLOUR BLACK}Select whether to scroll the view when the mouse pointer is at the screen edge"
-  1004: "{SMALLFONT}{COLOUR BLACK}View or change control key assignments"
-  1005: Map
-  1006: Map - Vehicles
-  1007: Map - Industries
-  1008: Map - Transport Routes
-  1009: Map - Companies
-  1010: Forced Software Buffer Mixing
-  1011: "{SMALLFONT}{COLOUR BLACK}Select this option to improve performance if the game pauses slightly when sounds start or interference is heard"
-  1012: Scenario successfully installed
-  1013: Scenario already installed
+  999: Gyorsbillentyű módosítása
+  1000: "{COLOUR WINDOW_2}Nyomd meg az új gyorsbillentyűt ehhez:{NEWLINE}{NEWLINE_SMALLER}{COLOUR BLACK}„{STRINGID}”"
+  1001: "{SMALLFONT}{COLOUR BLACK}Kattints a parancs leírásra az új billentyű kiválasztásához"
+  1002: Görgetés, ha az egér a képernyő széléhez ér
+  1003: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, hogy a nézet elmozduljon-e, ha az egér eléri a képernyő szélét"
+  1004: "{SMALLFONT}{COLOUR BLACK}Itt nézheted meg vagy módosíthatod a vezérlőbillentyűket"
+  1005: Térkép
+  1006: Térkép - Járművek
+  1007: Térkép - Gazdasági épületek
+  1008: Térkép - Szállítási útvonalak
+  1009: Térkép - Vállalatok
+  1010: Szoftveres pufferkeverés kényszerítése
+  1011: "{SMALLFONT}{COLOUR BLACK}Ezt választva javíthatod a teljesítményt, ha a játék kissé megakad a hangok indulásakor, vagy ha sercegést hallasz"
+  1012: Pálya sikeresen telepítve
+  1013: A pálya már telepítve van
   1014: "{OUTLINE}{COLOUR WINDOW_1}{STRINGID}"
-  1015: "{OUTLINE}{COLOUR WINDOW_2}(Press a key or mouse button to take control)"
-  1016: Another instance of Chris Sawyer's Locomotion is already running
+  1015: "{OUTLINE}{COLOUR WINDOW_2}(Nyomj meg egy billentyűt vagy egérgombot az irányítás átvételéhez)"
+  1016: A Chris Sawyer's Locomotion egy másik példánya már fut
 
-  1017: Music Acknowledgements...
-  1018: Music Acknowledgements
+  1017: Zenei közreműködők...
+  1018: Zenei közreműködők
   1019: "{COLOUR BLACK}Copyright © Chris Sawyer"
   1020: "{COLOUR WINDOW_2}Locomotion Title"
-  1021: "{COLOUR BLACK}John Broomhall (Guitar played by Keith Thompson)"
+  1021: "{COLOUR BLACK}John Broomhall (Gitár: Keith Thompson)"
   1022: "{COLOUR WINDOW_2}Long Dusty Road"
-  1023: "{COLOUR BLACK}Allister Brimble (Trumpet played by Brian Moore)"
+  1023: "{COLOUR BLACK}Allister Brimble (Trombita: Brian Moore)"
   1024: "{COLOUR WINDOW_2}Flying High"
   1025: "{COLOUR BLACK}Allister Brimble"
   1026: "{COLOUR WINDOW_2}Gettin' On The Gas"
@@ -1068,17 +1068,17 @@ strings:
   1040: "{COLOUR WINDOW_2}Everlasting High-Rise"
   1041: "{COLOUR BLACK}Allister Brimble"
   1042: "{COLOUR WINDOW_2}Solace"
-  1043: "{COLOUR BLACK}Scott Joplin (Performed by Peter James Adcock)"
+  1043: "{COLOUR BLACK}Scott Joplin (Előadó: Peter James Adcock)"
   1044: "{COLOUR WINDOW_2}Chrysanthemum"
-  1045: "{COLOUR BLACK}Scott Joplin (Performed by Peter James Adcock)"
+  1045: "{COLOUR BLACK}Scott Joplin (Előadó: Peter James Adcock)"
   1046: "{COLOUR WINDOW_2}Eugenia"
-  1047: "{COLOUR BLACK}Scott Joplin (Performed by Peter James Adcock)"
+  1047: "{COLOUR BLACK}Scott Joplin (Előadó: Peter James Adcock)"
   1048: "{COLOUR WINDOW_2}The Ragtime Dance"
-  1049: "{COLOUR BLACK}Scott Joplin (Performed by Peter James Adcock)"
+  1049: "{COLOUR BLACK}Scott Joplin (Előadó: Peter James Adcock)"
   1050: "{COLOUR WINDOW_2}Easy Winners"
-  1051: "{COLOUR BLACK}Scott Joplin (Performed by Peter James Adcock)"
+  1051: "{COLOUR BLACK}Scott Joplin (Előadó: Peter James Adcock)"
   1052: "{COLOUR WINDOW_2}Setting Off"
-  1053: "{COLOUR BLACK}Allister Brimble (Trumpet played by Brian Moore, Clarinet played by John Glanfield)"
+  1053: "{COLOUR BLACK}Allister Brimble (Trombita: Brian Moore, klarinét: John Glanfield)"
   1054: "{COLOUR WINDOW_2}A Traveller's Seranade"
   1055: "{COLOUR BLACK}David Punshon"
   1056: "{COLOUR WINDOW_2}Latino Trip"
@@ -1102,133 +1102,133 @@ strings:
   1074: "{COLOUR WINDOW_2}Get Me To Gladstone Bay"
   1075: "{COLOUR BLACK}Allister Brimble"
   1076: "{COLOUR WINDOW_2}Chuggin' Along"
-  1077: "{COLOUR BLACK}Allister Brimble (Trumpet played by Brian Moore)"
+  1077: "{COLOUR BLACK}Allister Brimble (Trombita: Brian Moore)"
   1078: "{COLOUR WINDOW_2}Don't Lose Your Rag"
   1079: "{COLOUR BLACK}Allister Brimble"
   1080: "{COLOUR WINDOW_2}Sandy Track Blues"
   1081: "{COLOUR BLACK}Allister Brimble"
 
-  1082: Unable to load saved game...
-  1083: File contains invalid data
-  1084: File is not a single player saved game
-  1085: File is not a two player saved game
-  1086: Please wait...
-  1087: Initialising...
-  1088: Loading...
-  1089: "Installing new data: "
+  1082: Nem sikerült betölteni a mentést...
+  1083: A fájl érvénytelen adatokat tartalmaz
+  1084: Ez a fájl nem egyjátékos mentés
+  1085: Ez a fájl nem kétjátékos mentés
+  1086: Kérlek várj...
+  1087: Inicializálás...
+  1088: Betöltés...
+  1089: "Új adatok telepítése: "
 
-  1090: White
-  1091: Translucent
-  1092: "{COLOUR WINDOW_2}Construction Marker:"
-  1093: "{COLOUR WINDOW_2}Vehicles min. display scale:"
-  1094: "{COLOUR WINDOW_2}Station names min. display scale:"
-  1095: Full-scale
-  1096: Half-scale
-  1097: Quarter-scale
-  1098: Eighth-scale
-  1099: "{SMALLFONT}{COLOUR BLACK}Select minimum view scale to show vehicles at"
-  1100: "{SMALLFONT}{COLOUR BLACK}Select minimum view scale to show station names on"
+  1090: Fehér
+  1091: Áttetsző
+  1092: "{COLOUR WINDOW_2}Építési jelző"
+  1093: "{COLOUR WINDOW_2}Járművek min. megjelenítési mérete"
+  1094: "{COLOUR WINDOW_2}Állomásnevek min. megjelenítési mérete"
+  1095: Teljes méret
+  1096: Félméret
+  1097: Negyedméret
+  1098: Nyolcadméret
+  1099: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a járművek minimális megjelenítési méretét"
+  1100: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az állomásnevek minimális megjelenítési méretét"
 
-  1101: "{COLOUR WINDOW_2}Main colour scheme:"
-  1102: "{COLOUR BLACK}Steam Locomotives:"
-  1103: "{COLOUR BLACK}Diesel Locomotives:"
-  1104: "{COLOUR BLACK}Electric Locomotives:"
-  1105: "{COLOUR BLACK}Multiple Units:"
-  1106: "{COLOUR BLACK}Passenger Vehicles:"
-  1107: "{COLOUR BLACK}Freight Vehicles:"
-  1108: "{COLOUR BLACK}Buses:"
-  1109: "{COLOUR BLACK}Trucks:"
-  1110: "{COLOUR BLACK}Aircraft:"
-  1111: "{COLOUR BLACK}Ships:"
-  1112: "{SMALLFONT}{COLOUR BLACK}Company headquarters and details"
-  1113: "{SMALLFONT}{COLOUR BLACK}Company owner and status"
-  1114: "{SMALLFONT}{COLOUR BLACK}Company finances"
-  1115: "{SMALLFONT}{COLOUR BLACK}Cargo delivered"
-  1116: "{SMALLFONT}{COLOUR BLACK}Company colour scheme"
-  1117: "{SMALLFONT}{COLOUR BLACK}Company challenge for this game"
-  1118: "{COLOUR WINDOW_2}Special colour schemes used for:"
-  1119: "{SMALLFONT}{COLOUR BLACK}Select main colour"
-  1120: "{SMALLFONT}{COLOUR BLACK}Select secondary colour (used only on some vehicle types)"
-  1121: "{SMALLFONT}{COLOUR BLACK}Select whether to use a different colour scheme for this type of vehicle"
-  1122: "{STRINGID} - Trains"
-  1123: "{STRINGID} - Buses"
-  1124: "{STRINGID} - Trucks"
-  1125: "{STRINGID} - Trams"
-  1126: "{STRINGID} - Aircraft"
-  1127: "{STRINGID} - Ships"
-  1128: "{STRINGID} - All Stations"
-  1129: "{STRINGID} - Rail Stations"
-  1130: "{STRINGID} - Road Stations"
-  1131: "{STRINGID} - Airports"
-  1132: "{STRINGID} - Ship Ports"
-  1133: All Stations
-  1134: Rail Stations
-  1135: Road Stations
-  1136: Airports
-  1137: Ship Ports
+  1101: "{COLOUR WINDOW_2}Fő színséma"
+  1102: "{COLOUR BLACK}Gőzmozdonyok"
+  1103: "{COLOUR BLACK}Dízelmozdonyok"
+  1104: "{COLOUR BLACK}Villanymozdonyok"
+  1105: "{COLOUR BLACK}Motorvonatok"
+  1106: "{COLOUR BLACK}Személyvagonok"
+  1107: "{COLOUR BLACK}Teherkocsik"
+  1108: "{COLOUR BLACK}Buszok"
+  1109: "{COLOUR BLACK}Teherautók"
+  1110: "{COLOUR BLACK}Repülők"
+  1111: "{COLOUR BLACK}Hajók"
+  1112: "{SMALLFONT}{COLOUR BLACK}Vállalat székhelye és részletek"
+  1113: "{SMALLFONT}{COLOUR BLACK}Vállalat tulajdonosa és állapota"
+  1114: "{SMALLFONT}{COLOUR BLACK}Válalat pénzügyei"
+  1115: "{SMALLFONT}{COLOUR BLACK}Szállított rakomány"
+  1116: "{SMALLFONT}{COLOUR BLACK}Vállalati színsémák"
+  1117: "{SMALLFONT}{COLOUR BLACK}A jelenlegi játék vállalati kihívása"
+  1118: "{COLOUR WINDOW_2}Egyedi színsémák használata ezeknél:"
+  1119: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a fő színt"
+  1120: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a másodlagos színt (csak egyes járműtípusoknál)"
+  1121: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, hogy külön színt kapjon-e ez a járműtípus"
+  1122: "{STRINGID} - Vonatok"
+  1123: "{STRINGID} - Buszok"
+  1124: "{STRINGID} - Teherautók"
+  1125: "{STRINGID} - Villamosok"
+  1126: "{STRINGID} - Repülők"
+  1127: "{STRINGID} - Hajók"
+  1128: "{STRINGID} - Összes állomás"
+  1129: "{STRINGID} - Vasútállomások"
+  1130: "{STRINGID} - Közúti megállók"
+  1131: "{STRINGID} - Repülőterek"
+  1132: "{STRINGID} - Kikötők"
+  1133: Összes állomás
+  1134: Vasútállomások
+  1135: Közúti megállók
+  1136: Repülőterek
+  1137: Kikötők
   1138: "{COLOUR WINDOW_2}{STRINGID} - {STRINGID}"
   1139: "{COLOUR WINDOW_2}{STRINGID} - {STRINGID} {STRINGID}"
   1140: "{COLOUR WINDOW_2}{CURRENCY32}"
   1141: "{COLOUR RED}-{CURRENCY32}"
-  1142: "{COLOUR WINDOW_2}{INT16} year"
-  1143: "{COLOUR WINDOW_2}{INT16} years"
+  1142: "{COLOUR WINDOW_2}{INT16} év"
+  1143: "{COLOUR WINDOW_2}{INT16} év"
   1144: "{COLOUR WINDOW_2}{INT16}%"
-  1145: "{COLOUR BLACK}Name"
-  1146: "{COLOUR BLACK}Name ▼"
-  1147: "{COLOUR BLACK}Monthly Profit"
-  1148: "{COLOUR BLACK}Monthly Profit ▼"
-  1149: "{COLOUR BLACK}Age"
-  1150: "{COLOUR BLACK}Age ▼"
-  1151: "{COLOUR BLACK}Reliability"
-  1152: "{COLOUR BLACK}Reliability ▼"
-  1153: "{SMALLFONT}{COLOUR BLACK}Sort list by name"
-  1154: "{SMALLFONT}{COLOUR BLACK}Sort list by profit"
-  1155: "{SMALLFONT}{COLOUR BLACK}Sort list by age"
-  1156: "{SMALLFONT}{COLOUR BLACK}Sort list by reliability"
-  1157: Vehicle must be stopped first!
-  1158: Vehicle has crashed!
-  1159: Vehicle has broken down!
-  1160: Vehicle is stuck!
-  1161: Not enough space, or vehicle in the way
-  1162: Vehicle approaching, or in the way
-  1163: Can't place {POP16}{POP16}{POP16}{STRINGID} here...
-  1164: Can't remove {POP16}{POP16}{POP16}{STRINGID}...
-  1165: Can't pass signal at danger...
-  1166: This vehicle requires {STRINGID}
-  1167: Train has no vehicles!
-  1168: Train has no driving cab
-  1169: Train needs a locomotive or power car
-  1170: "{STRINGID} from {STRINGID}"
-  1171: Empty
+  1145: "{COLOUR BLACK}Név"
+  1146: "{COLOUR BLACK}Név ▼"
+  1147: "{COLOUR BLACK}Havi profit"
+  1148: "{COLOUR BLACK}Havi profit ▼"
+  1149: "{COLOUR BLACK}Életkor"
+  1150: "{COLOUR BLACK}Életkor ▼"
+  1151: "{COLOUR BLACK}Megbízhatóság"
+  1152: "{COLOUR BLACK}Megbízhatóság ▼"
+  1153: "{SMALLFONT}{COLOUR BLACK}Rendezés név szerint"
+  1154: "{SMALLFONT}{COLOUR BLACK}Rendezés nyereség szerint"
+  1155: "{SMALLFONT}{COLOUR BLACK}Rendezés életkor szerint"
+  1156: "{SMALLFONT}{COLOUR BLACK}Rendezés megbízhatóság szerint"
+  1157: A járműnek előbb meg kell állnia!
+  1158: A jármű balesetet szenvedett!
+  1159: A jármű meghibásodott!
+  1160: A jármű elakadt!
+  1161: Nincs elég hely, vagy egy jármű van az útban
+  1162: Jármű közeledik, vagy útban van
+  1163: Nem építhető ide: {POP16}{POP16}{POP16}{STRINGID}...
+  1164: Nem távolítható el: {POP16}{POP16}{POP16}{STRINGID}...
+  1165: Nem haladhat át tilos jelzésen...
+  1166: Ez a jármű igényli: {STRINGID}
+  1167: A vonatnak nincsenek kocsijai!
+  1168: A vonatnak nincs vezetőállása
+  1169: A vonathoz mozdony vagy motorkocsi kell
+  1170: "{STRINGID} innen: {STRINGID}"
+  1171: Üres
   1172: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
-  1173: "{NEWLINE}Capacity:  {STRINGID}"
+  1173: "{NEWLINE}Kapacitás: {STRINGID}"
   1174: "{NEWLINE}+ {STRINGID}"
-  1175: Too many stations in game!
-  1176: Station too large!
-  1177: Town must be built first!
-  1178: "{SMALLFONT}{COLOUR BLACK}Show overall map"
-  1179: "{SMALLFONT}{COLOUR BLACK}Show vehicle types on map"
-  1180: "{SMALLFONT}{COLOUR BLACK}Show industry types on map"
-  1181: "{SMALLFONT}{COLOUR BLACK}Show vehicle routes on map"
-  1182: "{SMALLFONT}{COLOUR BLACK}Show company ownership on map"
-  1183: Station too spread out!
-  1184: Can't add {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} to {STRINGID}...
-  1185: Can't build {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
-  1186: "{COLOUR BLACK}Select new vehicle"
-  1187: "{COLOUR BLACK}Select vehicle to add to {STRINGID}"
-  1188: "{SMALLFONT}{COLOUR BLACK}Build new train vehicles"
-  1189: "{SMALLFONT}{COLOUR BLACK}Build new buses"
-  1190: "{SMALLFONT}{COLOUR BLACK}Build new trucks"
-  1191: "{SMALLFONT}{COLOUR BLACK}Build new trams"
-  1192: "{SMALLFONT}{COLOUR BLACK}Build new aircraft"
-  1193: "{SMALLFONT}{COLOUR BLACK}Build new ships"
-  1194: "{SMALLFONT}{COLOUR BLACK}Trains"
-  1195: "{SMALLFONT}{COLOUR BLACK}Buses"
-  1196: "{SMALLFONT}{COLOUR BLACK}Trucks"
-  1197: "{SMALLFONT}{COLOUR BLACK}Trams"
-  1198: "{SMALLFONT}{COLOUR BLACK}Aircraft"
-  1199: "{SMALLFONT}{COLOUR BLACK}Ships"
-  1200: "{SMALLFONT}{COLOUR BLACK}All stations"
+  1175: Túl sok állomás van a játékban!
+  1176: Az állomás túl nagy!
+  1177: Előbb várost kell alapítani!
+  1178: "{SMALLFONT}{COLOUR BLACK}Térkép megjelenítése"
+  1179: "{SMALLFONT}{COLOUR BLACK}Járművek mutatása a térképen"
+  1180: "{SMALLFONT}{COLOUR BLACK}Gazdasági épületek mutatása a térképen"
+  1181: "{SMALLFONT}{COLOUR BLACK}Útvonalak mutatása a térképen"
+  1182: "{SMALLFONT}{COLOUR BLACK}Tulajdonviszonyok mutatása a térképen"
+  1183: Az állomás túl kiterjedt!
+  1184: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható hozzá ehhez: {STRINGID}...
+  1185: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem építhető meg...
+  1186: "{COLOUR BLACK}Válassz új járművet"
+  1187: "{COLOUR BLACK}Válassz járművet hozzáadáshoz: {STRINGID}"
+  1188: "{SMALLFONT}{COLOUR BLACK}Új vasúti járművek építése"
+  1189: "{SMALLFONT}{COLOUR BLACK}Új buszok építése"
+  1190: "{SMALLFONT}{COLOUR BLACK}Új teherautók építése"
+  1191: "{SMALLFONT}{COLOUR BLACK}Új villamosok építése"
+  1192: "{SMALLFONT}{COLOUR BLACK}Új repülők építése"
+  1193: "{SMALLFONT}{COLOUR BLACK}Új hajók építése"
+  1194: "{SMALLFONT}{COLOUR BLACK}Vonatok"
+  1195: "{SMALLFONT}{COLOUR BLACK}Buszok"
+  1196: "{SMALLFONT}{COLOUR BLACK}Teherautók"
+  1197: "{SMALLFONT}{COLOUR BLACK}Villamosok"
+  1198: "{SMALLFONT}{COLOUR BLACK}Repülők"
+  1199: "{SMALLFONT}{COLOUR BLACK}Hajók"
+  1200: "{SMALLFONT}{COLOUR BLACK}Összes állomás"
   1201: "{SMALLFONT}{COLOUR BLACK}Rail stations"
   1202: "{SMALLFONT}{COLOUR BLACK}Road stations"
   1203: "{SMALLFONT}{COLOUR BLACK}Airports"
