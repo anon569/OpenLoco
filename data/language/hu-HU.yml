@@ -63,7 +63,7 @@ strings:
 
   53: Nem sikerült hozzáférni a grafikai adatfájlhoz
   54: Hiányzó vagy elérhetetlen adatfájl
-  55: Nem sikerült elegendő memóriát lefoglalni 
+  55: Nem sikerült elegendő memóriát lefoglalni
   56: "{COLOUR BLACK}❌"
   57: A választott név már foglalt
   58: Túl sok név van megadva
@@ -73,7 +73,6 @@ strings:
   62: A játék nem indítható minimalizált állapotban
   63: Nem sikerült inicializálni a grafikai rendszert
   64: A CD-kulcs ({INT32 RAW}) nem érvényes a Locomotion CD-hez!{COLOUR WINDOW_1}{COLOUR WINDOW_1}Kérlek, telepítsd újra a Chris Sawyer's Locomotion-t a helyes kulccsal.
-  
 
   65: "{UINT16 RAW} x {UINT16 RAW}"
   66: "{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{UINT16 RAW} x {UINT16 RAW}"
@@ -126,14 +125,14 @@ strings:
   111: Táj-adatterület megtelt!
   112: Nem építhető részben a föld felett, részben a föld alatt
   113: "{STRINGID}"
-  114: "{SMALLFONT}{COLOUR BLACK}Balkanyar
+  114: "{SMALLFONT}{COLOUR BLACK}Balkanyar"
   115: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar"
   116: "{SMALLFONT}{COLOUR BLACK}Balkanyar (kis ívű)"
   117: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar (kis ívű)"
   118: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagyon kis ívű)"
   119: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar (nagyon kis ívű)"
   120: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagy ívű)"
-  121: "{SMALLFONT}{COLOUR BLACK}Balkanyar (nagy ívű)"
+  121: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar (nagy ívű)"
   122: "{SMALLFONT}{COLOUR BLACK}Egyenes"
   123: "{SMALLFONT}{COLOUR BLACK}S kanyar (balra)"
   124: "{SMALLFONT}{COLOUR BLACK}S kanyar (jobbra)"
@@ -214,22 +213,22 @@ strings:
 
   198: Térkép
   199: Járműlista
-  200: Új járművek listájának
+  200: Új járművek listája
   201: Lista
-  202: Fák listájának
+  202: Fák listája
   203: Utasításlista
   204: Állomáslista
   205: Városlista
-  206: Gazdasági épületek listájának
-  207: Új gazdasági épületek listájának
+  206: Gazdasági épületek listája
+  207: Új gazdasági épületek listája
   208: Épületlista
-  209: Falak listájának
+  209: Falak listája
   210: Értékelési lista
   211: Rakománylista
   212: Üzenetlista
   213: Vállalatlista
-  214: Pályák listájának
-  215: Készítők listájának
+  214: Pályák listája
+  215: Készítők listája
 
   216: "{COLOUR WINDOW_2}▲{COLOUR BLACK}  {CURRENCY32}"
   217: "{COLOUR WINDOW_2}▼{COLOUR BLACK}  {CURRENCY32}"
@@ -264,7 +263,7 @@ strings:
   246: "{STRINGID}"
   247: "{STRINGID} - Részletek"
   248: "{STRINGID} - Pénzügyek"
-  249: "{STRINGID} - Elszállított rakomány"
+  249: "{STRINGID} - Szállított rakomány"
   250: "{STRINGID} - Színséma"
   251: "{STRINGID} - Kihívás"
   252: "{SMALLFONT}{COLOUR BLACK}Irányváltás"
@@ -292,7 +291,7 @@ strings:
   274: "{SMALLFONT}{COLOUR BLACK}Vágány villamosítása és egyéb fejlesztések"
   275: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a jelző típusát"
   276: "{SMALLFONT}{COLOUR BLACK}Jelzők építése mindkét irányban"
-  277: "{SMALLFONT}{COLOUR BLACK}Jelző építése csak egy irányban (a vonatok nem haladhatnak a másik irányba)"
+  277: "{SMALLFONT}{COLOUR BLACK}Jelző építése csak egy irányba (a vonatok nem közlekedhetnek az ellenkező irányba)"
   278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Max. sebesség: {STRINGID}{NEWLINE}Max. magasság a föld felett: {HEIGHT}"
   279: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az állomás típusát"
   280: Állomás {INT16}
@@ -435,7 +434,7 @@ strings:
   417: Csőd!{NEWLINE}{STRINGID} csődöt jelentett és bezárt!
   418: "{STRINGID} karambolozott!"
   419: Vállalati botrány!{NEWLINE}{STRINGID} börtönbe került rablási kísérlet miatt!
-  420: Új {STRINGID} sebességrekord!{NEWLINE}{STRINGID} elérte a megállók közti {VELOCITY} átlagsebességet !
+  420: Új {STRINGID} sebességrekord!{NEWLINE}{STRINGID} elérte a megállók közti {VELOCITY} átlagsebességet!
 
   421: "{MOVE_X 10}{STRINGID}"
   422: »{MOVE_X 10}{STRINGID}
@@ -543,9 +542,9 @@ strings:
   521: "{INT16} állomás"
   522: Állomás {INT16}
   523: jármű
-  524: járművek
+  524: jármű
   525: Jármű
-  526: Járművek
+  526: Jármű
   527: "{INT16} jármű"
   528: "{INT16} jármű"
   529: Jármű {INT16}
@@ -634,7 +633,7 @@ strings:
   612: Nem tudod visszafizetni a hitelt!
   613: "{SMALLFONT}{COLOUR BLACK}Új játék indítása"
   614: "{SMALLFONT}{COLOUR BLACK}Mentett játék betöltése"
-  615: "{SMALLFONT}{COLOUR BLACK}Oktatóprogram megjelenítése"
+  615: "{SMALLFONT}{COLOUR BLACK}Oktatóprogram indítása"
   616: "{SMALLFONT}{COLOUR BLACK}Kilépés a játékból"
   617: Tanya
   618: Falu
@@ -1025,7 +1024,7 @@ strings:
   998: "CTRL + "
   999: Gyorsbillentyű módosítása
   1000: "{COLOUR WINDOW_2}Nyomd meg az új gyorsbillentyűt ehhez:{NEWLINE}{NEWLINE_SMALLER}{COLOUR BLACK}„{STRINGID}”"
-  1001: "{SMALLFONT}{COLOUR BLACK}Kattints a parancs leírásra az új billentyű kiválasztásához"
+  1001: "{SMALLFONT}{COLOUR BLACK}Kattints a parancs leírására az új billentyű kiválasztásához"
   1002: Görgetés, ha az egér a képernyő széléhez ér
   1003: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, hogy a nézet elmozduljon-e, ha az egér eléri a képernyő szélét"
   1004: "{SMALLFONT}{COLOUR BLACK}Itt nézheted meg vagy módosíthatod a vezérlőbillentyűket"
@@ -1142,7 +1141,7 @@ strings:
   1111: "{COLOUR BLACK}Hajók"
   1112: "{SMALLFONT}{COLOUR BLACK}Vállalat székhelye és részletek"
   1113: "{SMALLFONT}{COLOUR BLACK}Vállalat tulajdonosa és állapota"
-  1114: "{SMALLFONT}{COLOUR BLACK}Válalat pénzügyei"
+  1114: "{SMALLFONT}{COLOUR BLACK}Vállalat pénzügyei"
   1115: "{SMALLFONT}{COLOUR BLACK}Szállított rakomány"
   1116: "{SMALLFONT}{COLOUR BLACK}Vállalati színsémák"
   1117: "{SMALLFONT}{COLOUR BLACK}A jelenlegi játék vállalati kihívása"
@@ -1229,204 +1228,204 @@ strings:
   1198: "{SMALLFONT}{COLOUR BLACK}Repülők"
   1199: "{SMALLFONT}{COLOUR BLACK}Hajók"
   1200: "{SMALLFONT}{COLOUR BLACK}Összes állomás"
-  1201: "{SMALLFONT}{COLOUR BLACK}Rail stations"
-  1202: "{SMALLFONT}{COLOUR BLACK}Road stations"
-  1203: "{SMALLFONT}{COLOUR BLACK}Airports"
-  1204: "{SMALLFONT}{COLOUR BLACK}Ship ports"
-  1205: "{SMALLFONT}{COLOUR BLACK}Clear an area of land"
-  1206: "{SMALLFONT}{COLOUR BLACK}Trees"
-  1207: "{SMALLFONT}{COLOUR BLACK}Adjust or create land"
-  1208: "{SMALLFONT}{COLOUR BLACK}Adjust or create water"
-  1209: "{SMALLFONT}{COLOUR BLACK}Walls and fences"
-  1210: "{SMALLFONT}{COLOUR BLACK}Select object colour"
+  1201: "{SMALLFONT}{COLOUR BLACK}Vasútállomások"
+  1202: "{SMALLFONT}{COLOUR BLACK}Megállók"
+  1203: "{SMALLFONT}{COLOUR BLACK}Repülőterek"
+  1204: "{SMALLFONT}{COLOUR BLACK}Kikötők"
+  1205: "{SMALLFONT}{COLOUR BLACK}Terület tisztítása"
+  1206: "{SMALLFONT}{COLOUR BLACK}Fák"
+  1207: "{SMALLFONT}{COLOUR BLACK}Talaj módosítása"
+  1208: "{SMALLFONT}{COLOUR BLACK}Víz módosítása"
+  1209: "{SMALLFONT}{COLOUR BLACK}Falak és kerítések"
+  1210: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az objektum színét"
   1211: "{COLOUR WINDOW_2}{STRINGID}"
-  1212: "{COLOUR WINDOW_2}{STRINGID} (en-route from"
+  1212: "{COLOUR WINDOW_2}{STRINGID} (úton innen:"
   1213: "{COLOUR WINDOW_2}{STRINGID})"
-  1214: No space for more vehicle orders!
-  1215: Too many orders for this vehicle!
-  1216: "Local"
-  1217: "Express"
-  1218: "{COLOUR BLACK}- - No route defined - -"
-  1219: "{COLOUR BLACK}- - End of route list - -"
-  1220: Stop at {STRINGID}
-  1221: Route through {STRINGID}
-  1222: Route through waypoint
-  1223: Unload all {STRINGID} {SPRITE}
-  1224: Wait for full load of {STRINGID} {SPRITE}
-  1225: Unload all {STRINGID} {SPRITE}
-  1226: Wait for full load of {STRINGID} {SPRITE}
+  1214: Nincs hely több járműutasításnak!
+  1215: Túl sok utasítás ehhez a járműhöz!
+  1216: "Személy"
+  1217: "Expressz"
+  1218: "{COLOUR BLACK}- - Nincs útvonal megadva - -"
+  1219: "{COLOUR BLACK}- - Utasításlista vége - -"
+  1220: Megállás itt: {STRINGID}
+  1221: Áthaladás itt: {STRINGID}
+  1222: Áthaladás ellenőrzőponton
+  1223: Összes kirakodása: {STRINGID} {SPRITE}
+  1224: Várakozás teljes rakományra: {STRINGID} {SPRITE}
+  1225: Összes kirakodása: {STRINGID} {SPRITE}
+  1226: Várakozás teljes rakományra: {STRINGID} {SPRITE}
   1227: "{COLOUR WINDOW_2}▶"
-  1228: Can't insert order...
-  1229: "{COLOUR WINDOW_3}Click to insert new order to{NEWLINE}route through waypoint at this position"
-  1230: "{COLOUR WINDOW_3}Click to insert new order to{NEWLINE}stop at {STRINGID}"
-  1231: "{COLOUR WINDOW_3}Click again to change last order to{NEWLINE}route through {STRINGID}"
-  1232: "{SMALLFONT}{COLOUR BLACK}Insert an order to wait for a full load of cargo"
-  1233: "{SMALLFONT}{COLOUR BLACK}Insert an order to force unloading of cargo, even if cargo is not accepted by station"
-  1234: "{SMALLFONT}{COLOUR BLACK}Skip to next order in list"
-  1235: "{SMALLFONT}{COLOUR BLACK}Delete the last or selected order"
-  1236: "{COLOUR BLACK}Click on station or waypoint position to set route"
-  1237: "{SMALLFONT}{COLOUR BLACK}Click on order to select it, click twice to move view to show station/waypoint"
-  1238: "{SMALLFONT}{COLOUR BLACK}Click on order to copy it to selected vehicle"
+  1228: Nem szúrható be utasítás...
+  1229: "{COLOUR WINDOW_3}Kattints ide új utasítás beszúrásához,{NEWLINE}az ezen a helyen található ellenőrzőponton való áthaladáshoz"
+  1230: "{COLOUR WINDOW_3}Kattints ide új utasítás beszúrásához{NEWLINE}a(z) {STRINGID} helyen való megálláshoz"
+  1231: "{COLOUR WINDOW_3}Kattints újra az utolsó utasítás módosításához,{NEWLINE}hogy áthaladjon a(z) {STRINGID} ellenőrzőponton"
+  1232: "{SMALLFONT}{COLOUR BLACK}Utasítás beszúrása a rakomány teljes berakodására való várakozáshoz"
+  1233: "{SMALLFONT}{COLOUR BLACK}Utasítás beszúrása a rakomány kényszerített kirakodásához, akkor is, ha az állomás nem fogadja a rakományt"
+  1234: "{SMALLFONT}{COLOUR BLACK}Ugrás a lista következő utasítására"
+  1235: "{SMALLFONT}{COLOUR BLACK}Az utolsó vagy kijelölt utasítás törlése"
+  1236: "{COLOUR BLACK}Kattints egy állomás vagy ellenőrzőpont helyére az útvonal beállításához"
+  1237: "{SMALLFONT}{COLOUR BLACK}Kattints egy utasításra a kijelöléséhez, kattints duplán a nézet állomásra/ellenőrzőpontra mozgatásához"
+  1238: "{SMALLFONT}{COLOUR BLACK}Kattints egy utasításra a kijelölt járműre másolásához"
   1239: "{STRINGID} {STRINGID}{NEWLINE}{COLOUR WINDOW_3}{STRINGID}"
-  1240: Build Trains
-  1241: Build Buses
-  1242: Build Trucks
-  1243: Build Trams
-  1244: Build Aircraft
-  1245: Build Ships
-  1246: Can only be placed on {STRINGID}...
-  1247: Road
-  1248: "{COLOUR BLACK}No vehicles available"
-  1249: "{COLOUR BLACK}No compatible vehicles available to add to {STRINGID}"
+  1240: Vonatok építése
+  1241: Buszok építése
+  1242: Teherautók építése
+  1243: Villamosok építése
+  1244: Repülőgépek építése
+  1245: Hajók építése
+  1246: Csak erre helyezhető: {STRINGID}...
+  1247: Út
+  1248: "{COLOUR BLACK}Nincs elérhető jármű"
+  1249: "{COLOUR BLACK}Nincs kompatibilis jármű, ami hozzáadható ehhez: {STRINGID}"
   1250: ""
-  1251: "{COLOUR WINDOW_2} Cost: {COLOUR BLACK}{CURRENCY32}"
-  1252: "{NEWLINE}{COLOUR WINDOW_2} Requires: {COLOUR BLACK}"
-  1253: "{NEWLINE}{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
-  1254: "{NEWLINE}{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
+  1251: "{COLOUR WINDOW_2} Költség: {COLOUR BLACK}{CURRENCY32}"
+  1252: "{NEWLINE}{COLOUR WINDOW_2} Szükséges: {COLOUR BLACK}"
+  1253: "{NEWLINE}{COLOUR WINDOW_2} Teljesítmény: {COLOUR BLACK}{POWER}"
+  1254: "{NEWLINE}{COLOUR WINDOW_2} Súly: {COLOUR BLACK}{INT16}t"
   1255: "{NEWLINE}{COLOUR WINDOW_2} Max. sebesség: {COLOUR BLACK}{VELOCITY}"
-  1256: "{NEWLINE}{COLOUR WINDOW_2} Designed: {COLOUR BLACK}{UINT16 RAW}"
-  1257: "{NEWLINE}{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
+  1256: "{NEWLINE}{COLOUR WINDOW_2} Tervezve: {COLOUR BLACK}{UINT16 RAW}"
+  1257: "{NEWLINE}{COLOUR WINDOW_2} Kapacitás: {COLOUR BLACK}{STRINGID}"
   1258: " + {STRINGID}"
-  1259: " ( + {STRINGID} for steep slopes)"
-  1260: " ({VELOCITY} on {STRINGID})"
-  1261: or {STRINGID}
-  1262: "{NEWLINE}{COLOUR WINDOW_2} Running Cost: {COLOUR BLACK}{CURRENCY32}/month"
-  1263: " (refittable)"
-  1264: "{INT16} train"
-  1265: "{INT16} bus"
-  1266: "{INT16} truck"
-  1267: "{INT16} tram"
-  1268: "{INT16} aircraft"
-  1269: "{INT16} ship"
-  1270: "{INT16} trains"
-  1271: "{INT16} buses"
-  1272: "{INT16} trucks"
-  1273: "{INT16} trams"
-  1274: "{INT16} aircraft"
-  1275: "{INT16} ships"
-  1276: train
-  1277: bus
-  1278: truck
-  1279: tram
-  1280: aircraft
-  1281: ship
-  1282: "{COLOUR WINDOW_2}Total: {COLOUR BLACK}{STRINGID}"
-  1283: Empty
-  1284: "{SMALLFONT}{COLOUR BLACK}Load: "
-  1285: Requires an extra {STRINGID}
-  1286: "{SMALLFONT}{COLOUR BLACK}Vehicles for {STRINGID}"
+  1259: " ( + {STRINGID} meredek lejtőkhöz)"
+  1260: " ({VELOCITY} ezen: {STRINGID})"
+  1261: vagy {STRINGID}
+  1262: "{NEWLINE}{COLOUR WINDOW_2} Üzemeltetési költség: {COLOUR BLACK}{CURRENCY32}/hó"
+  1263: " (átalakítható)"
+  1264: "{INT16} vonat"
+  1265: "{INT16} busz"
+  1266: "{INT16} teherautó"
+  1267: "{INT16} villamos"
+  1268: "{INT16} repülőgép"
+  1269: "{INT16} hajó"
+  1270: "{INT16} vonat"
+  1271: "{INT16} busz"
+  1272: "{INT16} teherautó"
+  1273: "{INT16} villamos"
+  1274: "{INT16} repülőgép"
+  1275: "{INT16} hajó"
+  1276: vonat
+  1277: busz
+  1278: teherautó
+  1279: villamos
+  1280: repülőgép
+  1281: hajó
+  1282: "{COLOUR WINDOW_2}Összesen: {COLOUR BLACK}{STRINGID}"
+  1283: Üres
+  1284: "{SMALLFONT}{COLOUR BLACK}Rakomány: "
+  1285: Extra {STRINGID} szükséges
+  1286: "{SMALLFONT}{COLOUR BLACK}Járművek ehhez: {STRINGID}"
   1287: "{SPRITE}{NEWLINE 31 8} {STRINGID}"
   1288: "{POP16}{POP16}{NEWLINE 31 8} {STRINGID}"
-  1289: "{SPRITE}{NEWLINE 31 8} {STRINGID} Construction"
-  1290: "{STRINGID} local authority refuses permission!"
+  1289: "{SPRITE}{NEWLINE 31 8} {STRINGID} építése"
+  1290: "{STRINGID} önkormányzata megtagadta az engedélyt!"
   1291: Városok
-  1292: Új városok építése
+  1292: Új városok alapítása
   1293: Egyedi városi épületek építése
   1294: Egyéb épületek építése
-  1295: "{COLOUR BLACK}Population"
-  1296: "{COLOUR BLACK}Population ▼"
-  1297: "{SMALLFONT}{COLOUR BLACK}Sort list by population"
+  1295: "{COLOUR BLACK}Lakosság"
+  1296: "{COLOUR BLACK}Lakosság ▼"
+  1297: "{SMALLFONT}{COLOUR BLACK}Rendezés lakosság szerint"
   1298: "{INT32}"
-  1299: "{COLOUR BLACK}Stations"
-  1300: "{COLOUR BLACK}Stations ▼"
-  1301: "{SMALLFONT}{COLOUR BLACK}Sort list by no. of stations"
-  1302: "{COLOUR BLACK}Town"
-  1303: "{COLOUR BLACK}Town ▼"
-  1304: "{STRINGID} population {INT32}"
-  1305: "{SMALLFONT}{COLOUR BLACK}Sort list by town type"
-  1306: "{COLOUR BLACK}Type"
-  1307: "{COLOUR BLACK}Type ▼"
-  1308: Town Name
-  1309: "Type new name for {STRINGID}:"
-  1310: "{COLOUR BLACK}{STRINGID} population {INT32}"
-  1311: Can't rename town...
-  1312: New Station
+  1299: "{COLOUR BLACK}Állomások"
+  1300: "{COLOUR BLACK}Állomások ▼"
+  1301: "{SMALLFONT}{COLOUR BLACK}Rendezés állomások száma szerint"
+  1302: "{COLOUR BLACK}Város"
+  1303: "{COLOUR BLACK}Város ▼"
+  1304: "{STRINGID} lakossága: {INT32}"
+  1305: "{SMALLFONT}{COLOUR BLACK}Rendezés várostípus szerint"
+  1306: "{COLOUR BLACK}Típus"
+  1307: "{COLOUR BLACK}Típus ▼"
+  1308: Városnév
+  1309: "Írj be új nevet {STRINGID} számára:"
+  1310: "{COLOUR BLACK}{STRINGID} lakossága: {INT32}"
+  1311: Nem lehet átnevezni a várost...
+  1312: Új állomás
   1313: "{COLOUR BLACK}({STRINGID})"
-  1314: "{COLOUR WINDOW_2}Catchment Area{NEWLINE}  Accepts: "
-  1315: "{COLOUR WINDOW_2}  Produces: "
-  1316: "{COLOUR BLACK}Nothing"
-  1317: Too many industries
-  1318: Industries
-  1319: Fund New Industries
-  1320: Build Industries
-  1321: "{SMALLFONT}{COLOUR BLACK}Towns list"
-  1322: "{SMALLFONT}{COLOUR BLACK}Build towns"
-  1323: "{SMALLFONT}{COLOUR BLACK}Build individual town buildings"
-  1324: "{SMALLFONT}{COLOUR BLACK}Build miscellaneous buildings"
-  1325: "{SMALLFONT}{COLOUR BLACK}Industries List"
-  1326: "{SMALLFONT}{COLOUR BLACK}Fund new industries"
-  1327: "{SMALLFONT}{COLOUR BLACK}Build industries"
-  1328: Ebony
-  1329: Silver
-  1330: Ivory
-  1331: Indigo
-  1332: Sapphire
-  1333: Emerald
-  1334: Golden
-  1335: Amber
-  1336: Bronze
-  1337: Burgundy
-  1338: Scarlet
+  1314: "{COLOUR WINDOW_2}Vonzáskörzet{NEWLINE}  Elfogad: "
+  1315: "{COLOUR WINDOW_2}  Termel: "
+  1316: "{COLOUR BLACK}Semmit"
+  1317: Túl sok gazdasági épület
+  1318: Gazdasági épületek
+  1319: Új gazdasági épületek támogatása
+  1320: Gazdasági épületek építése
+  1321: "{SMALLFONT}{COLOUR BLACK}Városlista"
+  1322: "{SMALLFONT}{COLOUR BLACK}Városok építése"
+  1323: "{SMALLFONT}{COLOUR BLACK}Egyedi városi épületek építése"
+  1324: "{SMALLFONT}{COLOUR BLACK}Egyéb épületek építése"
+  1325: "{SMALLFONT}{COLOUR BLACK}Gazdasági épületek listája"
+  1326: "{SMALLFONT}{COLOUR BLACK}Új gazdasági épületek finanszírozása"
+  1327: "{SMALLFONT}{COLOUR BLACK}Gazdasági épületek építése"
+  1328: Ébenfekete
+  1329: Ezüst
+  1330: Elefántcsont
+  1331: Indigó
+  1332: Zafír
+  1333: Smaragd
+  1334: Arany
+  1335: Borostyán
+  1336: Bronz
+  1337: Burgundivörös
+  1338: Skarlát
   1339: "{STRINGID}"
   1340: "{POP16}{STRINGID}"
-  1341: "{STRINGID} Transport"
-  1342: "{STRINGID} Express"
-  1343: "{STRINGID} Lines"
-  1344: "{STRINGID} Tracks"
-  1345: "{STRINGID} Coaches"
-  1346: "{STRINGID} Air"
-  1347: "{STRINGID} Rail"
-  1348: "{STRINGID} Carts"
-  1349: "{STRINGID} Trains"
-  1350: "{STRINGID} Haulage"
-  1351: "{STRINGID} Shipping"
-  1352: "{STRINGID} Freight"
-  1353: "{STRINGID} Trucks"
-  1354: "{COLOUR WINDOW_2}Headquarters"
-  1355: "{COLOUR WINDOW_2}Owner"
-  1356: "{COLOUR BLACK}@ {INT16}% interest per year"
+  1341: "{STRINGID} Szállítás"
+  1342: "{STRINGID} Expressz"
+  1343: "{STRINGID} Vonalak"
+  1344: "{STRINGID} Vágányok"
+  1345: "{STRINGID} Kocsik"
+  1346: "{STRINGID} Légitársaság"
+  1347: "{STRINGID} Vasút"
+  1348: "{STRINGID} Fuvarozás"
+  1349: "{STRINGID} Vonatok"
+  1350: "{STRINGID} Logisztika"
+  1351: "{STRINGID} Hajózás"
+  1352: "{STRINGID} Teherfuvarozás"
+  1353: "{STRINGID} Teherautók"
+  1354: "{COLOUR WINDOW_2}Székhely"
+  1355: "{COLOUR WINDOW_2}Tulajdonos"
+  1356: "{COLOUR BLACK}@ {INT16}% hitelkamat évente"
   1357: "{COLOUR BLACK}{SMALLFONT}{INT32}"
   1358: "{COLOUR BLACK}{SMALLFONT}{UINT16 RAW}"
   1359: "{STRINGID}"
-  1360: "{STRINGID} - Population"
-  1361: "{STRINGID} Local Authority"
-  1362: "{STRINGID} - Monthly Production"
-  1363: "{STRINGID} - Statistics"
+  1360: "{STRINGID} - Lakosság"
+  1361: "{STRINGID} Önkormányzat"
+  1362: "{STRINGID} - Havi termelés"
+  1363: "{STRINGID} - Statisztika"
   1364: "{STRINGID} {STRINGID}"
-  1365: "{SMALLFONT}{COLOUR BLACK}Demolish this industry"
+  1365: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület lebontása"
   1366: Építés alatt
-  1367: "Producing "
-  1368: "Produces "
-  1369: "Produce "
-  1370: " to produce "
-  1371: "Requires "
-  1372: "Require "
+  1367: "Aktuális termelés: "
+  1368: "Termel: "
+  1369: "Kimenet: "
+  1370: " a következő termeléséhez: "
+  1371: "Szükséges hozzá: "
+  1372: "Szüksége van: "
   1373: " és "
   1374: " vagy "
   1375: ", "
-  1376: "{SMALLFONT}{COLOUR BLACK}Sort list by industry status"
-  1377: "{SMALLFONT}{COLOUR BLACK}Sort list by production percentage transported"
-  1378: "{COLOUR BLACK}Status"
-  1379: "{COLOUR BLACK}Status ▼"
-  1380: "{COLOUR BLACK}Production Transported"
-  1381: "{COLOUR BLACK}Production Transported ▼"
-  1382: "{SMALLFONT}{COLOUR BLACK}Sort list by industry name"
-  1383: "{COLOUR BLACK}Industry"
-  1384: "{COLOUR BLACK}Industry ▼"
-  1385: "{COLOUR BLACK}No industries available"
-  1386: "{SMALLFONT}{COLOUR BLACK}Town"
-  1387: "{SMALLFONT}{COLOUR BLACK}Population graph"
-  1388: "{SMALLFONT}{COLOUR BLACK}Town's ratings of each company"
-  1389: "{SMALLFONT}{COLOUR BLACK}Industry"
-  1390: "{SMALLFONT}{COLOUR BLACK}Production graph"
+  1376: "{SMALLFONT}{COLOUR BLACK}Rendezés állapot szerint"
+  1377: "{SMALLFONT}{COLOUR BLACK}Rendezés az elszállított termelés százaléka szerint"
+  1378: "{COLOUR BLACK}Állapot"
+  1379: "{COLOUR BLACK}Állapot ▼"
+  1380: "{COLOUR BLACK}Elszállított termelés"
+  1381: "{COLOUR BLACK}Elszállított termelés ▼"
+  1382: "{SMALLFONT}{COLOUR BLACK}Rendezés gazdasági épület neve szerint"
+  1383: "{COLOUR BLACK}Gazdasági épület"
+  1384: "{COLOUR BLACK}Gazdasági épület ▼"
+  1385: "{COLOUR BLACK}Nincs elérhető gazdasági épület"
+  1386: "{SMALLFONT}{COLOUR BLACK}Város"
+  1387: "{SMALLFONT}{COLOUR BLACK}Lakossági grafikon"
+  1388: "{SMALLFONT}{COLOUR BLACK}A város véleménye a vállalatokról"
+  1389: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület"
+  1390: "{SMALLFONT}{COLOUR BLACK}Termelési grafikon"
   1391: "{COLOUR BLACK}{SMALLFONT}({STRINGID})"
-  1392: "{SMALLFONT}{COLOUR BLACK}Completely demolish this town (and any nearby industries)"
-  1393: Nem lehet eltávolítani a települést...
-  1394: Előbb minden állomást el kell távolítani a település közelében
-  1395: Túl közel van egy másik településhez
-  1396: Túl sok a település
-  1397: Túl közel van egy másik településhez, vagy a hely nem megfelelő
-  1398: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építendő település méretét"
+  1392: "{SMALLFONT}{COLOUR BLACK}A város (és a közeli gazdasági épületek) teljes lebontása "
+  1393: Nem lehet eltávolítani a várost...
+  1394: Előbb minden közeli állomást el kell távolítani
+  1395: Túl közel van egy másik városhoz
+  1396: Túl sok város van
+  1397: Túl közel van egy másik városhoz, vagy nem megfelelő a hely
+  1398: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építendő város méretét"
   1399: 1 (kicsi)
   1400: "2"
   1401: 3 (közepes)
@@ -1435,165 +1434,165 @@ strings:
   1404: 6 (nagy)
   1405: "7"
   1406: 8 (óriási)
-  1407: "{COLOUR BLACK}Település mérete:"
-  1408: "{COLOUR BLACK}(Kattints a tájra az új település építéséhez)"
-  1409: "{SMALLFONT}{COLOUR BLACK}Település bővítése"
+  1407: "{COLOUR BLACK}Város mérete:"
+  1408: "{COLOUR BLACK}(Kattints a tájra az új város építéséhez)"
+  1409: "{SMALLFONT}{COLOUR BLACK}Város bővítése"
   1410: Túl közel van egy másik gazdasági épülethez
-  1411: Először várost kell a közelben építeni
-  1412: "{SMALLFONT}{COLOUR BLACK}Egy csoport ültetése a kiválasztott fafajtából."
-  1413: "{SMALLFONT}{COLOUR BLACK}Egy véletlenszerű facsoport ültetése"
+  1411: Előbb várost kell alapítani a közelben
+  1412: "{SMALLFONT}{COLOUR BLACK}Egy facsoport ültetése a kiválasztott típusból"
+  1413: "{SMALLFONT}{COLOUR BLACK}Véletlenszerű fák ültetése"
   1414: "{SMALLFONT}{COLOUR BLACK}Statisztikák"
-  1415: "{COLOUR WINDOW_2}Előző hónapban érkezett:"
-  1416: "{COLOUR WINDOW_2}Előző hónapban termelt:"
+  1415: "{COLOUR WINDOW_2}Múlt hónapban beérkezett:"
+  1416: "{COLOUR WINDOW_2}Múlt hónapban termelt:"
   1417: "{COLOUR BLACK}{STRINGID} ({INT16}% elszállítva)"
   1418: "{COLOUR BLACK}{INT16}%"
-  1419: Bezár
+  1419: Bezárás
   1420: {STRINGID} tulajdona
-  1421: "{STRINGID} az ő tulajdona: {STRINGID}"
-  1422: A jelző {STRINGID} tulajdona
+  1421: "{STRINGID} tulajdonosa: {STRINGID}"
+  1422: A jelző tulajdonosa: {STRINGID}
   1423: "{COLOUR BLACK}{INT16}%"
   1424: "{COLOUR BLACK}{TINYFONT}{DATE DMY}"
   1425: Üzenetek
-  1426: "{SMALLFONT}{COLOUR BLACK}Show recent messages"
-  1427: "{SMALLFONT}{COLOUR BLACK}Message options"
-  1428: Message Options
+  1426: "{SMALLFONT}{COLOUR BLACK}Legutóbbi üzenetek megjelenítése"
+  1427: "{SMALLFONT}{COLOUR BLACK}Üzenetbeállítások"
+  1428: Üzenetbeállítások
   1429: "{TINYFONT}{DATE DMY}"
   1430: " + "
-  1431: " waiting"
-  1432: Nothing waiting
-  1433: "{COLOUR BLACK}Status"
-  1434: "{COLOUR BLACK}Status ▼"
-  1435: "{COLOUR BLACK}Total waiting"
-  1436: "{COLOUR BLACK}Total waiting ▼"
-  1437: "{COLOUR BLACK}Accepts"
-  1438: "{COLOUR BLACK}Accepts ▼"
-  1439: "{SMALLFONT}{COLOUR BLACK}Sort list by station status"
-  1440: "{SMALLFONT}{COLOUR BLACK}Sort list by total units waiting"
-  1441: "{SMALLFONT}{COLOUR BLACK}Sort list by cargo accepted"
-  1442: "{INT32} units"
+  1431: " várakozik"
+  1432: Semmi nem várakozik
+  1433: "{COLOUR BLACK}Állapot"
+  1434: "{COLOUR BLACK}Állapot ▼"
+  1435: "{COLOUR BLACK}Összes várakozó"
+  1436: "{COLOUR BLACK}Összes várakozó ▼"
+  1437: "{COLOUR BLACK}Elfogad"
+  1438: "{COLOUR BLACK}Elfogad ▼"
+  1439: "{SMALLFONT}{COLOUR BLACK}Rendezés állomásállapot szerint"
+  1440: "{SMALLFONT}{COLOUR BLACK}Rendezés várakozó rakomány szerint"
+  1441: "{SMALLFONT}{COLOUR BLACK}Rendezés elfogadott rakomány szerint"
+  1442: "{INT32} egység"
   1443: ", "
-  1444: "{NEWLINE}Accepts "
-  1445: "{COLOUR BLACK}Accepts: "
-  1446: Nothing
-  1447: "{SMALLFONT}{COLOUR BLACK}Station"
-  1448: "{SMALLFONT}{COLOUR BLACK}Cargo waiting and accepted"
-  1449: "{SMALLFONT}{COLOUR BLACK}Cargo ratings"
-  1450: Demolition not allowed
-  1451: Another company is about to build here
-  1452: Too long!
-  1453: "{SMALLFONT}{COLOUR BLACK}Build or move headquarters"
-  1454: "{SMALLFONT}{COLOUR BLACK}Change owner name"
-  1455: "{COLOUR BLACK}(not yet constructed)"
-  1456: Name Company
-  1457: "Enter new company name:"
-  1458: Can't rename this company...
-  1459: Name Owner
-  1460: "Enter new name for owner:"
-  1461: Can't change owner name...
-  1462: Headquarters
-  1463: "{STRINGID} Headquarters"
-  1464: "{STRINGID} local authority won't allow removal of roads currently in use"
-  1465: "{SMALLFONT}{COLOUR BLACK}Select company"
-  1466: Two Player Game
-  1467: Two Player Game - Options
-  1468: "{COLOUR BLACK}To set up a two player game, one computer should be set up as a host and then the other should connect to it.{NEWLINE}{NEWLINE}Please select :"
+  1444: "{NEWLINE}Elfogad: "
+  1445: "{COLOUR BLACK}Elfogad: "
+  1446: Semmit
+  1447: "{SMALLFONT}{COLOUR BLACK}Állomás"
+  1448: "{SMALLFONT}{COLOUR BLACK}Várakozó és elfogadott rakomány"
+  1449: "{SMALLFONT}{COLOUR BLACK}Rakomány értékelése"
+  1450: A lebontás nem engedélyezett
+  1451: Egy másik vállalat építkezni készül itt
+  1452: Túl hosszú!
+  1453: "{SMALLFONT}{COLOUR BLACK}Székhely építése vagy áthelyezése"
+  1454: "{SMALLFONT}{COLOUR BLACK}Tulajdonos nevének módosítása"
+  1455: "{COLOUR BLACK}(még nem épült fel)"
+  1456: Vállalat elnevezése
+  1457: "Írd be az új vállalatnevet:"
+  1458: Nem lehet átnevezni a vállalatot...
+  1459: Tulajdonos elnevezése
+  1460: "Írd be a tulajdonos új nevét:"
+  1461: Nem lehet módosítani a tulajdonos nevét...
+  1462: Székhely
+  1463: "{STRINGID} székhelye"
+  1464: "{STRINGID} önkormányzata nem engedélyezi a használatban lévő utak eltávolítását"
+  1465: "{SMALLFONT}{COLOUR BLACK}Vállalat kiválasztása"
+  1466: Kétjátékos mód
+  1467: Kétjátékos mód - Beállítások
+  1468: "{COLOUR BLACK}A kétjátékos módhoz az egyik gépnek kiszolgálóként, a másiknak kliensként kell működnie.{NEWLINE}{NEWLINE}Válassz:"
   1469: ""
-  1470: "{COLOUR BLACK}Setting this computer up as a host..."
-  1471: "{COLOUR BLACK}Error: Unable to set up this computer as a host"
-  1472: "{COLOUR BLACK}Host setup completed - Waiting for the other computer to connect..."
+  1470: "{COLOUR BLACK}Számítógép beállítása kiszolgálóként..."
+  1471: "{COLOUR BLACK}Hiba: Nem sikerült kiszolgálóként elindulni"
+  1472: "{COLOUR BLACK}Szerver készen áll - várakozás a másik félre..."
   1473: ""
   1474: ""
   1475: ""
-  1476: "{COLOUR BLACK}Attempting to connect..."
-  1477: "{COLOUR BLACK}Error: Unable to locate or connect to host"
-  1478: "{COLOUR BLACK}Success!{NEWLINE}You are now connected to: {STRINGID}"
-  1479: "{COLOUR BLACK}Currently connected to: {STRINGID}{NEWLINE}{NEWLINE}Click below to disconnect and return to single player mode"
-  1480: "{COLOUR WINDOW_2}Set this computer up as a host"
-  1481: "{COLOUR WINDOW_2}Connect to host"
-  1482: "{COLOUR WINDOW_2}Disconnect"
-  1483: Enter Host Address
-  1484: "Enter the IP address or computer name of the host to connect to, or leave blank to search the local network:"
-  1485: "{COLOUR RED}Warning: You are connected to a different version of Chris Sawyer's Locomotion and two player game performance may not be reliable"
+  1476: "{COLOUR BLACK}Csatlakozás folyamatban..."
+  1477: "{COLOUR BLACK}Hiba: Nem sikerült megtalálni a kiszolgálót"
+  1478: "{COLOUR BLACK}Siker!{NEWLINE}Csatlakozva: {STRINGID}"
+  1479: "{COLOUR BLACK}Csatlakozva ide: {STRINGID}{NEWLINE}{NEWLINE}Kattints az alábbi gombra a kapcsolat bontásához és az egyjátékos módhoz való visszatéréshez"
+  1480: "{COLOUR WINDOW_2}Beállítás kiszolgálóként"
+  1481: "{COLOUR WINDOW_2}Csatlakozás kiszolgálóhoz"
+  1482: "{COLOUR WINDOW_2}Szétkapcsolás"
+  1483: Kiszolgáló címe
+  1484: "Add meg a csatlakoztatni kívánt gép IP-címét vagy számítógépnevét, vagy hagyd üresen a helyi hálózat kereséséhez:"
+  1485: "{COLOUR RED}Figyelmeztetés: A Chris Sawyer's Locomotion egy másik verziójához csatlakoztál, ezért a kétjátékos mód működése nem garantált"
 
-  # Options
-  1486: "{SMALLFONT}{COLOUR BLACK}Display options"
-  1487: "{SMALLFONT}{COLOUR BLACK}Sound options"
-  1488: "{SMALLFONT}{COLOUR BLACK}Music options"
-  1489: "{SMALLFONT}{COLOUR BLACK}Regional options"
-  1490: "{SMALLFONT}{COLOUR BLACK}Control options"
-  1491: "{SMALLFONT}{COLOUR BLACK}Miscellaneous options"
-  1492: Options - Display
-  1493: Options - Sound
-  1494: Options - Music
-  1495: Options - Regional
-  1496: Options - Controls
-  1497: Options - Miscellaneous
+  # Beállítások
+  1486: "{SMALLFONT}{COLOUR BLACK}Megjelenítési beállítások"
+  1487: "{SMALLFONT}{COLOUR BLACK}Hangbeállítások"
+  1488: "{SMALLFONT}{COLOUR BLACK}Zenei beállítások"
+  1489: "{SMALLFONT}{COLOUR BLACK}Regionális beállítások"
+  1490: "{SMALLFONT}{COLOUR BLACK}Irányítási beállítások"
+  1491: "{SMALLFONT}{COLOUR BLACK}Egyéb beállítások"
+  1492: Beállítások - Megjelenítés
+  1493: Beállítások - Hang
+  1494: Beállítások - Zene
+  1495: Beállítások - Regionális
+  1496: Beállítások - Irányítás
+  1497: Beállítások - Egyéb
 
-  # Options/Currency
-  1498: Use preferred currency always
-  1499: "{SMALLFONT}{COLOUR BLACK}Always use the preferred currency"
-  1500: Use preferred currency when starting new game
-  1501: "{SMALLFONT}{COLOUR BLACK}Select this option to override the default currency in a scenario"
-  1502: "{SMALLFONT}{COLOUR BLACK}Select the currency for the current game"
-  1503: "{SMALLFONT}{COLOUR BLACK}Select the default currency for creating new scenarios"
-  1504: "{COLOUR WINDOW_2}Current currency:"
-  1505: "{COLOUR WINDOW_2}Preferred currency:"
+  # Beállítások/Pénznem
+  1498: Mindig a preferált pénznem használata
+  1499: "{SMALLFONT}{COLOUR BLACK}Mindig a preferált pénznemet használja a játékban"
+  1500: Preferált pénznem használata új játéknál
+  1501: "{SMALLFONT}{COLOUR BLACK}Válaszd ezt a pálya alapértelmezett pénznemének felülírásához"
+  1502: "{SMALLFONT}{COLOUR BLACK}Pénznem kiválasztása a jelenlegi játékhoz"
+  1503: "{SMALLFONT}{COLOUR BLACK}Alapértelmezett pénznem kiválasztása új pályákhoz"
+  1504: "{COLOUR WINDOW_2}Jelenlegi pénznem:"
+  1505: "{COLOUR WINDOW_2}Preferált pénznem:"
   1506: ""
 
-  1507: "Own company major news:"
-  1508: "Other company major news:"
-  1509: "Own company minor news:"
-  1510: "Other company minor news:"
-  1511: "General news:"
-  1512: "Advice:"
-  1513: Off
-  1514: Ticker Message
-  1515: News Window
-  1516: "{COLOUR WINDOW_2}Monthly Running Cost: {COLOUR BLACK}{CURRENCY32}"
-  1517: "{COLOUR WINDOW_2}Monthly Profit: {COLOUR BLACK}{CURRENCY32}"
-  1518: Trains
-  1519: Buses
-  1520: Trucks
-  1521: Trams
-  1522: Aircraft
-  1523: Ships
-  1524: Airport
-  1525: Ship Port
-  1526: Order type not valid for aircraft
-  1527: Order type not valid for ships
-  1528: Station owned by another company
-  1529: No water!
-  1530: Water channel is currently needed by ships
-  1531: Currently in use by at least one vehicle
-  1532: "{SMALLFONT}{COLOUR BLACK}Refit vehicle to carry a different type of cargo"
-  1533: Can't refit this vehicle to carry a different type of cargo
-  1534: Requires water in front of dock
+  1507: "Saját vállalat - fontos hírek:"
+  1508: "Más vállalat - fontos hírek:"
+  1509: "Saját vállalat - kisebb hírek:"
+  1510: "Más vállalat - kisebb hírek:"
+  1511: "Általános hírek:"
+  1512: "Tanácsok:"
+  1513: Ki
+  1514: Futó szöveg
+  1515: Hírablak
+  1516: "{COLOUR WINDOW_2}Havi üzemeltetési költség: {COLOUR BLACK}{CURRENCY32}"
+  1517: "{COLOUR WINDOW_2}Havi profit: {COLOUR BLACK}{CURRENCY32}"
+  1518: Vonatok
+  1519: Buszok
+  1520: Teherautók
+  1521: Villamosok
+  1522: Repülőgépek
+  1523: Hajók
+  1524: Repülőtér
+  1525: Kikötő
+  1526: Az utasítás típusa nem érvényes repülőgépekhez
+  1527: Az utasítás típusa nem érvényes hajókhoz
+  1528: Az állomás egy másik vállalat tulajdona
+  1529: Nincs víz!
+  1530: A vízcsatornát jelenleg hajók használják
+  1531: Jelenleg legalább egy jármű használja
+  1532: "{SMALLFONT}{COLOUR BLACK}Jármű átalakítása más típusú rakományhoz"
+  1533: Ez a jármű nem alakítható át más típusú rakományhoz
+  1534: Víz szükséges a dokk elé
 
-  1535: "{COLOUR WINDOW_2}Currently playing:"
-  1536: "{SMALLFONT}{COLOUR BLACK}Stop music"
-  1537: "{SMALLFONT}{COLOUR BLACK}Play music"
-  1538: "{SMALLFONT}{COLOUR BLACK}Next music track"
-  1539: Play only music for current era
-  1540: Play all music
-  1541: Play customized selection of music
-  1542: Edit selection...
-  1543: "{SMALLFONT}{COLOUR BLACK}Edit the music track selection list"
-  1544: Edit Music Selection
-  1545: "{SMALLFONT}{COLOUR BLACK}Click on music track to toggle selection on/off"
+  1535: "{COLOUR WINDOW_2}Jelenleg játszott:"
+  1536: "{SMALLFONT}{COLOUR BLACK}Zene leállítása"
+  1537: "{SMALLFONT}{COLOUR BLACK}Zene lejátszása"
+  1538: "{SMALLFONT}{COLOUR BLACK}Következő zeneszám"
+  1539: Csak az adott korszak zenéinek lejátszása
+  1540: Összes zene lejátszása
+  1541: Egyedi zenei válogatás lejátszása
+  1542: Válogatás szerkesztése...
+  1543: "{SMALLFONT}{COLOUR BLACK}A zenei válogatás szerkesztése"
+  1544: Zenei válogatás szerkesztése
+  1545: "{SMALLFONT}{COLOUR BLACK}Kattints a számra a kiválasztáshoz/eltávolításhoz"
   1546: ✓
-  1547: "{COLOUR WINDOW_2}Volume:"
-  1548: "{SMALLFONT}{COLOUR BLACK}Set music volume"
-  1549: Music Options
-  1550: Select Owner's Face for {STRINGID}
-  1551: "{SMALLFONT}{COLOUR BLACK}Click to select company/owner face"
-  1552: Already selected for another company
-  1553: Can't select face...
-  1554: airports
-  1555: docks
-  1556: "{COLOUR WINDOW_2}Company started: {COLOUR BLACK}{DATE MY}"
-  1557: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}% {NEWLINE}  “{STRINGID}”"
-  1558: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2325}{NEWLINE}  “{STRINGID}”"
-  1559: "{COLOUR WINDOW_2}Teljesítménymutató: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2324}{NEWLINE}  “{STRINGID}”"
+  1547: "{COLOUR WINDOW_2}Hangerő:"
+  1548: "{SMALLFONT}{COLOUR BLACK}Zene hangerejének beállítása"
+  1549: Zenei beállítások
+  1550: Tulajdonos arcának kiválasztása ehhez: {STRINGID}
+  1551: "{SMALLFONT}{COLOUR BLACK}Kattints a vállalat/tulajdonos arcának kiválasztásához"
+  1552: Már ki van választva egy másik vállalathoz
+  1553: Nem választható ki az arc...
+  1554: repülőterek
+  1555: kikötők
+  1556: "{COLOUR WINDOW_2}Vállalat alapítva: {COLOUR BLACK}{DATE MY}"
+  1557: "{COLOUR WINDOW_2}Teljesítményindex: {COLOUR BLACK}{INT16_1DP}% {NEWLINE}  “{STRINGID}”"
+  1558: "{COLOUR WINDOW_2}Teljesítményindex: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2325}{NEWLINE}  “{STRINGID}”"
+  1559: "{COLOUR WINDOW_2}Teljesítményindex: {COLOUR BLACK}{INT16_1DP}%{SPRITE 2324}{NEWLINE}  “{STRINGID}”"
   1560: "{COLOUR WINDOW_2}Tulajdonos: {COLOUR BLACK}{STRINGID}"
   1561: alacsony
   1562: közepes
@@ -1601,36 +1600,36 @@ strings:
   1564: "{COLOUR WINDOW_2}Intelligencia: {COLOUR BLACK}{INT16} ({STRINGID})"
   1565: "{COLOUR WINDOW_2}Agresszivitás: {COLOUR BLACK}{INT16} ({STRINGID})"
   1566: "{COLOUR WINDOW_2}Versenyképesség: {COLOUR BLACK}{INT16} ({STRINGID})"
-  1567: "{SMALLFONT}{COLOUR BLACK}Toggle between single player and two player mode"
-  1568: "{OUTLINE}{COLOUR WINDOW_2}Single Player Mode"
-  1569: "{OUTLINE}{COLOUR WINDOW_2}Two Player Mode: Connected to {STRINGID}"
+  1567: "{SMALLFONT}{COLOUR BLACK}Váltás az egy- és kétjátékos mód között"
+  1568: "{OUTLINE}{COLOUR WINDOW_2}Egyjátékos mód"
+  1569: "{OUTLINE}{COLOUR WINDOW_2}Kétjátékos mód: Csatlakozva: {STRINGID}"
   1570: Kezdő
   1571: Könnyű
   1572: Közepes
   1573: Nehéz
   1574: Szakértő
-  1575: Region / Object Selection
-  1576: Landscape Editor
-  1577: Scenario Options
-  1578: Save Scenario
-  1579: "Back to Previous Step:"
-  1580: "Forward to Next Step:"
-  1581: Load Landscape
-  1582: Save Landscape
-  1583: Generating landscape...
-  1584: Can't clear entire area...
-  1585: Landscape Generation - Options
-  1586: Landscape Generation - Land
-  1587: Landscape Generation - Forests
-  1588: Landscape Generation - Towns
-  1589: Landscape Generation - Industries
-  1590: "{SMALLFONT}{COLOUR BLACK}Landscape generation general options"
-  1591: "{SMALLFONT}{COLOUR BLACK}Land generation options"
-  1592: "{SMALLFONT}{COLOUR BLACK}Forest generation options"
-  1593: "{SMALLFONT}{COLOUR BLACK}Town generation options"
-  1594: "{SMALLFONT}{COLOUR BLACK}Industry generation options"
+  1575: Régió / Objektum kiválasztása
+  1576: Tájszerkesztő
+  1577: Pálya beállításai
+  1578: Pálya mentése
+  1579: "Vissza az előző lépéshez:"
+  1580: "Előre a következő lépéshez:"
+  1581: Táj betöltése
+  1582: Táj mentése
+  1583: Táj generálása...
+  1584: Nem lehet megtisztítani a teljes területet...
+  1585: Tájgenerálás - Beállítások
+  1586: Tájgenerálás - Felszín
+  1587: Tájgenerálás - Erdők
+  1588: Tájgenerálás - Városok
+  1589: Tájgenerálás - Gazdasági épület
+  1590: "{SMALLFONT}{COLOUR BLACK}Általános tájgenerálási beállítások"
+  1591: "{SMALLFONT}{COLOUR BLACK}Felszíngenerálási beállítások"
+  1592: "{SMALLFONT}{COLOUR BLACK}Erdőgenerálási beállítások"
+  1593: "{SMALLFONT}{COLOUR BLACK}Városgenerálási beállítások"
+  1594: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület-generálási beállítások"
 
-  1595: "[None]"
+  1595: "[Nincs]"
   1596: Chuggin' Along
   1597: Long Dusty Road
   1598: Flying High
@@ -1662,147 +1661,147 @@ strings:
   1624: Sandy Track Blues
 
   1625: "{UINT16 RAW}"
-  1626: "{COLOUR WINDOW_2}Start year:"
-  1627: Only generate random landscape when game starts
-  1628: "{SMALLFONT}{COLOUR BLACK}Generate random landscape each time a new game is started"
-  1629: Generate new landscape
-  1630: "{SMALLFONT}{COLOUR BLACK}Generate a new random landscape (the current landscape will be lost)"
+  1626: "{COLOUR WINDOW_2}Kezdő év:"
+  1627: Csak véletlen táj generálása játék indításakor
+  1628: "{SMALLFONT}{COLOUR BLACK}Véletlen táj generálása minden új játék indításakor"
+  1629: Új táj generálása
+  1630: "{SMALLFONT}{COLOUR BLACK}Új véletlen táj generálása (a jelenlegi táj elvész)"
   1631: OK
-  1632: Generate New Landscape
-  1633: Random Landscape Option
-  1634: Are you sure you want to generate a new landscape, losing your current one ?
-  1635: Are you sure you want to generate a new landscape at the start of each game ?{NEWLINE}Choosing this option will mean you lose your current landscape
-  1636: "{COLOUR WINDOW_2}Sea level:"
-  1637: +{INT16} units
-  1638: "{COLOUR WINDOW_2}No. of forests:"
+  1632: Új táj generálása
+  1633: Véletlen táj beállításai
+  1634: Biztosan új tájat generálsz? A jelenlegi elveszik.
+  1635: Biztosan véletlen tájat generálsz minden játék kezdetekor?{NEWLINE}Ezzel a jelenlegi táj elveszik.
+  1636: "{COLOUR WINDOW_2}Tengerszint:"
+  1637: +{INT16} egység
+  1638: "{COLOUR WINDOW_2}Erdők száma:"
   1639: "{INT16}"
-  1640: "{COLOUR WINDOW_2}Minimum forest radius:"
-  1641: "{INT16} blocks"
-  1642: "{COLOUR WINDOW_2}Maximum forest radius:"
-  1643: "{INT16} blocks"
-  1644: "{COLOUR WINDOW_2}Minimum forest density:"
+  1640: "{COLOUR WINDOW_2}Erdő min. sugara:"
+  1641: "{INT16} blokk"
+  1642: "{COLOUR WINDOW_2}Erdő max. sugara:"
+  1643: "{INT16} blokk"
+  1644: "{COLOUR WINDOW_2}Erdő min. sűrűsége:"
   1645: "{INT16}%"
-  1646: "{COLOUR WINDOW_2}Maximum forest density:"
+  1646: "{COLOUR WINDOW_2}Erdő max. sűrűsége:"
   1647: "{INT16}%"
-  1648: "{COLOUR WINDOW_2}No. of random individual trees:"
+  1648: "{COLOUR WINDOW_2}Véletlenszerű egyedi fák száma:"
   1649: "{INT16}"
-  1650: "{COLOUR WINDOW_2}Minimum altitude for trees:"
+  1650: "{COLOUR WINDOW_2}Fák min. magassága:"
   1651: "{HEIGHT}"
-  1652: "{COLOUR WINDOW_2}Maximum altitude for trees:"
+  1652: "{COLOUR WINDOW_2}Fák max. magassága:"
   1653: "{HEIGHT}"
-  1654: "{COLOUR WINDOW_2}Minimum land height:"
-  1655: "{INT16} units"
-  1656: "{COLOUR WINDOW_2}Topography style:"
-  1657: Flat Land
-  1658: Small Hills
-  1659: Mountains
-  1660: Half Mountains, Half Hills
-  1661: Half Mountains, Half Flat
-  1662: "{COLOUR WINDOW_2}Hill density:"
+  1654: "{COLOUR WINDOW_2}Minimális földmagasság:"
+  1655: "{INT16} egység"
+  1656: "{COLOUR WINDOW_2}Topográfia stílusa:"
+  1657: Síkság
+  1658: Dombvidék
+  1659: Hegyvidék
+  1660: Fele hegy, fele domb
+  1661: Fele hegy, fele sík
+  1662: "{COLOUR WINDOW_2}Dombok sűrűsége:"
   1663: "{INT16}%"
-  1664: "{COLOUR WINDOW_2}No. of towns:"
+  1664: "{COLOUR WINDOW_2}Városok száma:"
   1665: "{INT16}"
-  1666: "{COLOUR WINDOW_2}Maximum town size:"
-  1667: Low
-  1668: Medium
-  1669: High
-  1670: "{COLOUR WINDOW_2}No. of industries:"
-  1671: At least one town needs to be built
-  1672: Can't advance to next editor stage...
-  1673: Can't save scenario yet...
-  1674: "{SMALLFONT}{COLOUR BLACK}Scenario options"
-  1675: "{SMALLFONT}{COLOUR BLACK}Scenario challenge"
-  1676: "{SMALLFONT}{COLOUR BLACK}Company options"
-  1677: "{SMALLFONT}{COLOUR BLACK}Financial options"
-  1678: Scenario Options
-  1679: Scenario Challenge
-  1680: Company Options
-  1681: Financial Options
-  1682: "{COLOUR WINDOW_2}Maximum competing companies:"
+  1666: "{COLOUR WINDOW_2}Városok max. mérete:"
+  1667: Alacsony
+  1668: Közepes
+  1669: Magas
+  1670: "{COLOUR WINDOW_2}Gazdasági épületek száma:"
+  1671: Legalább egy várost fel kell építeni
+  1672: Nem lehet a következő szerkesztési szakaszba lépni...
+  1673: Még nem lehet menteni a pályát...
+  1674: "{SMALLFONT}{COLOUR BLACK}Pálya beállításai"
+  1675: "{SMALLFONT}{COLOUR BLACK}Pályakihívás"
+  1676: "{SMALLFONT}{COLOUR BLACK}Vállalati beállítások"
+  1677: "{SMALLFONT}{COLOUR BLACK}Pénzügyi beállítások"
+  1678: Pálya beállításai
+  1679: Pályakihívás
+  1680: Vállalati beállítások
+  1681: Pénzügyi beállítások
+  1682: "{COLOUR WINDOW_2}Versenytárs vállalatok max. száma:"
   1683: "{INT16}"
-  1684: "{COLOUR WINDOW_2}Delay before competing companies start:"
-  1685: "{INT16} months"
-  1686: "{COLOUR WINDOW_2}Selection of competing companies"
-  1687: "{COLOUR WINDOW_2}Preferred Intelligence:"
-  1688: "{COLOUR WINDOW_2}Preferred Aggressiveness:"
-  1689: "{COLOUR WINDOW_2}Preferred Competitiveness:"
+  1684: "{COLOUR WINDOW_2}Versenytársak indulási késleltetése:"
+  1685: "{INT16} hónap"
+  1686: "{COLOUR WINDOW_2}Versenytárs vállalatok kiválasztása"
+  1687: "{COLOUR WINDOW_2}Preferált intelligencia:"
+  1688: "{COLOUR WINDOW_2}Preferált agresszivitás:"
+  1689: "{COLOUR WINDOW_2}Preferált versenyképesség:"
   1690: Bármelyik
   1691: Alacsony
   1692: Közepes
   1693: Magas
-  1694: "{COLOUR WINDOW_2}Induló kölcsön:"
+  1694: "{COLOUR WINDOW_2}Kezdő hitel:"
   1695: "{CURRENCY32}"
-  1696: "{COLOUR WINDOW_2}Maximális kölcsönösszeg:"
+  1696: "{COLOUR WINDOW_2}Maximális hitelösszeg:"
   1697: "{CURRENCY32}"
-  1698: "{COLOUR WINDOW_2}Kölcsön kamatlába:"
+  1698: "{COLOUR WINDOW_2}Hitelkamat:"
   1699: "{INT16}%"
-  1700: Change...
+  1700: Módosítás...
   1701: "{COLOUR WINDOW_2}Pálya neve: {COLOUR BLACK}{STRINGID}"
   1702: "{COLOUR WINDOW_2}Pályacsoport:"
   1703: "{COLOUR WINDOW_2}Pálya részletei:"
   1704: Pálya neve
-  1705: Enter name for scenario:-
-  1706: Scenario Details
-  1707: Enter description of this scenario:-
-  1708: No details yet
-  1709: Unnamed
-  1710: Landscape save failed!
-  1711: Scenario save failed!
-  1712: Transferring data to other player...
-  1713: Receiving data from other player...
-  1714: Please wait - Game is being saved by the other player...
-  1715: Please wait - Game is being loaded by the other player...
-  1716: Send Message
-  1717: Send Message
-  1718: "Enter message to be sent to {STRINGID}:"
+  1705: Írd be a pálya nevét:-
+  1706: Pálya részletei
+  1707: Írd be a pálya leírását:-
+  1708: Nincsenek részletek
+  1709: Névtelen
+  1710: A táj mentése sikertelen!
+  1711: A pálya mentése sikertelen!
+  1712: Adatátvitel a másik játékosnak...
+  1713: Adatfogadás a másik játékostól...
+  1714: Várj - a másik játékos épp menti a játékot...
+  1715: Várj - a másik játékos épp betölti a játékot...
+  1716: Üzenet küldése
+  1717: Üzenet küldése
+  1718: "Üzenet küldése a következőnek: {STRINGID}:"
   1719: ""
-  1720: "{COLOUR WINDOW_2}Connection time-out:"
-  1721: "{INT16} secs."
-  1722: Two-player data connection failed!
-  1723: "{COLOUR WINDOW_2} Designed in: {COLOUR BLACK}{UINT16 RAW}"
-  1724: "{COLOUR WINDOW_2} Obsolete from: {COLOUR BLACK}{UINT16 RAW}"
-  1725: "{COLOUR WINDOW_2} Power: {COLOUR BLACK}{POWER}"
-  1726: "{COLOUR WINDOW_2} Weight: {COLOUR BLACK}{INT16}t"
+  1720: "{COLOUR WINDOW_2}Kapcsolati időtúllépés:"
+  1721: "{INT16} mp."
+  1722: Kétjátékos adatkapcsolati hiba!
+  1723: "{COLOUR WINDOW_2} Tervezve: {COLOUR BLACK}{UINT16 RAW}"
+  1724: "{COLOUR WINDOW_2} Elavult ekkortól: {COLOUR BLACK}{UINT16 RAW}"
+  1725: "{COLOUR WINDOW_2} Teljesítmény: {COLOUR BLACK}{POWER}"
+  1726: "{COLOUR WINDOW_2} Súly: {COLOUR BLACK}{INT16}t"
   1727: "{COLOUR WINDOW_2} Max. sebesség: {COLOUR BLACK}{VELOCITY}"
-  1728: "{COLOUR WINDOW_2} Capacity: {COLOUR BLACK}{STRINGID}"
-  1729: Establishing connection...
-  1730: Everywhere
-  1731: Nowhere
-  1732: Far from water
-  1733: Near water
-  1734: On mountains
-  1735: Far from mountains
-  1736: In small random areas
-  1737: In large random areas
-  1738: Around cliffs
-  1739: Create hills right up to edge of map
-  1740: "{SMALLFONT}{COLOUR BLACK}Scenario Editor"
-  1741: "{STRINGID} Transport"
-  1742: Map
-  1743: "{NEWLINE 1 2}{SPRITE}{NEWLINE 33 8}Companies List"
+  1728: "{COLOUR WINDOW_2} Kapacitás: {COLOUR BLACK}{STRINGID}"
+  1729: Kapcsolat létrehozása...
+  1730: Mindenhol
+  1731: Sehol
+  1732: Víztől távol
+  1733: Víz közelében
+  1734: Hegyeken
+  1735: Hegyektől távol
+  1736: Kis véletlen területeken
+  1737: Nagy véletlen területeken
+  1738: Sziklák körül
+  1739: Dombok létrehozása a térkép széléig
+  1740: "{SMALLFONT}{COLOUR BLACK}Pályaszerkesztő"
+  1741: "{STRINGID} Szállítás"
+  1742: Térkép
+  1743: "{NEWLINE 1 2}{SPRITE}{NEWLINE 33 8}Vállalatlista"
   1744: "{NEWLINE 0 8}{STRINGID}{NEWLINE 25 2}{SPRITE}{NEWLINE 51 2}{STRINGID}{NEWLINE 51 12}{COLOUR WINDOW_1}{INT16_1DP}% “{STRINGID}”"
-  1745: Companies
-  1746: Company Performance Indexes
-  1747: Units of Cargo Delivered per Month
-  1748: Company Values
-  1749: Cargo Payment Rates
-  1750: "{SMALLFONT}{COLOUR BLACK}Compare companies"
-  1751: "{SMALLFONT}{COLOUR BLACK}Company performance index graphs"
-  1752: "{SMALLFONT}{COLOUR BLACK}Graphs of cargo delivered by each company"
-  1753: "{SMALLFONT}{COLOUR BLACK}Company value graphs"
-  1754: "{SMALLFONT}{COLOUR BLACK}Cargo payment rates"
-  1755: "{SMALLFONT}{COLOUR BLACK}Sort list by company name"
-  1756: "{SMALLFONT}{COLOUR BLACK}Sort list by company status"
-  1757: "{SMALLFONT}{COLOUR BLACK}Sort list by performance index"
-  1758: "{SMALLFONT}{COLOUR BLACK}Sort list by company value"
-  1759: "{COLOUR BLACK}Company"
-  1760: "{COLOUR BLACK}Company ▼"
-  1761: "{COLOUR BLACK}Status"
-  1762: "{COLOUR BLACK}Status ▼"
-  1763: "{COLOUR BLACK}Performance Index"
-  1764: "{COLOUR BLACK}Performance Index ▼"
-  1765: "{COLOUR BLACK}Company Value"
-  1766: "{COLOUR BLACK}Company Value ▼"
+  1745: Vállalatok
+  1746: Vállalati teljesítményindexek
+  1747: Havi elszállított rakományegységek
+  1748: Vállalati értékek
+  1749: Rakomány kifizetési ráták
+  1750: "{SMALLFONT}{COLOUR BLACK}Vállalatok összehasonlítása"
+  1751: "{SMALLFONT}{COLOUR BLACK}Vállalati teljesítmény grafikonok"
+  1752: "{SMALLFONT}{COLOUR BLACK}Vállalatonkénti rakományszállítási grafikonok"
+  1753: "{SMALLFONT}{COLOUR BLACK}Vállalati érték grafikonok"
+  1754: "{SMALLFONT}{COLOUR BLACK}Rakomány kifizetési ráták"
+  1755: "{SMALLFONT}{COLOUR BLACK}Rendezés név szerint"
+  1756: "{SMALLFONT}{COLOUR BLACK}Rendezés állapot szerint"
+  1757: "{SMALLFONT}{COLOUR BLACK}Rendezés teljesítményindex szerint"
+  1758: "{SMALLFONT}{COLOUR BLACK}Rendezés vállalati érték szerint"
+  1759: "{COLOUR BLACK}Vállalat"
+  1760: "{COLOUR BLACK}Vállalat ▼"
+  1761: "{COLOUR BLACK}Állapot"
+  1762: "{COLOUR BLACK}Állapot ▼"
+  1763: "{COLOUR BLACK}Teljesítményindex"
+  1764: "{COLOUR BLACK}Teljesítményindex ▼"
+  1765: "{COLOUR BLACK}Vállalati érték"
+  1766: "{COLOUR BLACK}Vállalati érték ▼"
   1767: "{NEWLINE 1 2}{SPRITE}{NEWLINE 27 8}{STRINGID}"
   1768: "{NEWLINE 0 3}{INT16_1DP}%        {NEWLINE 0 13}“{STRINGID}”"
   1769: "{NEWLINE 0 3}{INT16_1DP}%{SPRITE 2325}{NEWLINE 0 13}“{STRINGID}”"
@@ -1810,13 +1809,13 @@ strings:
   1771: "{NEWLINE 0 8}{CURRENCY48}"
   1772: Pályamunkás
   1773: Mérnök
-  1774: Forgalomigazgató
+  1774: Forgalomirányító
   1775: Szállításszervező
-  1776: Útvonalfelügyelő
+  1776: Vonalellenőr
   1777: Igazgató
-  1778: Vezérigazgató
-  1779: Alelnök
-  1780: Elnök
+  1778: Igazgatósági elnök
+  1779: Elnök
+  1780: Elnök-vezérigazgató
   1781: Iparmágnás
   1782: "{INT16} vállalat"
   1783: "{INT16} vállalat"
@@ -1832,168 +1831,168 @@ strings:
   1793: "{SMALLFONT}{COLOUR WHITE}{STRINGID}"
   1794: A repülőtér típusa nem megfelelő ehhez a repülőgéphez
   1795: "{COLOUR BLACK}£"
-  1796: "{INT16} days"
+  1796: "{INT16} nap"
   1797: "{CURRENCY32}"
-  1798: "{SMALLFONT}{COLOUR BLACK}Payment for transporting {INT16} units of cargo a distance of {INT16} blocks"
-  1799: "{SMALLFONT}{COLOUR BLACK}Transit time"
+  1798: "{SMALLFONT}{COLOUR BLACK}Kifizetés {INT16} egység rakományért {INT16} blokk távolságra"
+  1799: "{SMALLFONT}{COLOUR BLACK}Menetidő"
   1800: "*  Szünet  *"
-  1801: A városi önkormányzat nem engedi, hogy itt újabb repülőtér épüljön
+  1801: A helyi önkormányzat nem engedélyezi több repülőtér építését
   1802: Város
-  1803: Gazdasági épület
+  1803: Gazdasági épületek
   1804: Út
   1805: Vasút
   1806: Állomás
   1807: Növényzet
-  1808: Repülőgép-útvonal
-  1809: Hajóútvonal
+  1808: Repülőgép-útvonalak
+  1809: Hajóútvonalak
   1810: ""
-  1811: Building {STRINGID} near {STRINGID}
-  1812: Building {STRINGID} near {STRINGID}
-  1813: Building {STRINGID} near {STRINGID}
-  1814: Checking services near {STRINGID}
-  1815: Surveying landscape near {STRINGID}
+  1811: {STRINGID} építése {STRINGID} közelében
+  1812: {STRINGID} építése {STRINGID} közelében
+  1813: {STRINGID} építése {STRINGID} közelében
+  1814: Szolgáltatások ellenőrzése {STRINGID} közelében
+  1815: A terep felmérése {STRINGID} közelében
   1816: "{COLOUR RED}Csőd!"
-  1817: "{SMALLFONT}{COLOUR BLACK}Pause game"
-  1818: "{SMALLFONT}{COLOUR BLACK}Normal speed"
-  1819: "{SMALLFONT}{COLOUR BLACK}Fast forward"
-  1820: "{SMALLFONT}{COLOUR BLACK}Extra fast forward"
-  1821: "{COLOUR BLACK}Randomly Generated Landscape"
-  1822: "{COLOUR WINDOW_2}Start date: {COLOUR BLACK}{UINT16 RAW}"
-  1823: "{COLOUR WINDOW_2}Competing companies: {COLOUR BLACK}None"
-  1824: "{COLOUR WINDOW_2}Competing companies: {COLOUR BLACK}Up to {INT16}"
-  1825: "{COLOUR BLACK}{MOVE_X 10}(not starting for {INT16} month)"
-  1826: "{COLOUR BLACK}{MOVE_X 10}(not starting for {INT16} months)"
-  1827: "{COLOUR WINDOW_2}Sale value of vehicle: {COLOUR BLACK}{CURRENCY32}"
-  1828: "{COLOUR WINDOW_2}Last income: {COLOUR BLACK}N/A"
-  1829: "{COLOUR WINDOW_2}Last income on: {COLOUR BLACK}{DATE DMY}"
-  1830: "{COLOUR BLACK}{STRINGID} transported {INT16} blocks in {INT16} days = {CURRENCY32}"
-  1831: "{COLOUR WINDOW_2} Earliest construction year: {COLOUR BLACK}{UINT16 RAW}"
-  1832: "{COLOUR WINDOW_2} Latest construction year: {COLOUR BLACK}{UINT16 RAW}"
-  1833: "{COLOUR WINDOW_2}Local authority's ratings of transport companies:"
-  1834: Appalling
-  1835: Poor
-  1836: Average
-  1837: Good
-  1838: Excellent
+  1817: "{SMALLFONT}{COLOUR BLACK}Játék szüneteltetése"
+  1818: "{SMALLFONT}{COLOUR BLACK}Normál sebesség"
+  1819: "{SMALLFONT}{COLOUR BLACK}Gyorsítás"
+  1820: "{SMALLFONT}{COLOUR BLACK}Extra gyorsítás"
+  1821: "{COLOUR BLACK}Véletlenszerűen generált táj"
+  1822: "{COLOUR WINDOW_2}Kezdés dátuma: {COLOUR BLACK}{UINT16 RAW}"
+  1823: "{COLOUR WINDOW_2}Versenytárs vállalatok: {COLOUR BLACK}Nincs"
+  1824: "{COLOUR WINDOW_2}Versenytárs vállalatok: {COLOUR BLACK}Legfeljebb {INT16}"
+  1825: "{COLOUR BLACK}{MOVE_X 10}(nem indul {INT16} hónapig)"
+  1826: "{COLOUR BLACK}{MOVE_X 10}(nem indul {INT16} hónapig)"
+  1827: "{COLOUR WINDOW_2}Jármű eladási értéke: {COLOUR BLACK}{CURRENCY32}"
+  1828: "{COLOUR WINDOW_2}Utolsó bevétel: {COLOUR BLACK}N/A"
+  1829: "{COLOUR WINDOW_2}Utolsó bevétel ekkor: {COLOUR BLACK}{DATE DMY}"
+  1830: "{COLOUR BLACK}{STRINGID} szállítva {INT16} blokk távolságra {INT16} nap alatt = {CURRENCY32}"
+  1831: "{COLOUR WINDOW_2} Legkorábbi építési év: {COLOUR BLACK}{UINT16 RAW}"
+  1832: "{COLOUR WINDOW_2} Legkésőbbi építési év: {COLOUR BLACK}{UINT16 RAW}"
+  1833: "{COLOUR WINDOW_2}Helyi önkormányzat véleménye a vállalatokról:"
+  1834: Szörnyű
+  1835: Gyenge
+  1836: Átlagos
+  1837: Jó
+  1838: Kiváló
   1839: "{COLOUR WINDOW_2}{STRINGID}: {COLOUR BLACK}{INT16}% ({STRINGID})"
-  1840: Achieve a company value of {CURRENCY32}{STRINGID}{STRINGID}
-  1841: Achieve a monthly profit from vehicles of {CURRENCY32}{STRINGID}{STRINGID}
-  1842: Achieve a performance index of {INT16_1DP}% (“{STRINGID}”){STRINGID}{STRINGID}
-  1843: Deliver {STRINGID}{STRINGID}{STRINGID}
-  1844: " and be the top performing company"
-  1845: " and be one of the top 3 performing companies"
-  1846: " within {INT16} years"
-  1847: " by the end of {UINT16 RAW}"
-  1848: ...and be the top company
-  1849: ...and be within the top 3 companies
-  1850: "...with a time limit of:"
-  1851: "{COLOUR WINDOW_2}Challenge:"
+  1840: Érj el {CURRENCY32} vállalati értéket{STRINGID}{STRINGID}
+  1841: Érj el {CURRENCY32} havi profitot a járművekből{STRINGID}{STRINGID}
+  1842: A teljesítményindexed legyen {INT16_1DP}% (“{STRINGID}”){STRINGID}{STRINGID}
+  1843: {STRINGID} leszállítása{STRINGID}{STRINGID}
+  1844: " és légy a legjobban teljesítő vállalat"
+  1845: " és légy az első 3 vállalat egyike"
+  1846: " {INT16} éven belül"
+  1847: " {UINT16 RAW} végéig"
+  1848: ...és légy az első vállalat
+  1849: ...és légy az első 3 vállalat között
+  1850: "...időkorláttal:"
+  1851: "{COLOUR WINDOW_2}Kihívás:"
   1852: "{COLOUR BLACK}  {STRINGID}"
-  1853: Achieve a certain company value
-  1854: Achieve a certain monthly profit from vehicles
-  1855: Achieve a certain performance index
-  1856: Deliver a certain amount of cargo
+  1853: Adott vállalati érték elérése
+  1854: Adott havi járműprofit elérése
+  1855: Adott teljesítményindex elérése
+  1856: Adott mennyiségű rakomány leszállítása
   1857: "{CURRENCY32}"
   1858: "{INT16_1DP}%"
   1859: "{INT32}"
-  1860: "{INT16} years"
-  1861: "{SMALLFONT}(Completed by {STRINGID} in {INT16} years {INT16} months)"
-  1862: "{COLOUR WINDOW_2}Success!{NEWLINE}{COLOUR BLACK}  You completed the challenge in {INT16} years {INT16} months"
-  1863: "{COLOUR WINDOW_2}Failed!{NEWLINE}{COLOUR BLACK}  You failed to complete the challenge"
-  1864: "{COLOUR WINDOW_2}You have been beaten by the other player!{NEWLINE}{COLOUR BLACK}  Challenge completed by {STRINGID} in {INT16} years {INT16} months"
-  1865: "{COLOUR WINDOW_2}Progress towards completing challenge: {COLOUR BLACK}{INT16}%"
-  1866: "{COLOUR WINDOW_2}Time remaining: {COLOUR BLACK}{INT16} years {INT16} months"
-  1867: "{COLOUR WINDOW_2}Cargo delivered:"
-  1868: "{COLOUR BLACK}None"
+  1860: "{INT16} év"
+  1861: "{SMALLFONT}(Teljesítette: {STRINGID}, ideje: {INT16} év {INT16} hónap)"
+  1862: "{COLOUR WINDOW_2}Siker!{NEWLINE}{COLOUR BLACK}  A kihívást {INT16} év {INT16} hónap alatt teljesítetted"
+  1863: "{COLOUR WINDOW_2}Kudarc!{NEWLINE}{COLOUR BLACK}  Nem sikerült teljesíteni a kihívást"
+  1864: "{COLOUR WINDOW_2}A másik játékos legyőzött!{NEWLINE}{COLOUR BLACK}  A kihívást {STRINGID} teljesítette {INT16} év {INT16} hónap alatt"
+  1865: "{COLOUR WINDOW_2}Haladás a kihívásban: {COLOUR BLACK}{INT16}%"
+  1866: "{COLOUR WINDOW_2}Hátralévő idő: {COLOUR BLACK}{INT16} év {INT16} hónap"
+  1867: "{COLOUR WINDOW_2}Leszállított rakomány:"
+  1868: "{COLOUR BLACK}Semmi"
 
-  1869: "{OUTLINE}{COLOUR WINDOW_2}Exit{NEWLINE}Game"
+  1869: "{OUTLINE}{COLOUR WINDOW_2}Kilépés a{NEWLINE}játékból"
 
-  1870: Company is bankrupt!
-  1871: Allow industries to close down during game
-  1872: Allow new industries to start up during game
-  1873: Share additional companies/owner faces
-  1874: "{SMALLFONT}{COLOUR BLACK}Select this option to send any customized companies/owner face data files to the other computer during the connection process"
-  1875: "{COLOUR WINDOW_2}Forbid competing companies from using"
-  1876: "{COLOUR WINDOW_2}Forbid player companies from using"
-  1877: "{NEWLINE}Stops at: {STRINGID}"
+  1870: A vállalat csődbe ment!
+  1871: Gazdasági épületek bezárásának engedélyezése játék közben
+  1872: Új gazdasági épületek alapításának engedélyezése játék közben
+  1873: Egyedi vállalati/tulajdonosi arcok megosztása
+  1874: "{SMALLFONT}{COLOUR BLACK}A kapcsolódáskor átküldi az egyedi tulajdonosi arcokat a másik félnek"
+  1875: "{COLOUR WINDOW_2}Versenytársaknak tilos használni:"
+  1876: "{COLOUR WINDOW_2}Játékos vállalatoknak tilos használni:"
+  1877: "{NEWLINE}Megáll itt: {STRINGID}"
   1878: ", {STRINGID}"
 
-  1879: "Tutorial 1: Starting a bus service within a town"
-  1880: "Tutorial 2: Building a bus service between two towns"
-  1881: "Tutorial 3: Building a rail service between two towns"
+  1879: "Tutorial 1: Buszjárat indítása városon belül"
+  1880: "Tutorial 2: Buszjárat építése két város között"
+  1881: "Tutorial 3: Vasúti járat építése két város között"
 
   # Tutorial 1
-  1882: "{SMALLFONT}{COLOUR BLACK}We're going to build a bus service to transport passengers within a town, so the first step is to choose a town..."
-  1883: "{SMALLFONT}{COLOUR BLACK}Move the mouse with the right mouse button held down to scroll the view to take a look at the towns..."
-  1884: "{SMALLFONT}{COLOUR BLACK}Boulders Bay is the largest town, so will produce the most passengers. Zoom in using the mouse scroll wheel or the zoom icon..."
-  1885: "{SMALLFONT}{COLOUR BLACK}All road-based construction is done using the road construction window..."
-  1886: "{SMALLFONT}{COLOUR BLACK}We don't need any new roads in the town for our bus service, just bus stop stations..."
-  1887: "{SMALLFONT}{COLOUR BLACK}Our bus service will go from one side of town to the other..."
-  1888: "{SMALLFONT}{COLOUR BLACK}The area highlighted in blue is the catchment area of the station. The more buildings in the catchment area the more passengers will use your station..."
-  1889: "{SMALLFONT}{COLOUR BLACK}Check the station position accepts passengers otherwise you won't be able to unload them and won't be paid. Watch the “Catchment Area” text at the bottom of the construction window..."
-  1890: "{SMALLFONT}{COLOUR BLACK}When you're happy with the location, click the left mouse button to build the station..."
-  1891: "{SMALLFONT}{COLOUR BLACK}We'll build the second station at the opposite side of town..."
-  1892: "{SMALLFONT}{COLOUR BLACK}Now we need to purchase a bus..."
-  1893: "{SMALLFONT}{COLOUR BLACK}We have a choice of two bus types. Let's choose the newer design which carries more passengers..."
-  1894: "{SMALLFONT}{COLOUR BLACK}Move the mouse cursor to position the bus on a road and click the left mouse button to place it..."
-  1895: "{SMALLFONT}{COLOUR BLACK}Before we set the bus going it needs to know where to go to. Select the route details tab on the vehicle window..."
-  1896: "{SMALLFONT}{COLOUR BLACK}To set the route, just click on the stations in the view..."
-  1897: "{SMALLFONT}{COLOUR BLACK}Now we can set the bus going..."
-  1898: "{SMALLFONT}{COLOUR BLACK}Let's watch it pick up its first passengers..."
+  1882: "{SMALLFONT}{COLOUR BLACK}Buszjáratot fogunk indítani egy városon belül, első lépésként válasszunk egy várost..."
+  1883: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egeret a jobb gombot nyomva tartva a nézet görgetéséhez..."
+  1884: "{SMALLFONT}{COLOUR BLACK}Boulder Bay a legnagyobb város, itt lesz a legtöbb utas. Nagyíts rá az egérgörgővel vagy a nagyítás ikonra kattintva..."
+  1885: "{SMALLFONT}{COLOUR BLACK}Minden közúti építkezés az útépítés ablakban történik..."
+  1886: "{SMALLFONT}{COLOUR BLACK}Nincs szükségünk új utakra a városban, csak buszmegállókra..."
+  1887: "{SMALLFONT}{COLOUR BLACK}A buszunk a város egyik feléből a másikba fog közlekedni..."
+  1888: "{SMALLFONT}{COLOUR BLACK}A kékkel jelölt rész az állomás vonzáskörzete. Minél több épület van benne, annál több az utas..."
+  1889: "{SMALLFONT}{COLOUR BLACK}Ellenőrizd, hogy a megálló elfogad-e utasokat az adott helyen, különben nem tudsz pénzt keresni. Figyeld az építési ablak alján a „Vonáskörzet” szöveget..."
+  1890: "{SMALLFONT}{COLOUR BLACK}Ha elégedett vagy a hellyel, kattints a bal gombbal az építéshez..."
+  1891: "{SMALLFONT}{COLOUR BLACK}Építsük fel a második megállót a város túlsó felén..."
+  1892: "{SMALLFONT}{COLOUR BLACK}Most vásárolnunk kell egy buszt..."
+  1893: "{SMALLFONT}{COLOUR BLACK}Kétféle busz közül választhatunk. Válasszuk az újabb típust, amely több utast tud szállítani..."
+  1894: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egérmutatót egy útra, hogy a busz a kívánt helyen legyen, majd kattints a bal egérgombbal a elhelyezéséhez..."
+  1895: "{SMALLFONT}{COLOUR BLACK}Mielőtt elindítjuk a buszt, meg kell adnunk, hová menjen. Válaszd a járműablakban az útvonal részletei fület..."
+  1896: "{SMALLFONT}{COLOUR BLACK}Az útvonal beállításához egyszerűen kattints az állomásokra a nézetben..."
+  1897: "{SMALLFONT}{COLOUR BLACK}Most már elindíthatjuk a buszt..."
+  1898: "{SMALLFONT}{COLOUR BLACK}Nézzük, ahogy felveszi az első utasait..."
 
   # Tutorial 2
-  1899: "{SMALLFONT}{COLOUR BLACK}We're going to build a bus service to transport passengers between Boulder Bay and Breakers Bridge. As there are no roads linking the towns, we'll need to build one..."
-  1900: "{SMALLFONT}{COLOUR BLACK}Select the orientation of the new section of road, and click on the view to start construction..."
-  1901: "{SMALLFONT}{COLOUR BLACK}Clicking the 'build this' icon will add more road sections of the same type..."
-  1902: "{SMALLFONT}{COLOUR BLACK}Before continuing, here's a quicker way of starting road construction..."
-  1903: "{SMALLFONT}{COLOUR BLACK}Just click the right mouse button on the end of the road you want to extend..."
-  1904: "{SMALLFONT}{COLOUR BLACK}We need to turn left here, so select a left hand curve..."
-  1905: "{SMALLFONT}{COLOUR BLACK}And now back to building straight again..."
-  1906: "{SMALLFONT}{COLOUR BLACK}That's the road built, now for the stations..."
-  1907: "{SMALLFONT}{COLOUR BLACK}And finally we'll purchase a bus and set it going..."
-  1908: "{SMALLFONT}{COLOUR BLACK}This could be quite a busy route, so we'll buy a second bus as well..."
-  1909: "{SMALLFONT}{COLOUR BLACK}To quickly copy Bus 1's entire route to Bus 2, just click on Bus 1's 'end of route list' text..."
+  1899: "{SMALLFONT}{COLOUR BLACK}Buszjáratot fogunk létrehozni az utasok Boulder Bay és Breakers Bridge közötti szállítására. Mivel nincs út a két település között, építenünk kell egyet..."
+  1900: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az új útszakasz irányát, majd kattints a nézetben az építés megkezdéséhez..."
+  1901: "{SMALLFONT}{COLOUR BLACK}Az „Építés” ikonra kattintva további, azonos típusú útszakaszokkal bővítheted..."
+  1902: "{SMALLFONT}{COLOUR BLACK}Mielőtt folytatjuk, mutatok egy gyorsabb módszert az útépítés megkezdésére..."
+  1903: "{SMALLFONT}{COLOUR BLACK}Egyszerűen kattints a jobb egérgombbal annak az útnak a végére, amelyet meg szeretnél hosszabbítani..."
+  1904: "{SMALLFONT}{COLOUR BLACK}Itt balra kell kanyarodnunk, ezért válassz egy balra kanyarodó útszakaszt..."
+  1905: "{SMALLFONT}{COLOUR BLACK}Most pedig folytassuk az építést egyenes útszakasszal..."
+  1906: "{SMALLFONT}{COLOUR BLACK}Az út elkészült, most következnek az állomások..."
+  1907: "{SMALLFONT}{COLOUR BLACK}Végül vásárolunk egy buszt, és elindítjuk..."
+  1908: "{SMALLFONT}{COLOUR BLACK}Ez meglehetősen forgalmas útvonal lehet, ezért veszünk egy második buszt is..."
+  1909: "{SMALLFONT}{COLOUR BLACK}Ha gyorsan szeretnéd átmásolni Busz 1 teljes útvonalát Busz 2-re, egyszerűen kattints a Busz 1-nél az „utasításlista vége” szövegre..."
 
   # Tutorial 3
-  1910: "{SMALLFONT}{COLOUR BLACK}Let's start by building a rail passenger service between the two largest towns..."
-  1911: "{SMALLFONT}{COLOUR BLACK}Rail stations can only be built on straight track and need to be long enough for our train - This is where we'll build one station in a few minutes..."
-  1912: "{SMALLFONT}{COLOUR BLACK}Now to build the stations..."
-  1913: "{SMALLFONT}{COLOUR BLACK}Now to build the train. We will need a locomotive to pull the train and carriages to carry the passengers..."
-  1914: "{SMALLFONT}{COLOUR BLACK}Because the track is just a single line, there's no need to set up a route - Just start the train..."
-  1915: "{SMALLFONT}{COLOUR BLACK}Let's extend the track to create a junction and spur to the third town. Right-clicking the track opens the track construction window ready to build a junction..."
-  1916: "{SMALLFONT}{COLOUR BLACK}Because the track layout is no longer simple we need to give our train a route..."
-  1917: "{SMALLFONT}{COLOUR BLACK}We could now add a second train, but first we need to build signals to prevent train collisions..."
-  1918: "{SMALLFONT}{COLOUR BLACK}The signals divide the track into 3 separate 'block sections' and only one train will be allowed to enter each section at once..."
+  1910: "{SMALLFONT}{COLOUR BLACK}Építsünk vasúti személyszállító járatot a két legnagyobb város közé..."
+  1911: "{SMALLFONT}{COLOUR BLACK}Vasútállomás csak egyenes vágányra építhető és elég hosszúnak kell lennie a vonathoz..."
+  1912: "{SMALLFONT}{COLOUR BLACK}Most építsük fel az állomásokat..."
+  1913: "{SMALLFONT}{COLOUR BLACK}Most jöhet a vonat. Kell egy mozdony és vagonok az utasoknak..."
+  1914: "{SMALLFONT}{COLOUR BLACK}Mivel a pálya egy egyszerű vonal, nem kell útvonalat beállítani - csak indítsd el..."
+  1915: "{SMALLFONT}{COLOUR BLACK}Bővítsük a pályát egy elágazással a harmadik város felé. Jobb klikk a vágányra az építéshez..."
+  1916: "{SMALLFONT}{COLOUR BLACK}Mivel a hálózat már bonyolultabb, meg kell adnunk az útvonalat..."
+  1917: "{SMALLFONT}{COLOUR BLACK}Hozzádhatnánk egy második vonatot is, de előbb jelzőket kell építeni az ütközések elkerülésére..."
+  1918: "{SMALLFONT}{COLOUR BLACK}A jelzők blokkokra osztják a pályát, egy blokkban egyszerre csak egy vonat lehet..."
 
-  # Options/Misc
-  1919: Use preferred owner name when starting a new game
-  1920: "{SMALLFONT}{COLOUR BLACK}Select this option to use the same company owner name every time you start a new game"
-  1921: "{COLOUR WINDOW_2}Preferred owner name: {COLOUR BLACK}{STRINGID}"
-  1922: Preferred Owner Name
-  1923: "Enter the preferred owner name:"
+  # Beállítások/Egyéb
+  1919: Preferált tulajdonosnév használata új játéknál
+  1920: "{SMALLFONT}{COLOUR BLACK}Válaszd ezt a lehetőséget, ha minden új játék indításakor ugyanazt a vállalattulajdonos-nevet szeretnéd használni"
+  1921: "{COLOUR WINDOW_2}Preferált tulajdonosnév: {COLOUR BLACK}{STRINGID}"
+  1922: Preferált tulajdonosnév
+  1923: "Írd be a preferált nevet:"
 
-  1924: "{COLOUR BLACK}{TINYFONT}Power"
-  1925: "{COLOUR BLACK}{TINYFONT}Brake"
-  1926: "{SMALLFONT}{COLOUR BLACK}Move the selected order up in the list"
-  1927: "{SMALLFONT}{COLOUR BLACK}Move the selected order down in the list"
+  1924: "{COLOUR BLACK}{TINYFONT}Erő"
+  1925: "{COLOUR BLACK}{TINYFONT}Fék"
+  1926: "{SMALLFONT}{COLOUR BLACK}A kijelölt utasítás mozgatása felfelé"
+  1927: "{SMALLFONT}{COLOUR BLACK}A kijelölt utasítás mozgatása lefelé"
   1928: A játék nem futtatható közvetlenül a csak olvasható adathordozóról
 
-  1929: Atari Inc. Credits...
-  1930: "{COLOUR WINDOW_2}Licensed to Atari Inc."
-  1931: Atari Inc. Credits
+  1929: Atari Inc. közreműködők...
+  1930: "{COLOUR WINDOW_2}Licenc: Atari Inc."
+  1931: Atari Inc. közreműködők
 
-  1932: A játékverziók nem kompatibilisek - Nem lehet csatlakozni!
-  1933: "{SMALLFONT}{COLOUR BLACK}Rövid szöveges üzenet küldése a másik játékosnak"
+  1932: A játékverziók nem kompatibilisek - nem lehet csatlakozni!
+  1933: "{SMALLFONT}{COLOUR BLACK}Rövid üzenet küldése a másik játékosnak"
   1934: a másik játékos
   1935: "A másik játékos kilépett a játékból: A kétjátékos mód megszakadt"
 
-  1936: "{COLOUR YELLOW}Use of this product is subject to the terms of a license agreement{NEWLINE}found in the product's “ReadMe” file and in the manual"
-  1937: "{COLOUR YELLOW}ESRB Notice: Game experience may change during online play"
-  1938: "{COLOUR TOPAZ}Some forms of transport in this game have names that may be similar to those of real vehicles."
-  1939: "{COLOUR TOPAZ}This is a device to help players relate to the fictional universe of the game."
-  1940: "{COLOUR TOPAZ}The qualities (including speed, capacity, reliability, and cost) that have been attributed to various"
-  1941: "{COLOUR TOPAZ}vehicles are for game purposes only and are not intended to represent those of real"
-  1942: "{COLOUR TOPAZ}commercially available machines whether similarly named or not."
+  1936: "{COLOUR YELLOW}A termék használatára a termék „ReadMe” fájljában és a kézikönyvben található licencszerződés feltételei vonatkoznak"
+  1937: "{COLOUR YELLOW}ESRB-figyelmeztetés: Az online játék során a játékélmény változhat"
+  1938: "{COLOUR TOPAZ}A játékban szereplő egyes közlekedési eszközök neve hasonlíthat valódi járművek nevéhez."
+  1939: "{COLOUR TOPAZ}Ez csak egy eszköz, amely segíti a játékosokat a játék fiktív világának megértésében."
+  1940: "{COLOUR TOPAZ}A különböző járművekhez rendelt tulajdonságok (beleértve a sebességet, a kapacitást, a megbízhatóságot és a költséget)"
+  1941: "{COLOUR TOPAZ}kizárólag a játék céljait szolgálják, és nem a valóban"
+  1942: "{COLOUR TOPAZ}kereskedelmi forgalomban kapható, hasonló nevű vagy más elnevezésű járművek tulajdonságait hivatottak tükrözni."
 
   1943: "{COLOUR WINDOW_2}Senior Producer:  Thomas J. Zahorik"
   1944: "{COLOUR WINDOW_2}Senior Brand Manager:  Jeff Foley"
@@ -2050,29 +2049,29 @@ strings:
   1994: Hajó
   1995: "{SMALLFONT}{COLOUR BLACK}Sebességrekordok"
   1996: Sebességrekordok
-  1997: "{COLOUR WINDOW_2}Szárazföldi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
-  1998: "{COLOUR WINDOW_2}Légi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
-  1999: "{COLOUR WINDOW_2}Vízi szolgáltatás sebességrekordja: {COLOUR BLACK}{VELOCITY}"
-  2000: "{COLOUR BLACK}Teljesítette: {STRINGID} ekkor: {DATE DMY}"
+  1997: "{COLOUR WINDOW_2}Szárazföldi közlekedési sebességrekord: {COLOUR BLACK}{VELOCITY}"
+  1998: "{COLOUR WINDOW_2}Légi közlekedési sebességrekord: {COLOUR BLACK}{VELOCITY}"
+  1999: "{COLOUR WINDOW_2}Vízi közlekedési sebességrekord: {COLOUR BLACK}{VELOCITY}"
+  2000: "{COLOUR BLACK}Elérte: {STRINGID}, ekkor: {DATE DMY}"
   2001: Megjelenítési mód változásának megerősítése
   2002: "{COLOUR WINDOW_2}Megváltozott a felbontás: {UINT16 RAW} x {UINT16 RAW}"
   2003: "{COLOUR WINDOW_2}_"
-  2004: "{COLOUR WINDOW_2}File name:"
-  2005: "{COLOUR WINDOW_2}Folder: {COLOUR BLACK}{STRINGID}"
-  2006: "{SMALLFONT}{COLOUR BLACK}Up one level to parent folder"
-  2007: "{COLOUR WINDOW_2}Company: {COLOUR BLACK}{STRINGID}"
-  2008: "{COLOUR WINDOW_2}Date: {COLOUR BLACK}{DATE DMY}"
-  2009: "{COLOUR WINDOW_2}Challenge progress: {COLOUR BLACK}{INT16}%"
-  2010: "{COLOUR WINDOW_2}Challenge: {COLOUR BLACK}Completed"
-  2011: "{COLOUR WINDOW_2}Challenge: {COLOUR BLACK}Failed"
-  2012: "Felülírod a meglévő fájlt: “{STRINGID}”?"
-  2013: Replace
-  2014: "Delete file: “{STRINGID}”?"
-  2015: Delete
-  2016: "Error: Invalid filename"
-  2017: Industry Name
-  2018: "Enter new name for {STRINGID}:"
-  2019: Nem lehet átnevezni a gazdasági épületet......
+  2004: "{COLOUR WINDOW_2}Fájlnév:"
+  2005: "{COLOUR WINDOW_2}Mappa: {COLOUR BLACK}{STRINGID}"
+  2006: "{SMALLFONT}{COLOUR BLACK}Ugrás a szülőmappába"
+  2007: "{COLOUR WINDOW_2}Vállalat: {COLOUR BLACK}{STRINGID}"
+  2008: "{COLOUR WINDOW_2}Dátum: {COLOUR BLACK}{DATE DMY}"
+  2009: "{COLOUR WINDOW_2}Kihívás állása: {COLOUR BLACK}{INT16}%"
+  2010: "{COLOUR WINDOW_2}Kihívás: {COLOUR BLACK}Teljesítve"
+  2011: "{COLOUR WINDOW_2}Kihívás: {COLOUR BLACK}Sikertelen"
+  2012: "Felülírod a meglévő fájlt: „{STRINGID}”?"
+  2013: Csere
+  2014: "Törlöd a fájlt: „{STRINGID}”?"
+  2015: Törlés
+  2016: "Hiba: Érvénytelen fájlnév"
+  2017: Gazdasági épület neve
+  2018: "Írj be új nevet {STRINGID} számára:"
+  2019: Nem lehet átnevezni a gazdasági épületet...
   2020: "{NEWLINE 0 1}{SPRITE}{SMALLFONT}{NEWLINE 45 1}Max. sebesség: {STRINGID}{NEWLINE 45 11}Magassági határ: {HEIGHT}"
   2021: Másolt CD-kulcsokat találtunk - Nem lehet kapcsolódni!
   2022: "{COLOUR BLACK}{SMALLFONT}(Számítógépnév = {STRINGID})"
@@ -2091,137 +2090,137 @@ strings:
   2035: 13.
   2036: 14.
   2037: 15.
-  2038: "{COLOUR BLACK}{INT16} selected (maximum {INT16})"
+  2038: "{COLOUR BLACK}{INT16} kiválasztva (maximum {INT16})"
   2039: ""
   2040: ""
   2041: "{COLOUR BLACK}(ID: "
-  2042: "Data for the following object not found: "
-  2043: Not enough space for graphics
-  2044: Too many objects of this type selected
-  2045: "The following object must be selected first: "
-  2046: This object is currently in use
-  2047: This object is required by another object
-  2048: This object is always required
-  2049: Unable to select this object
-  2050: Unable to deselect this object
-  2051: Invalid selection of objects
-  2052: Object Selection - {STRINGID}
-  2053: Interface Styles
-  2054: Sounds
-  2055: Currency
-  2056: Animation Effects
-  2057: Land Vertical Faces
-  2058: Water
-  2059: Land
-  2060: Town Names
-  2061: Cargo
-  2062: Walls
-  2063: Signals
-  2064: Level Crossings
-  2065: Street Lights
-  2066: Tunnels
-  2067: Bridges
-  2068: Track Stations
-  2069: Track Extras
-  2070: Tracks
-  2071: Road Stations
-  2072: Road Extras
-  2073: Roads
-  2074: Airports
-  2075: Ship Ports
-  2076: Vehicles
-  2077: Trees
-  2078: Snow
-  2079: Climate
-  2080: Map Generation Data
-  2081: Buildings
-  2082: Scaffolding
-  2083: Industries
-  2084: World Region
-  2085: Company Owners
-  2086: Scenario Descriptions
-  2087: list of objects
-  2088: "Missing object data, ID: "
-  2089: Export plug-in objects with saved games
-  2090: "{SMALLFONT}{COLOUR BLACK}Select whether to save any additional plug-in object data required (add-in data not supplied with the main product) in saved game or scenario files, allowing them to be loaded by someone who doesn't have the additional object data"
-  2091: At least one generic dual direction road type must be selected
-  2092: A scaffolding type must be selected
-  2093: Advanced
-  2094: "{SMALLFONT}{COLOUR BLACK}Allow more advanced selection of individual items"
+  2042: "A következő objektum adatai nem találhatók: "
+  2043: Nincs elég hely a grafikákhoz
+  2044: Túl sok ilyen típusú objektumot választottál ki
+  2045: "A következő objektumot előbb ki kell választani: "
+  2046: Ez az objektum használatban van
+  2047: Erre az objektumra egy másiknak szüksége van
+  2048: Ez az objektum mindig szükséges
+  2049: Nem sikerült kiválasztani az objektumot
+  2050: Nem sikerült visszavonni a kiválasztást
+  2051: Érvénytelen objektum-kiválasztás
+  2052: Objektum kiválasztása - {STRINGID}
+  2053: Felületi stílusok
+  2054: Hangok
+  2055: Pénznem
+  2056: Animációs effektusok
+  2057: Függőleges terepfalak
+  2058: Víz
+  2059: Felszín
+  2060: Városnevek
+  2061: Rakomány
+  2062: Falak
+  2063: Jelzők
+  2064: Vasúti átjárók
+  2065: Utcalámpák
+  2066: Alagutak
+  2067: Hidak
+  2068: Vasútállomások
+  2069: Vasúti extrák
+  2070: Vágányok
+  2071: Közúti állomások
+  2072: Közúti extrák
+  2073: Utak
+  2074: Repülőterek
+  2075: Kikötők
+  2076: Járművek
+  2077: Fák
+  2078: Hó
+  2079: Éghajlat
+  2080: Térképgenerálási adatok
+  2081: Épületek
+  2082: Állványzat
+  2083: Gazdasági épületek
+  2084: Világrégió
+  2085: Vállalattulajdonosok
+  2086: Pályaleírások
+  2087: objektumlista
+  2088: "Hiányzó objektumadat, ID: "
+  2089: Plugin-objektumok exportálása mentett játékokkal
+  2090: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, hogy a játék mentse-e a mentett játék- vagy pályafájlokba a szükséges további plugin-objektumokat (a fő játékhoz nem mellékelt kiegészítő adatokat), így azok is betölthetik ezeket, akik nem rendelkeznek a további plugin-objektumokkal"
+  2091: "Legalább egy általános, kétirányú úttípust ki kell választani"
+  2092: Állványzat-típust ki kell választani
+  2093: Haladó
+  2094: "{SMALLFONT}{COLOUR BLACK}Az egyes elemek haladóbb kiválasztásának engedélyezése"
   2095: "{COLOUR WHITE}{BIGFONT}£"
   2096: Új objektumok sikeresen telepítve
   2097: Legalább egy gazdasági épületet ki kell választani
   2098: Legalább egy városi épületet ki kell választani
-  2099: Egy cégközpont épülettípust ki kell választani
-  2100: Csak egy cégközpont épülettípust lehet kiválasztani
-  2101: Egy felület-típust ki kell választani
-  2102: Legalább egy járműtípust ki kell választani
-  2103: Legalább egy földtípust ki kell választani
-  2104: Egy pénznemtípust ki kell választani
+  2099: Vállalati székház épülettípust ki kell választani
+  2100: Csak egy vállalati székház épülettípust lehet kiválasztani
+  2101: Egy felülettípust ki kell választani
+  2102: Legalább egy járművet ki kell választani
+  2103: Legalább egy talajtípust ki kell választani
+  2104: Egy pénznemet ki kell választani
   2105: Egy víztípust ki kell választani
   2106: Egy városnév-stílust ki kell választani
-  2107: Legalább egy vasúti átjárótípust ki kell választani
-  2108: Egy utcai lámpatípust ki kell választani
-  2109: Egy hófajtát ki kell választani (még ha nincs is rá szükség)
-  2110: Egy éghajlattípust ki kell választani
-  2111: Egy térkép-generálási adattípust ki kell választani
-  2112: Egy régiótípust ki kell választani
-  2113: mi/h
+  2107: Legalább egy vasúti átjárót ki kell választani
+  2108: Egy lámpatípust ki kell választani
+  2109: Hótípust ki kell választani (akkor is, ha nincs használatban)
+  2110: Klímatípust ki kell választani
+  2111: Térképgenerálási adattípust ki kell választani
+  2112: Régiótípust ki kell választani
+  2113: mérföld/h
   2114: km/h
   2115: "óra:"
-  2116: "órák:"
-  2117: mins
-  2118: "min:"
-  2119: secs
-  2120: " units"
+  2116: "óra:"
+  2117: perc
+  2118: "perc:"
+  2119: mp
+  2120: " egység"
   2121: láb
   2122: m
   2123: LE
   2124: kW
   2125: "{COLOUR WINDOW_2}Nyelv:"
-  2126: "{COLOUR WINDOW_2}Disable vehicle breakdowns"
+  2126: "{COLOUR WINDOW_2}Járműmeghibásodások kikapcsolása"
   2127: "{COLOUR WINDOW_2}Képernyőmód:"
   2128: Ablakos
-  2129: Teljes képernyős
-  2130: Teljes képernyős (keret nélküli ablak)
+  2129: Teljes képernyő
+  2130: Teljes képernyő (keret nélküli ablak)
   2131: Alapértelmezett hangeszköz
-  2132: "{COLOUR WINDOW_2}Window scale factor:"
+  2132: "{COLOUR WINDOW_2}Ablak méretezési faktora:"
   2133: "{COLOUR BLACK}+"
   2134: "{COLOUR BLACK}-"
   2135: "{COLOUR BLACK}{INT32_2DP}"
-  2136: "{COLOUR WINDOW_2}Zoom to cursor position"
-  2137: "{SMALLFONT}{COLOUR BLACK}When enabled, zooming in will centre around the cursor, as opposed to the screen centre."
-  2138: "{COLOUR WINDOW_2}Play title screen music"
+  2136: "{COLOUR WINDOW_2}Nagyítás a kurzorhoz"
+  2137: "{SMALLFONT}{COLOUR BLACK}Ha be van kapcsolva, a nagyítás a kurzor köré történik a képernyő közepe helyett."
+  2138: "{COLOUR WINDOW_2}Főcímzene lejátszása"
   2139: "Kilépés a menübe"
-  2140: "Kilépés az OpenLocoból"
-  2141: "{COLOUR WINDOW_2}MI-cégek letiltása"
-  2142: "{SMALLFONT}{COLOUR BLACK}Ez letiltja az MI „gondolkodását”, így hatástalanná válnak.{NEWLINE}Új játékokban ez azt is megakadályozza, hogy új MI-cégek alakuljanak."
-  2143: "{COLOUR WINDOW_2}Automatikus mentések száma:"
-  2144: "{COLOUR WINDOW_2}Automatikus mentés gyakorisága:"
+  2140: "Kilépés az OpenLocóból"
+  2141: "{COLOUR WINDOW_2}MI-vállalatok letiltása"
+  2142: "{SMALLFONT}{COLOUR BLACK}Ez letiltja az MI „gondolkodását”, így a MI-vállalatok működésképtelenné válnak.{NEWLINE}Új játékokban ez az új MI-vállalatok megalakulását is megakadályozza."
+  2143: "{COLOUR WINDOW_2}Automentések száma:"
+  2144: "{COLOUR WINDOW_2}Automentés gyakorisága:"
   2145: "Soha"
   2146: "Havonta"
   2147: "{INT32} havonta"
   2148: "{COLOUR WINDOW_2}Generátor:"
-  2149: Eredeti generátor  
+  2149: Eredeti generátor
   2150: Simplex generátor
   2151: "Jármű módosítása"
   2152: "Jármű klónozása"
   2153: "A jármű nem klónozható..."
-  2154: "Jármű megkeresése a főnézetben"
-  2155: "Jármű követése a főnézetben"
-  2156: "Csalások/hibakereső eszköztár menü engedélyezése"
-  2157: "{SMALLFONT}{COLOUR BLACK}Ez hozzáad egy extra gombot a játék eszköztárához, amely lehetővé teszi bizonyos csalások és hibakeresési lehetőségek könnyű elérését."
+  2154: "Jármű megkeresése"
+  2155: "Jármű követése"
+  2156: "Csalások/hibakereső eszköztár menüjének engedélyezése"
+  2157: "{SMALLFONT}{COLOUR BLACK}Extra gombot ad a játék eszköztárhoz a csalások és hibakereső eszközök könnyű eléréséhez."
   2158: "Homokozó mód engedélyezése"
   2159: "Kézi vezetés engedélyezése"
-  2160: "Építés engedélyezése szünet közben"
-  2161: "FPS-számláló megjelenítése"
-  2162: "{SMALLFONT}{COLOUR BLACK}Ez megjelenít egy számlálót a képernyő tetején, amely jelzi a másodpercenként kirajzolt képkockák számát."
-  2163: "Képkockaszám-korlátozás feloldása"
+  2160: "Építés szünet alatt"
+  2161: "FPS számláló"
+  2162: "{SMALLFONT}{COLOUR BLACK}Ez a képernyő tetején egy számlálót jelenít meg, amely a másodpercenként kirajzolt képkockák számát mutatja."
+  2163: "FPS-korlát feloldása"
   2164: "{SMALLFONT}{COLOUR BLACK}Eltávolítja a 40 Hz-es frissítési korlátot."
   2165: "Hardver"
   2166: "Térképmegjelenítés"
   2167: "Mezővizsgáló"
-  2168: "{SMALLFONT}{COLOUR BLACK}Aktiválás után válassz ki egy térképmezőt az ellenőrzéshez."
+  2168: "{SMALLFONT}{COLOUR BLACK}Aktiváld egy mező kiválasztásához a térképen, amelynek adatait meg szeretnéd tekinteni."
   2169: "Felszín"
   2170: "Vágány"
   2171: "Állomás"
@@ -2242,47 +2241,47 @@ strings:
   2186: "Vállalati csalások"
   2187: "Járműcsalások"
   2188: "Város csalások"
-  2189: "Kölcsön törlése"
+  2189: "Hitel törlése"
   2190: "Törlés"
   2191: "{COLOUR BLACK}{CURRENCY32}"
   2192: "Célvállalat kiválasztása"
-  2193: "Select cheat to apply"
-  2194: "Irányítás átváltása erre a vállalatra"
+  2193: "Válaszd ki az alkalmazandó csalást"
+  2194: "Váltás ennek a vállalatnak az irányítására"
   2195: "Minden vállalati eszköz megszerzése"
-  2196: "Csőd be/ki"
-  2197: "Börtönstátusz be/ki"
-  2198: "Pénz növelése"
+  2196: "Csődállapot ki/be"
+  2197: "Börtönbüntetés ki/be"
+  2198: "Pénz hozzáadása"
   2199: "{COLOUR WINDOW_2}Összeg:"
   2200: "Hozzáadás"
   2201: "Jármű-megbízhatóság"
-  2202: "Az összeset nullára (korlátlan)"
-  2203: "Az összeset százra (teljes megújulás)"
+  2202: "Összeset nullára (korlátlan)"
+  2203: "Összeset százra (teljes felújítás)"
   2204: "Vállalati értékelések beállítása"
   2205: "-10% mindenhol"
   2206: "+10% mindenhol"
-  2207: "Min. mindenhol"
-  2208: "Max. mindenhol"
+  2207: "Minimum mindenhol"
+  2208: "Maximum mindenhol"
   2209: "Összes jármű"
   2210: "Megáll az állomáson"
   2211: "Rakományt szállít"
   2212: "{MOVE_X 10}Szállít: {STRINGID} {SPRITE}"
   2213: "»{MOVE_X 10}Szállít: {STRINGID} {SPRITE}"
   2214: "Nincs kiválasztva állomás"
-  2215: "Nincs kiválasztott rakománytípus"
+  2215: "Nincs rakománytípus kiválasztva"
   2216: "{SMALLFONT}{COLOUR BLACK}Nyiss meg egy állomásablakot az állomás szerinti szűréshez"
-  2217: "{SMALLFONT}{COLOUR BLACK}Válassz egy árutípust az elérhető áruk közül"
+  2217: "{SMALLFONT}{COLOUR BLACK}Válassz ki egy rakománytípust az elérhető rakományok listájából"
   2218: "Építés: Előző fül"
   2219: "Építés: Következő fül"
-  2220: "Építés: Előző vágányelem"
-  2221: "Építés: Következő vágányelem"
+  2220: "Építés: Előző pályaelem"
+  2221: "Építés: Következő pályaelem"
   2222: "Építés: Előző lejtő"
   2223: "Építés: Következő lejtő"
-  2224: "Építés: Építés a jelenlegi helyen"
-  2225: "Építés: Eltávolítás a jelenlegi helyen"
-  2226: "Építés: Hely kijelölése"
-  2227: "A vonatok jelzőknél visszafordulnak"
-  2228: Automata fizetés
-  2229: "{SMALLFONT}{COLOUR BLACK}Naponta egyszer az aktuális pénzösszeged felhasználásra kerül a kölcsönöd törlesztésére, ha van."
+  2224: "Építés: Építés az aktuális pozícióban"
+  2225: "Építés: Bontás az aktuális pozícióban"
+  2226: "Építés: Pozíció kiválasztása"
+  2227: "A vonatok visszafordulnak a jelzőknél"
+  2228: Automata törlesztés
+  2229: "{SMALLFONT}{COLOUR BLACK}Naponta egyszer a rendelkezésedre álló pénzösszeg a hiteled törlesztésére kerül felhasználásra, ha van hiteled."
   2230: "{COLOUR WINDOW_2}Év:"
   2231: "{COLOUR WINDOW_2}Hónap:"
   2232: "{COLOUR WINDOW_2}Nap:"
@@ -2291,71 +2290,71 @@ strings:
   2235: "{COLOUR BLACK}{INT32}"
   2236: "{COLOUR BLACK}{INT32}"
   2237: "{DATE DMY}"
-  2238: "Játék sebessége: normál"
-  2239: "Játék sebessége: gyors"
-  2240: "Játék sebessége: extra gyors"
+  2238: "Játéksebesség: Normál"
+  2239: "Játéksebesség: Gyors"
+  2240: "Játéksebesség: Extra gyors"
   2241: "{COLOUR WINDOW_2}Kapacitás: {COLOUR BLACK}{STRINGID}"
-  2242: "{NEWLINE}{COLOUR WINDOW_2} Elavult: {COLOUR BLACK}{UINT16 RAW}"
-  2243: "A jármű zárolva van!"
-  2244: "Zárolt járművek megjelenítése"
-  2245: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, megjeleníti az elavult és javasolt járműveket"
-  2246: "{NEWLINE}{COLOUR WINDOW_2} Javasolt: {COLOUR BLACK}{UINT16 RAW}"
-  2247: "Zárolt járművek építésének engedélyezése"
-  2248: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, lehetővé teszi elavult és javasolt járművek építését"
-  2249: "Járművek építése ablak"
-  2250: "{SMALLFONT}{COLOUR BLACK}Enable to change terrain type instead of elevation"
-  2251: "Jobb egérgombos húzás invertálása"
-  2252: "{SMALLFONT}{COLOUR BLACK}When enabled, panning the main game view will have inverted movement"
-  2253: "Felugró pénzek megjelenítése"
-  2254: "{SMALLFONT}{COLOUR BLACK}Felugró pénzek ki-/bekapcsolása az építkezéseknél és járműveknél"
+  2242: "{NEWLINE}{COLOUR WINDOW_2} Elavul: {COLOUR BLACK}{UINT16 RAW}"
+  2243: "Jármű zárolva!"
+  2244: "Zárolt járművek mutatása"
+  2245: "{SMALLFONT}{COLOUR BLACK}Megjeleníti az elavult vagy még el nem ért járműveket."
+  2246: "{NEWLINE}{COLOUR WINDOW_2} Megjelenik: {COLOUR BLACK}{UINT16 RAW}"
+  2247: "Zárolt járművek építése"
+  2248: "{SMALLFONT}{COLOUR BLACK}Lehetővé teszi az elavult vagy jövőbeli járművek megvételét."
+  2249: "Járművásárlás ablak"
+  2250: "{SMALLFONT}{COLOUR BLACK}Magasság helyett a talajtípus módosítása"
+  2251: "Invertált jobb gombos húzás"
+  2252: "{SMALLFONT}{COLOUR BLACK}Megfordítja a nézet mozgatásának irányát."
+  2253: "Lebegő összegek"
+  2254: "{SMALLFONT}{COLOUR BLACK}Kijelzi a költségeket és bevételeket a helyszínen."
   2255: "Szerver indítása"
-  2256: "Szerver bezárása"
+  2256: "Szerver leállítása"
   2257: "Kilépés"
-  2258: "{COLOUR WINDOW_2}Hossza: {COLOUR BLACK}{INT32_2DP} mező, {INT32} kocsi"
-  2259: "{COLOUR WINDOW_2}Hossza: {COLOUR BLACK}{INT32_2DP} mező"
-  2260: "{COLOUR WINDOW_2} Hossza: {COLOUR BLACK}{INT32_2DP} mező"
-  2261: "{NEWLINE}{COLOUR WINDOW_2} Hossza: {COLOUR BLACK}{INT32_2DP} mező"
-  2262: "{NEWLINE}Hossza:  {INT32_2DP} mező"
+  2258: "{COLOUR WINDOW_2}Hossz: {COLOUR BLACK}{INT32_2DP} mező, {INT32} kocsi"
+  2259: "{COLOUR WINDOW_2}Hossz: {COLOUR BLACK}{INT32_2DP} mező"
+  2260: "{COLOUR WINDOW_2} Hossz: {COLOUR BLACK}{INT32_2DP} mező"
+  2261: "{NEWLINE}{COLOUR WINDOW_2} Hossz: {COLOUR BLACK}{INT32_2DP} mező"
+  2262: "{NEWLINE}Hossz:  {INT32_2DP} mező"
   2263: "{COLOUR WINDOW_2}{UINT16}/{UINT16}"
-  2264: "Képmentés a teljes térképről"
+  2264: "Teljes térkép mentése képként"
   2265: "{COLOUR WINDOW_2} Fájlnév: {COLOUR BLACK}{STRINGID}"
-  2266: "Pálya beállításai"
-  2267: "Objektumok kiválasztása"
+  2266: "Pályabeállítások"
+  2267: "Objektumválasztó"
   2268: "Játékmenet finomhangolása"
   2269: "Preferált tulajdonos"
-  2270: "Automatikus mentés beállításai"
-  2271: "Városfejlődés letiltása"
-  2272: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, a városok nem fognak megújulni vagy terjeszkedni az idő múlásával"
-  2273: "Pályakihívás teljesítése"
+  2270: "Automentés beállításai"
+  2271: "Városfejlődés tiltása"
+  2272: "{SMALLFONT}{COLOUR BLACK}Megakadályozza a városok terjeszkedését és épületek cseréjét."
+  2273: "Pályakihívás kényszerített teljesítése"
   2274: "Törlés"
-  2275: "Hiba az objektumok betöltése során"
-  2276: "{COLOUR BLACK}A fájl nem tölthető be, mert néhány hivatkozott objektum hiányzik vagy sérült. Az alábbi lista tartalmazza ezeket."
-  2277: "{COLOUR BLACK}Objektumazonosító"
+  2275: "Hiba az objektumok betöltésekor"
+  2276: "{COLOUR BLACK}A fájl nem tölthető be hiányzó objektumok miatt. Lista lentebb."
+  2277: "{COLOUR BLACK}Objektum ID"
   2278: "{COLOUR BLACK}Típus"
-  2279: "{COLOUR BLACK}Ellenőrző összeg"
-  2280: "Hanghatások lejátszása új üzenetek esetén"
-  2281: "{SMALLFONT}{COLOUR BLACK}Ha engedélyezve van, az új üzeneteket egy megfelelően éljenző tömeg hanghatása kíséri."
-  2282: "{SMALLFONT}{COLOUR BLACK}Menetrendi tábla megfordítása"
-  2283: "Név és típus"
+  2279: "{COLOUR BLACK}Checksum"
+  2280: "Hangjelzés új üzenetnél"
+  2281: "{SMALLFONT}{COLOUR BLACK}Hangeffektet játszik le hirdetmények érkezésekor."
+  2282: "{SMALLFONT}{COLOUR BLACK}Menetrend megfordítása"
+  2283: "Név és Típus"
   2284: "AM"
   2285: "TM"
   2286: "I"
   2287: "S"
-  2288: "{SMALLFONT}{COLOUR BLACK}A mezőelem objektumának neve és típusa"
-  2289: "{SMALLFONT}{COLOUR BLACK}A mezőelem alapmagassága"
-  2290: "{SMALLFONT}{COLOUR BLACK}A mezőelem teljes magassága"
-  2291: "{SMALLFONT}{COLOUR BLACK}A mezőelem iránya"
-  2292: "{SMALLFONT}{COLOUR BLACK}A mezőelem szellemállapota"
+  2288: "{SMALLFONT}{COLOUR BLACK}Objektum neve és típusa"
+  2289: "{SMALLFONT}{COLOUR BLACK}Alapmagasság"
+  2290: "{SMALLFONT}{COLOUR BLACK}Teljes magasság"
+  2291: "{SMALLFONT}{COLOUR BLACK}Irány"
+  2292: "{SMALLFONT}{COLOUR BLACK}Szellem (Ghost) állapot"
   2293: "Kezdő"
   2294: "Haladó"
   2295: "Szakértő"
-  2296: "Alap"
+  2296: "Alapértelmezett"
   2297: "Egyedi"
-  2298: "Komponensek"
-  2299: "Év szerinti rendezés"
-  2300: "Név szerinti rendezés"
+  2298: "Összetevők"
+  2299: "Rendezés év szerint"
+  2300: "Rendezés név szerint"
   2301: "Hajtás nélküli"
-  2302: "Meghajtott"
+  2302: "Hajtott"
   2303: "Feloldva"
   2304: "Zárolva"
   2305: "Rakomány"
@@ -2363,51 +2362,51 @@ strings:
   2307: "{MOVE_X 10}{STRINGID} {SPRITE}"
   2308: "»{MOVE_X 10}{STRINGID} {SPRITE}"
   2309: "{COLOUR BLACK}{STRINGID} {SPRITE}"
-  2310: "Rakomány nélküli"
-  2311: "Járműrakodási büntetés kikapcsolása"
-  2312: "{SMALLFONT}{COLOUR BLACK}Amikor engedélyezve van, letiltja a jármű rakodási sebességének büntetését, ha a jármű hossza meghaladja az állomás hosszát"
+  2310: "Nincs rakomány"
+  2311: "Rakodási büntetés kikapcsolása"
+  2312: "{SMALLFONT}{COLOUR BLACK}Letiltja a lassú rakodást, ha a vonat hosszabb, mint a peron."
   2313: "Átlátszó épületek"
   2314: "Átlátszó utak"
-  2315: "Átlátszó díszletek"
-  2316: "Átlátszó pályák"
+  2315: "Átlátszó díszlet"
+  2316: "Átlátszó vágányok"
   2317: "Átlátszó fák"
-  2318: "Átlátszó épületek be/ki"
-  2319: "Átlátszó utak be/ki"
-  2320: "Átlátszó díszletek be/ki"
-  2321: "Átlátszó pályák be/ki"
-  2322: "Átlátszó fák be/ki"
-  2323: "{SMALLFONT}{COLOUR BLACK}Engedélyezd a megemelt földterületek külső széleinek simításához. Hasznos a hegyek létrehozásához."
-  2324: "Jármű/pálya viselkedés"
+  2318: "Épületek átlátszósága ki/be"
+  2319: "Utak átlátszósága ki/be"
+  2320: "Díszlet átlátszósága ki/be"
+  2321: "Vágányok átlátszósága ki/be"
+  2322: "Fák átlátszósága ki/be"
+  2323: "{SMALLFONT}{COLOUR BLACK}Simítja a meredek terep széleit hegyeknél."
+  2324: "Jármű/Vágány viselkedés"
   2325: "{SMALLFONT}{COLOUR BLACK}Vállalati beállítások"
   2326: "Beállítások - Vállalat"
-  2327: "Preferált vállalatvezető arc"
-  2328: "Új játék indításakor a preferált vállalatvezető arcának használata"
-  2329: "{SMALLFONT}{COLOUR BLACK}Ha be van jelölve, új pálya indításakor a preferált vállalatvezető arca lesz használva."
-  2330: "{COLOUR WINDOW_2}Preferred owner face: {COLOUR BLACK}{STRINGID}"
-  2331: "Preferált vállalatvezető arc kiválasztása"
-  2332: "{COLOUR WINDOW_2}Állomásméret-korlátozások kikapcsolása"
-  2333: "{SMALLFONT}{COLOUR BLACK}Ha be van kapcsolva, a vasútállomások maximális hossza nincs többé 16 mezőre korlátozva. Fontos, hogy az állomások így sem lehetnek összesen több mint 80 mező méretűek."
-  2334: Tájkép generálása - Víz
-  2335: "{SMALLFONT}{COLOUR BLACK}Víz generálási beállítások"
+  2327: "Preferált tulajdonosi arc"
+  2328: "Preferált arc használata új játéknál"
+  2329: "{SMALLFONT}{COLOUR BLACK}Mindig a megadott tulajdonosi képet használja új játék kezdetekor."
+  2330: "{COLOUR WINDOW_2}Preferált arc: {COLOUR BLACK}{STRINGID}"
+  2331: "Preferált tulajdonosi arc választása"
+  2332: "{COLOUR WINDOW_2}Állomásméret-korlát kikapcsolása"
+  2333: "{SMALLFONT}{COLOUR BLACK}Megszünteti a peronok 16 mezős korlátját (80 mező marad a maximum)."
+  2334: Tájgenerálás - Víz
+  2335: "{SMALLFONT}{COLOUR BLACK}Vízgenerálási beállítások"
   2336: Általános
   2337: Generátor
-  2338: "{COLOUR WINDOW_2}Jelenlegi dombobjektum: {COLOUR BLACK}{STRINGID}"
-  2339: "{COLOUR WINDOW_2}A terepsimítási lépések száma:"
-  2340: "PNG magasságtérkép fájl"
-  2341: "PNG magasságtérkép betöltése"
+  2338: "{COLOUR WINDOW_2}Aktuális dombelem: {COLOUR BLACK}{STRINGID}"
+  2339: "{COLOUR WINDOW_2}Terepimítási lépések száma:"
+  2340: "PNG magasságtérkép"
+  2341: "Magasságtérkép betöltése PNG-ből"
   2342: "Tallózás..."
-  2343: "{COLOUR WINDOW_2}Jelenlegi magasságtérkép fájl: {COLOUR BLACK}{STRING}"
+  2343: "{COLOUR WINDOW_2}Aktuális magasságtérkép fájl: {COLOUR BLACK}{STRING}"
   2344: "(nincs kiválasztva)"
   2345: "Pályafájlok ellenőrzése..."
-  2346: "{COLOUR BLACK}Termelés múlt hónapban"
-  2347: "{COLOUR BLACK}Termelés múlt hónapban ▼"
-  2348: "{SMALLFONT}{COLOUR BLACK}Lista rendezése az előző havi termelés alapján"
-  2349: "Beállítások ablak megjelenítése"
+  2346: "{COLOUR BLACK}Múlt havi termelés"
+  2347: "{COLOUR BLACK}Múlt havi termelés ▼"
+  2348: "{SMALLFONT}{COLOUR BLACK}Rendezés múlt havi termelés szerint"
+  2349: "Beállítások ablak"
   2350: "Átlátszó hidak"
-  2351: "Átlátszó hidak be/ki"
+  2351: "Hidak átlátszósága ki/be"
   2352: "{COLOUR WINDOW_2}Folyómedrek száma:"
-  2353: "{COLOUR WINDOW_2}Minimális folyószélesség:"
-  2354: "{COLOUR WINDOW_2}Maximális folyószélesség:"
+  2353: "{COLOUR WINDOW_2}Min. folyószélesség:"
+  2354: "{COLOUR WINDOW_2}Max. folyószélesség:"
   2355: "{COLOUR WINDOW_2}Folyópart szélessége:"
   2356: "{COLOUR WINDOW_2}Kanyargás mértéke:"
   2357: "OpenLoco"
