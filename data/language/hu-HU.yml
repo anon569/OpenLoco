@@ -69,10 +69,10 @@ strings:
   58: Túl sok név van megadva
   59: Nincs elég pénz - {CURRENCY32} szükséges
   60: "{SMALLFONT}{COLOUR BLACK}Ablak bezárása"
-  61: A játék inicializálása sikertelen
+  61: A játék inicializálása nem sikerült
   62: A játék nem indítható minimalizált állapotban
-  63: Nem sikerült inicializálni a grafikai rendszert
-  64: A CD-kulcs ({INT32 RAW}) nem érvényes a Locomotion CD-hez!{COLOUR WINDOW_1}{COLOUR WINDOW_1}Kérlek, telepítsd újra a Chris Sawyer's Locomotion-t a helyes kulccsal.
+  63: A grafikai rendszer inicializálása sikertelen
+  64: A megadott CD-kulcs ({INT32 RAW}) nem érvényes a Locomotion CD-hez!{COLOUR WINDOW_1}{COLOUR WINDOW_1}Kérjük, telepítsd újra a Chris Sawyer's Locomotion-t a helyes kulccsal.
 
   65: "{UINT16 RAW} x {UINT16 RAW}"
   66: "{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{UINT16 RAW} x {UINT16 RAW}"
@@ -111,19 +111,19 @@ strings:
   97: "{SMALLFONT}{COLOUR BLACK}{STRINGID}"
   98: Túl alacsony!
   99: Túl magas!
-  100: Itt nem lehet süllyeszteni a talajt...
-  101: Itt nem lehet emelni a talajt...
+  100: Itt nem süllyeszthető a talaj...
+  101: Itt nem emelhető a talaj...
   102: Objektum van az útban
   103: Játék betöltése
   104: Játék mentése
   105: Kilépés a pályaszerkesztőből
   106: Kilépés a játékból
-  107: Képmentés
-  108: Képmentés
-  109: A képernyő elmentve '{STRING}' néven
+  107: Képernyőkép
+  108: Képernyőkép
+  109: Képernyőkép elmentve '{STRING}' néven
   110: A képmentés sikertelen!
   111: Táj-adatterület megtelt!
-  112: Nem építhető részben a föld felett, részben a föld alatt
+  112: Nem építhető egyszerre a föld felett és alatt
   113: "{STRINGID}"
   114: "{SMALLFONT}{COLOUR BLACK}Balkanyar"
   115: "{SMALLFONT}{COLOUR BLACK}Jobbkanyar"
@@ -141,8 +141,8 @@ strings:
   127: "{SMALLFONT}{COLOUR BLACK}S kanyar egyvágányú pályához"
   128: "{SMALLFONT}{COLOUR BLACK}Forduló"
   129: "{SMALLFONT}{COLOUR BLACK}(Kattints a tájra az építés megkezdéséhez)"
-  130: "{SMALLFONT}{COLOUR BLACK}Ezen szakasz építése"
-  131: "{SMALLFONT}{COLOUR BLACK}Előző szakasz eltávolítása"
+  130: "{SMALLFONT}{COLOUR BLACK}Ezen szakasz megépítése"
+  131: "{SMALLFONT}{COLOUR BLACK}Előző szakasz törlése"
   132: "{SMALLFONT}{COLOUR BLACK}Meredek lejtő lefelé"
   133: "{SMALLFONT}{COLOUR BLACK}Lejtő lefelé"
   134: "{SMALLFONT}{COLOUR BLACK}Vízszintes"
@@ -153,38 +153,38 @@ strings:
   139: Itt nem építhető jelző...
   140: Itt nem lehet jelzőket építeni...
   141: A jelző nem távolítható el...
-  142: Nem távolítható el: {POP16}{POP16}{POP16}{STRINGID}...
-  143: Nem építhető: {POP16}{POP16}{POP16}{STRINGID}...
-  144: Előbb emeld meg vagy süllyeszd le a talajt
+  142: {POP16}{POP16}{POP16}{STRINGID} nem távolítható el...
+  143: {POP16}{POP16}{POP16}{STRINGID} nem építhető meg...
+  144: Előbb módosítsd a talajszintet
   145: Földalatti nézet
   146: Előtérben lévő vágányok és utak elrejtése
-  147: Az állomás csak út végére építhető
+  147: Ez az állomástípus csak az út végére építhető
   148: Rossz állomástípus ehhez: {STRINGID}
   149: Az állomás nem kompatibilis ezzel: {STRINGID}
   150: Vasúti átjáró van az útban
-  151: Átjáró csak egyenes úton és vágányon, azonos szinten lehetséges
-  152: Kereszteződés nem lehetséges
-  153: A kereszteződésnek teljesen vízszintesnek kell lennie
-  154: "{STRINGID} útban van / rossz magasság kereszteződéshez"
-  155: Itt már épült
-  156: Nem lehet keresztezni vagy csatlakozni ehhez: {STRINGID}
-  157: Kereszteződések nem lehetségesek
+  151: Vasúti átjáró csak akkor építhető, ha az út és a vágány is egyenes és azonos szintű
+  152: Nem alakítható ki csomópont
+  153: A csomópontnak teljesen vízszintesnek kell lennie
+  154: "{STRINGID} útban van / nem megfelelő magasság a csomóponthoz"
+  155: Már meg van építve itt
+  156: Nem lehet keresztezni vagy csomópontot létrehozni a következővel: {STRINGID}
+  157: Nem lehet csomópontot létrehozni
   158: Jelző
   159: Állomás
   160: Repülőtér
   161: Kikötő
   162: Állomás van az útban
   163: Jelző van az útban
-  164: A repülőtér nem távolítható el...
-  165: A kikötő nem távolítható el...
-  166: Az állomás nem távolítható el...
-  167: Rossz vágány- vagy úttípus!
-  168: A híd típusának meg kell egyeznie
-  169: A híd nem alkalmas kereszteződéshez
-  170: Vágánykombináció nem lehetséges
+  164: A repülőtér bontható el...
+  165: A kikötő nem bontható el...
+  166: Az állomás nem bontható el...
+  167: Nem megfelelő vágány/úttípus!
+  168: A hídtípusoknak meg kell egyezniük
+  169: A híd nem alkalmas csomópont kialakítására
+  170: Ez a vágánykombináció nem lehetséges
   171: Túl sok objektum van a játékban
-  172: Forgatás óramutató járásával egyezően
-  173: Forgatás óramutató járásával ellentétesen
+  172: Forgatás jobbra
+  173: Forgatás jobbra
   174: "Indítás első alkalommal..."
   175: "Objektumfájlok ellenőrzése..."
   176: Játék betöltése
@@ -192,11 +192,11 @@ strings:
   178: Kilépés a játékból
   179: Kilépés a pályaszerkesztőből
   180: Táj betöltése
-  181: Mented ezt betöltés előtt ?
-  182: Mented ezt kilépés előtt ?
-  183: Mented ezt kilépés előtt ?
+  181: Mented a jelenlegi állást betöltés előtt?
+  182: Mented a jelenlegi állást kilépés előtt?
+  183: Mented a jelenlegi állást kilépés előtt?
   184: Mentés
-  185: Nincs mentés
+  185: Elvetés
   186: Mégse
   187: OK
 
@@ -213,26 +213,26 @@ strings:
 
   198: Térkép
   199: Járműlista
-  200: Új járművek listája
+  200: Új járművek
   201: Lista
   202: Fák listája
-  203: Utasításlista
+  203: Utasítások
   204: Állomáslista
   205: Városlista
   206: Gazdasági épületek listája
-  207: Új gazdasági épületek listája
+  207: Új gazdasági épületek
   208: Épületlista
   209: Falak listája
-  210: Értékelési lista
+  210: Értékelések
   211: Rakománylista
-  212: Üzenetlista
+  212: Üzenetek
   213: Vállalatlista
-  214: Pályák listája
-  215: Készítők listája
+  214: Pályalista
+  215: Készítők
 
   216: "{COLOUR WINDOW_2}▲{COLOUR BLACK}  {CURRENCY32}"
   217: "{COLOUR WINDOW_2}▼{COLOUR BLACK}  {CURRENCY32}"
-  218: Nem lehet a kiválasztott üzemmódra váltani
+  218: Nem sikerült a választott üzemmódra váltani
   219: "{COLOUR WINDOW_2}Költség: {COLOUR BLACK}{CURRENCY32}"
   220: (1. játékos)
   221: (2. játékos)
@@ -267,31 +267,31 @@ strings:
   250: "{STRINGID} - Színséma"
   251: "{STRINGID} - Kihívás"
   252: "{SMALLFONT}{COLOUR BLACK}Irányváltás"
-  253: "{SMALLFONT}{COLOUR BLACK}Áthaladás a tiltó jelzés ellenére"
-  254: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eltávolítása a vágányról/útról"
-  255: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a vágányon/úton"
+  253: "{SMALLFONT}{COLOUR BLACK}Áthaladás tiltó jelzésnél"
+  254: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eltávolítása a pályáról"
+  255: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a pályán"
   256: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eltávolítása a repülőtérről"
   257: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a repülőtéren"
   258: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eltávolítása a vízből"
   259: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a dokkban"
-  260: Nem indítható el: {POP16}{POP16}{POP16}{STRINGID}...
-  261: Manuális üzemmód nem választható: {POP16}{POP16}{POP16}{STRINGID}...
-  262: Nem állítható meg: {POP16}{POP16}{POP16}{STRINGID}...
+  260: {POP16}{POP16}{POP16}{STRINGID} nem indítható el...
+  261: {POP16}{POP16}{POP16}{STRINGID} számára nem választható manuális mód...
+  262: {POP16}{POP16}{POP16}{STRINGID} nem állítható meg...
   263: "{VELOCITY}"
   264: Végtelen{POP16}
   265: Megállás
   266: Indítás
   267: Manuális
-  268: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, mennyi vágányt/utat szeretnél fejleszteni"
-  269: "{SMALLFONT}{COLOUR BLACK}Leállítás/indítás: {POP16}{STRINGID}"
+  268: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a fejlesztendő szakasz hosszát"
+  269: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} indítása/megállítása"
   270: "{COLOUR BLACK}{STRINGID}"
-  271: "{SMALLFONT}{COLOUR BLACK}Vágány/út építése"
-  272: "{SMALLFONT}{COLOUR BLACK}Állomásépítés"
-  273: "{SMALLFONT}{COLOUR BLACK}Jelzőépítés"
-  274: "{SMALLFONT}{COLOUR BLACK}Vágány villamosítása és egyéb fejlesztések"
-  275: "{SMALLFONT}{COLOUR BLACK}Válaszd ki a jelző típusát"
+  271: "{SMALLFONT}{COLOUR BLACK}Pálya/út építése"
+  272: "{SMALLFONT}{COLOUR BLACK}Állomás építése"
+  273: "{SMALLFONT}{COLOUR BLACK}Jelző építése"
+  274: "{SMALLFONT}{COLOUR BLACK}Villamosítás és egyéb fejlesztések"
+  275: "{SMALLFONT}{COLOUR BLACK}Jelző típusának kiválasztása"
   276: "{SMALLFONT}{COLOUR BLACK}Jelzők építése mindkét irányban"
-  277: "{SMALLFONT}{COLOUR BLACK}Jelző építése csak egy irányba (a vonatok nem közlekedhetnek az ellenkező irányba)"
+  277: "{SMALLFONT}{COLOUR BLACK}Egyirányú jelző építése (szemből tilos a behajtás)"
   278: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID}{NEWLINE}Max. sebesség: {STRINGID}{NEWLINE}Max. magasság a föld felett: {HEIGHT}"
   279: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az állomás típusát"
   280: Állomás {INT16}
@@ -317,7 +317,7 @@ strings:
   300: "{STRINGID} Elágazás"
   301: Felső {STRINGID}
   302: Alsó {STRINGID}
-  303: "{STRINGID} Helileszálló"
+  303: "{STRINGID} Heliport"
   304: "{STRINGID} Erdő"
   305: "{STRINGID} Csomópont"
   306: "{STRINGID} Kereszteződés"
@@ -346,9 +346,9 @@ strings:
   329: "{COLOUR WINDOW_2}Összteljesítmény: {COLOUR BLACK}{POWER}{COLOUR WINDOW_2} Súly: {COLOUR BLACK}{INT32}t"
   330: "{COLOUR WINDOW_2}Max. sebesség: {COLOUR BLACK}{VELOCITY}{POP16}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
   331: "{COLOUR WINDOW_2}Max. sebesség: {COLOUR BLACK}{VELOCITY} / {VELOCITY}{COLOUR WINDOW_2} Megbízhatóság: {COLOUR BLACK}{INT16}%"
-  332: "{SMALLFONT}{COLOUR BLACK}Eladás: {POP16}{STRINGID}{NEWLINE}(Vagy húzz ide egy külön járművet az eladáshoz)"
+  332: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eladása{NEWLINE}(Vagy húzz ide egy külön járművet az eladáshoz)"
   333: "{SMALLFONT}{COLOUR BLACK}Új jármű építése ehhez: {POP16}{STRINGID}"
-  334: "{COLOUR BLACK}(Kattints a nézetre a(z) {STRINGID} kezdőpozíciójának beállításához)"
+  334: "{COLOUR BLACK}(Kattints a nézetre {STRINGID} kezdőpozícióba helyezéséhez)"
   335: A járművek nem kompatibilisek
   336: Túl sok jármű van a játékban
   337: ""
@@ -362,54 +362,54 @@ strings:
   345: " ({VELOCITY} ekkor: {STRINGID})"
   346: "{NEWLINE}Megbízhatóság:  {INT16}%"
   347: "{STRINGID} {STRINGID}"
-  348: Egy szakasz
+  348: Egyetlen szakasz
   349: Blokkszakasz
   350: Minden összekapcsolt vágány
-  351: "Vigyázat: Túl sok vágány!{NEWLINE}Lehet, hogy néhány kijelölt vágány nem lett fejlesztve"
+  351: "Figyelem: Túl sok vágány!{NEWLINE}Lehet, hogy néhány kijelölt vágány nem lett fejlesztve"
   352: "{SMALLFONT}{COLOUR BLACK}Vágány fejlesztése ezekkel a változtatásokkal"
   353: "{SMALLFONT}{COLOUR BLACK}(Kattints a kijelölt vágányra a hozzáadáshoz)"
   354: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, mit adsz a vágányhoz"
   355: "{SMALLFONT}{COLOUR BLACK}Főnézet mozgatása ide"
   356: A térképen kívülre esik!
-  357: Nem építhető részben a víz felett és részben alatta!
+  357: Nem építhető egyszerre a víz felett és alatt!
   358: Túl közel a vízfelszínhez!
   359: Ez nem építhető a víz alatt!
   360: Ez csak a föld felett építhető!
   361: Ez csak teljesen sík talajon építhető!
   362: Játék betöltése
-  363: Tájkép betöltése
-  364: Tájkép mentése
+  363: Táj betöltése
+  364: Táj mentése
   365: Játék mentése
   366: Pálya mentése
   367: OpenLoco mentett játékfájl
   368: OpenLoco pályafájl
-  369: OpenLoco tájképfájl
-  370: Játék mentése sikertelen!
+  369: OpenLoco tájfájl
+  370: A játék mentése sikertelen!
   371: Nem sikerült betölteni a játékot...{NEWLINE}A fájl érvénytelen adatokat tartalmaz!
-  372: Előtérben lévő tájképelemek és épületek elrejtése
+  372: Előtérben lévő tájelemek és épületek elrejtése
   373: Csak vízre építhető!
   374: Csak akkor építhető vízre, ha vízi gazdasági épület mellett van!
   375: {STRINGID} elnevezése
-  376: "Írd be a(z) {STRINGID} új nevét:"
-  377: Nem lehet átnevezni ezt a járművet...
+  376: "Add meg {STRINGID} új nevét:"
+  377: A jármű nem nevezhető át...
   378: Híd szükséges
-  379: Túl magasan van a föld felett ehhez a hídtípushoz
+  379: Túl nagy a föld feletti magasság ehhez a hídtípushoz
   380: A híd már elérte a maximális magasságát
   381: "{STRINGID} építéséhez híd szükséges"
-  382: A hídtípus nem alkalmas ehhez a konfigurációhoz
+  382: Ez a hídtípus nem alkalmazható ebben a konfigurációban
   383: Állomás neve
-  384: "Írd be a(z) {STRINGID} állomás új nevét:"
-  385: Nem lehet átnevezni az állomást...
+  384: "Add meg {STRINGID} állomás új nevét:"
+  385: Az állomás nem nevezhető át...
   386: Érvénytelen állomásnév
-  387: Nem lehet mozgatni a járművet...
-  388: Nem lehet megfordítani a vonatot...
-  389: Nem lehet eladni a járművet...
-  390: Nem lehet eladni: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID}...
+  387: A jármű nem mozgatható...
+  388: A vonat nem fordítható meg...
+  389: A jármű nem adható el...
+  390: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható el...
   391: "{STRINGID}"
   392: "{STRINGID}"
-  393: "{STRINGID} állomási peron"
+  393: "{STRINGID} állomásperon"
   394: "{STRINGID} állomásépület / buszmegálló"
-  395: "{SMALLFONT}{COLOUR BLACK}Állomás vonzáskörzetének megjelenítése"
+  395: "{SMALLFONT}{COLOUR BLACK}Az állomás vonzáskörzetének megjelenítése"
   396: Némítás
   397: Zene lejátszása
   398: "{COLOUR RED}Csőd!"
@@ -421,18 +421,18 @@ strings:
   404: "{STRINGID} nem tud leszállni itt: {STRINGID}, mert a repülőtér nem alkalmas rá"
   405: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} megérkezett ide: {STRINGID}!
   406: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} szállítmány megérkezett ide: {STRINGID}!
-  407: A munkások ünnepelnek!{NEWLINE}Az első {STRINGID} kiszállítva ide: {STRINGID}!
+  407: A dolgozók ünnepelnek!{NEWLINE}Az első {STRINGID} kiszállítva ide: {STRINGID}!
   408: Új járművet találtak fel -{NEWLINE}„{STRINGID}”!
   409: "{STRINGID} előléptetést kapott: „{STRINGID}” -> „{STRINGID}”!"
   410: Új {STRINGID} épül {STRINGID} közelében!
   411: Gratulálunk!{NEWLINE}Sikeresen teljesítetted a kihívást!
-  412: Kudarc!{NEWLINE}Nem sikerült teljesítened a kihívást!
-  413: Elbuktad!{NEWLINE}{STRINGID} teljesítette a kihívást!
-  414: Csődveszély!{NEWLINE}{STRINGID} 6 hónapon belül bezár, hacsak nem javul a teljesítménye!
-  415: Utolsó figyelmeztetés!{NEWLINE}{STRINGID} 3 hónapon belül bezár, hacsak nem javul a teljesítménye!
+  412: Kudarc!{NEWLINE}Elbuktad a kihívást!
+  413: Legyőztek!{NEWLINE}{STRINGID} teljesítette a kihívást!
+  414: Csődveszély!{NEWLINE}{STRINGID} 6 hónapon belül megszűnik, hacsak nem javul a teljesítménye!
+  415: Utolsó figyelmeztetés!{NEWLINE}{STRINGID} 3 hónapon belül megszűnik, hacsak nem javul a teljesítménye!
   416: Csőd!{NEWLINE}{STRINGID} csődöt jelentett és bezárt!
   417: Csőd!{NEWLINE}{STRINGID} csődöt jelentett és bezárt!
-  418: "{STRINGID} karambolozott!"
+  418: "{STRINGID} balesetet szenvedett!"
   419: Vállalati botrány!{NEWLINE}{STRINGID} börtönbe került rablási kísérlet miatt!
   420: Új {STRINGID} sebességrekord!{NEWLINE}{STRINGID} elérte a megállók közti {VELOCITY} átlagsebességet!
 
@@ -444,8 +444,8 @@ strings:
   424: "{MOVE_X 10}{STRING}"
   425: »{MOVE_X 10}{STRING}
 
-  426: Magassági jelzések a vágányokon és utakon
-  427: Magassági jelzések a talajon
+  426: Magassági jelzések a pályákon
+  427: Magassági jelzések a terepen
   428: Egyirányú forgalmat jelző nyilak
   429: Városnevek megjelenítése
   430: Állomásnevek megjelenítése
@@ -463,14 +463,14 @@ strings:
   442: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Tulajdonos: {STRINGID}"
   443: "{MOVE_X 10}{STRINGID}"
   444: ✓{MOVE_X 10}{STRINGID}
-  445: Ezt nem lehet eltávolítani...
+  445: Ez nem távolítható el...
   446: Falak és kerítések
   447: Faültetés
   448: Ezt nem lehet ide helyezni...
-  449: Ide nem lehet fát ültetni...
+  449: Ide nem ültethető fa...
   450: "{OUTLINE}{COLOUR WINDOW_2}{STRINGID}"
-  451: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Jobb klikk a módosításhoz"
-  452: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Jobb klikk az eltávolításhoz"
+  451: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Módosítás jobb klikkel"
+  452: "{STRINGID}{NEWLINE}{COLOUR WINDOW_3}Törlés jobb klikkel"
   453: "{TINYFONT}{COLOUR BLACK}{STRINGID}"
   454: "{COLOUR RED}{STRINGID}"
   455: "{COLOUR BLACK}{STRINGID}"
@@ -478,7 +478,7 @@ strings:
   457: "{COLOUR WINDOW_2}{STRINGID}"
   458: "{COLOUR WHITE}{STRINGID}"
   459: Megáll{POP16}{POP16}
-  460: Vár a jelzőnél{POP16}{POP16}
+  460: Jelzőnél várakozik{POP16}{POP16}
   461: {VELOCITY} sebességgel halad{POP16}
   462: "{COLOUR RED}Balesetet szenvedett!{POP16}{POP16}"
   463: "{COLOUR RED}Elakadt!{POP16}{POP16}"
@@ -495,15 +495,15 @@ strings:
   474: Úton{POP16}{POP16}
   475: "{STRINGID} - {STRINGID}"
   476: "{POP16}{POP16}{STRINGID}"
-  477: Itt nem lehet süllyeszteni a vízszintet...
-  478: Itt nem lehet emelni a vízszintet...
+  477: Itt nem süllyeszthető a vízszint...
+  478: Itt nem emelhető a vízszint...
   479: (Nincs)
   480: "{STRING}"
   481: "{COLOUR RED}Zárva - - "
   482: "{COLOUR YELLOW}{STRINGID} - - "
-  483: A talaj lejtése nem megfelelő
+  483: Nem megfelelő tereplejtés
   484: Ez nem építhető víz alá!
-  485: A talajtípus nem megfelelő
+  485: Nem megfelelő talajtípus
   486: "{COLOUR BLACK}▴"
   487: "{COLOUR BLACK}▾"
   488: vonat
