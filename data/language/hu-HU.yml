@@ -159,15 +159,15 @@ strings:
   145: Földalatti nézet
   146: Előtérben lévő vágányok és utak elrejtése
   147: Ez az állomástípus csak az út végére építhető
-  148: Rossz állomástípus ehhez: {STRINGID}
-  149: Az állomás nem kompatibilis ezzel: {STRINGID}
+  148: "Rossz állomástípus ehhez: {STRINGID}"
+  149: "Az állomás nem kompatibilis ezzel: {STRINGID}"
   150: Vasúti átjáró van az útban
   151: Vasúti átjáró csak akkor építhető, ha az út és a vágány is egyenes és azonos szintű
   152: Nem alakítható ki csomópont
   153: A csomópontnak teljesen vízszintesnek kell lennie
   154: "{STRINGID} útban van / nem megfelelő magasság a csomóponthoz"
   155: Már meg van építve itt
-  156: Nem lehet keresztezni vagy csomópontot létrehozni a következővel: {STRINGID}
+  156: "Nem lehet keresztezni vagy csomópontot létrehozni a következővel: {STRINGID}"
   157: Nem lehet csomópontot létrehozni
   158: Jelző
   159: Állomás
@@ -419,9 +419,9 @@ strings:
   402: "{STRINGID} már nem fogadja el ezt: {STRINGID}"
   403: Új szállítmányozási vállalat!{NEWLINE}{STRINGID} építkezésbe kezdett {STRINGID} közelében!
   404: "{STRINGID} nem tud leszállni itt: {STRINGID}, mert a repülőtér nem alkalmas rá"
-  405: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} megérkezett ide: {STRINGID}!
-  406: A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} szállítmány megérkezett ide: {STRINGID}!
-  407: A dolgozók ünnepelnek!{NEWLINE}Az első {STRINGID} kiszállítva ide: {STRINGID}!
+  405: "A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} megérkezett ide: {STRINGID}!"
+  406: "A lakosok ünnepelnek!{NEWLINE}Az első {STRINGID} szállítmány megérkezett ide: {STRINGID}!"
+  407: "A dolgozók ünnepelnek!{NEWLINE}Az első {STRINGID} kiszállítva ide: {STRINGID}!"
   408: Új járművet találtak fel -{NEWLINE}„{STRINGID}”!
   409: "{STRINGID} előléptetést kapott: „{STRINGID}” -> „{STRINGID}”!"
   410: Új {STRINGID} épül {STRINGID} közelében!
@@ -484,13 +484,13 @@ strings:
   463: "{COLOUR RED}Elakadt!{POP16}{POP16}"
   464: "{COLOUR RED}Meghibásodott!{POP16}{POP16}"
   465: Megállítva{POP16}{POP16}
-  466: Berakodás itt: {STRINGID}
-  467: Kirakodás itt: {STRINGID}
-  468: {STRINGID} felé közeledik
-  469: Leszáll ide: {STRINGID}
+  466: "Berakodás itt: {STRINGID}"
+  467: "Kirakodás itt: {STRINGID}"
+  468: "{STRINGID} felé közeledik"
+  469: "Leszáll ide: {STRINGID}"
   470: Gurul {STRINGID} területén
-  471: Felszáll innen: {STRINGID}
-  472: {STRINGID} felé tart
+  471: "Felszáll innen: {STRINGID}"
+  472: "{STRINGID} felé tart"
   473: Nincs pozíció{POP16}{POP16}
   474: Úton{POP16}{POP16}
   475: "{STRINGID} - {STRINGID}"
@@ -1247,13 +1247,13 @@ strings:
   1217: "Expressz"
   1218: "{COLOUR BLACK}- - Nincs útvonal megadva - -"
   1219: "{COLOUR BLACK}- - Utasításlista vége - -"
-  1220: Megállás itt: {STRINGID}
-  1221: Áthaladás itt: {STRINGID}
+  1220: "Megállás itt: {STRINGID}"
+  1221: "Áthaladás itt: {STRINGID}"
   1222: Áthaladás ellenőrzőponton
-  1223: Összes kirakodása: {STRINGID} {SPRITE}
-  1224: Várakozás teljes rakományra: {STRINGID} {SPRITE}
-  1225: Összes kirakodása: {STRINGID} {SPRITE}
-  1226: Várakozás teljes rakományra: {STRINGID} {SPRITE}
+  1223: "Összes kirakodása: {STRINGID} {SPRITE}"
+  1224: "Várakozás teljes rakományra: {STRINGID} {SPRITE}"
+  1225: "Összes kirakodása: {STRINGID} {SPRITE}"
+  1226: "Várakozás teljes rakományra: {STRINGID} {SPRITE}"
   1227: "{COLOUR WINDOW_2}▶"
   1228: Nem szúrható be utasítás...
   1229: "{COLOUR WINDOW_3}Kattints ide új utasítás beszúrásához,{NEWLINE}az ezen a helyen található ellenőrzőponton való áthaladáshoz"
@@ -1583,7 +1583,7 @@ strings:
   1547: "{COLOUR WINDOW_2}Hangerő:"
   1548: "{SMALLFONT}{COLOUR BLACK}Zene hangerejének beállítása"
   1549: Zenei beállítások
-  1550: Tulajdonos arcának kiválasztása ehhez: {STRINGID}
+  1550: "Tulajdonos arcának kiválasztása ehhez: {STRINGID}"
   1551: "{SMALLFONT}{COLOUR BLACK}Kattints a vállalat/tulajdonos arcának kiválasztásához"
   1552: Már ki van választva egy másik vállalathoz
   1553: Nem választható ki az arc...
