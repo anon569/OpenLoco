@@ -153,8 +153,8 @@ strings:
   139: Itt nem építhető jelző...
   140: Itt nem lehet jelzőket építeni...
   141: A jelző nem távolítható el...
-  142: {POP16}{POP16}{POP16}{STRINGID} nem távolítható el...
-  143: {POP16}{POP16}{POP16}{STRINGID} nem építhető meg...
+  142: "{POP16}{POP16}{POP16}{STRINGID} nem távolítható el..."
+  143: "{POP16}{POP16}{POP16}{STRINGID} nem építhető meg..."
   144: Előbb módosítsd a talajszintet
   145: Földalatti nézet
   146: Előtérben lévő vágányok és utak elrejtése
@@ -175,7 +175,7 @@ strings:
   161: Kikötő
   162: Állomás van az útban
   163: Jelző van az útban
-  164: A repülőtér bontható el...
+  164: A repülőtér nem bontható el...
   165: A kikötő nem bontható el...
   166: Az állomás nem bontható el...
   167: Nem megfelelő vágány/úttípus!
@@ -184,7 +184,7 @@ strings:
   170: Ez a vágánykombináció nem lehetséges
   171: Túl sok objektum van a játékban
   172: Forgatás jobbra
-  173: Forgatás jobbra
+  173: Forgatás balra
   174: "Indítás első alkalommal..."
   175: "Objektumfájlok ellenőrzése..."
   176: Játék betöltése
@@ -274,9 +274,9 @@ strings:
   257: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a repülőtéren"
   258: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} eltávolítása a vízből"
   259: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} elhelyezése a dokkban"
-  260: {POP16}{POP16}{POP16}{STRINGID} nem indítható el...
-  261: {POP16}{POP16}{POP16}{STRINGID} számára nem választható manuális mód...
-  262: {POP16}{POP16}{POP16}{STRINGID} nem állítható meg...
+  260: "{POP16}{POP16}{POP16}{STRINGID} nem indítható el..."
+  261: "{POP16}{POP16}{POP16}{STRINGID} számára nem választható manuális mód..."
+  262: "{POP16}{POP16}{POP16}{STRINGID} nem állítható meg..."
   263: "{VELOCITY}"
   264: Végtelen{POP16}
   265: Megállás
@@ -389,7 +389,7 @@ strings:
   372: Előtérben lévő tájelemek és épületek elrejtése
   373: Csak vízre építhető!
   374: Csak akkor építhető vízre, ha vízi gazdasági épület mellett van!
-  375: {STRINGID} elnevezése
+  375: "{STRINGID} elnevezése"
   376: "Add meg {STRINGID} új nevét:"
   377: A jármű nem nevezhető át...
   378: Híd szükséges
@@ -404,7 +404,7 @@ strings:
   387: A jármű nem mozgatható...
   388: A vonat nem fordítható meg...
   389: A jármű nem adható el...
-  390: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható el...
+  390: "{POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható el..."
   391: "{STRINGID}"
   392: "{STRINGID}"
   393: "{STRINGID} állomásperon"
@@ -479,7 +479,7 @@ strings:
   458: "{COLOUR WHITE}{STRINGID}"
   459: Megáll{POP16}{POP16}
   460: Jelzőnél várakozik{POP16}{POP16}
-  461: {VELOCITY} sebességgel halad{POP16}
+  461: "{VELOCITY} sebességgel halad{POP16}"
   462: "{COLOUR RED}Balesetet szenvedett!{POP16}{POP16}"
   463: "{COLOUR RED}Elakadt!{POP16}{POP16}"
   464: "{COLOUR RED}Meghibásodott!{POP16}{POP16}"
@@ -1019,11 +1019,11 @@ strings:
   994: ???
   995: ???
 
-  996: "{STRINGID}:{MOVE_X 215}{STRINGID}{STRINGID}"
+  996: "{STRINGID}:"
   997: "SHIFT + "
   998: "CTRL + "
   999: Gyorsbillentyű módosítása
-  1000: "{COLOUR WINDOW_2}Nyomd meg az új gyorsbillentyűt ehhez:{NEWLINE}{NEWLINE_SMALLER}{COLOUR BLACK}„{STRINGID}”"
+  1000: "{COLOUR WINDOW_2}Nyomd meg az új gyorsbillentyűt ehhez:"
   1001: "{SMALLFONT}{COLOUR BLACK}Kattints a parancs leírására az új billentyű kiválasztásához"
   1002: Görgetés, ha az egér a képernyő széléhez ér
   1003: "{SMALLFONT}{COLOUR BLACK}Válaszd ki, hogy a nézet elmozduljon-e, ha az egér eléri a képernyő szélét"
@@ -1190,10 +1190,10 @@ strings:
   1160: A jármű elakadt!
   1161: Nincs elég hely, vagy egy jármű van az útban
   1162: Jármű közeledik, vagy útban van
-  1163: Nem építhető ide: {POP16}{POP16}{POP16}{STRINGID}...
-  1164: Nem távolítható el: {POP16}{POP16}{POP16}{STRINGID}...
+  1163: "Nem építhető ide: {POP16}{POP16}{POP16}{STRINGID}..."
+  1164: "Nem távolítható el: {POP16}{POP16}{POP16}{STRINGID}..."
   1165: Nem haladhat át tilos jelzésen...
-  1166: Ez a jármű igényli: {STRINGID}
+  1166: "Ez a jármű igényli: {STRINGID}"
   1167: A vonatnak nincsenek kocsijai!
   1168: A vonatnak nincs vezetőállása
   1169: A vonathoz mozdony vagy motorkocsi kell
@@ -1211,8 +1211,8 @@ strings:
   1181: "{SMALLFONT}{COLOUR BLACK}Útvonalak mutatása a térképen"
   1182: "{SMALLFONT}{COLOUR BLACK}Tulajdonviszonyok mutatása a térképen"
   1183: Az állomás túl kiterjedt!
-  1184: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható hozzá ehhez: {STRINGID}...
-  1185: {POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem építhető meg...
+  1184: "{POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem adható hozzá ehhez: {STRINGID}..."
+  1185: "{POP16}{POP16}{POP16}{POP16}{POP16}{STRINGID} nem építhető meg..."
   1186: "{COLOUR BLACK}Válassz új járművet"
   1187: "{COLOUR BLACK}Válassz járművet hozzáadáshoz: {STRINGID}"
   1188: "{SMALLFONT}{COLOUR BLACK}Új vasúti járművek építése"
@@ -1273,7 +1273,7 @@ strings:
   1243: Villamosok építése
   1244: Repülőgépek építése
   1245: Hajók építése
-  1246: Csak erre helyezhető: {STRINGID}...
+  1246: "Csak erre helyezhető: {STRINGID}..."
   1247: Út
   1248: "{COLOUR BLACK}Nincs elérhető jármű"
   1249: "{COLOUR BLACK}Nincs kompatibilis jármű, ami hozzáadható ehhez: {STRINGID}"
@@ -1447,9 +1447,9 @@ strings:
   1417: "{COLOUR BLACK}{STRINGID} ({INT16}% elszállítva)"
   1418: "{COLOUR BLACK}{INT16}%"
   1419: Bezárás
-  1420: {STRINGID} tulajdona
+  1420: "{STRINGID} tulajdona"
   1421: "{STRINGID} tulajdonosa: {STRINGID}"
-  1422: A jelző tulajdonosa: {STRINGID}
+  1422: "A jelző tulajdonosa: {STRINGID}"
   1423: "{COLOUR BLACK}{INT16}%"
   1424: "{COLOUR BLACK}{TINYFONT}{DATE DMY}"
   1425: Üzenetek
@@ -1846,9 +1846,9 @@ strings:
   1808: Repülőgép-útvonalak
   1809: Hajóútvonalak
   1810: ""
-  1811: {STRINGID} építése {STRINGID} közelében
-  1812: {STRINGID} építése {STRINGID} közelében
-  1813: {STRINGID} építése {STRINGID} közelében
+  1811: "{STRINGID} építése {STRINGID} közelében"
+  1812: "{STRINGID} építése {STRINGID} közelében"
+  1813: "{STRINGID} építése {STRINGID} közelében"
   1814: Szolgáltatások ellenőrzése {STRINGID} közelében
   1815: A terep felmérése {STRINGID} közelében
   1816: "{COLOUR RED}Csőd!"
@@ -1878,7 +1878,7 @@ strings:
   1840: Érj el {CURRENCY32} vállalati értéket{STRINGID}{STRINGID}
   1841: Érj el {CURRENCY32} havi profitot a járművekből{STRINGID}{STRINGID}
   1842: A teljesítményindexed legyen {INT16_1DP}% (“{STRINGID}”){STRINGID}{STRINGID}
-  1843: {STRINGID} leszállítása{STRINGID}{STRINGID}
+  1843: "{STRINGID} leszállítása{STRINGID}{STRINGID}"
   1844: " és légy a legjobban teljesítő vállalat"
   1845: " és légy az első 3 vállalat egyike"
   1846: " {INT16} éven belül"
@@ -1929,12 +1929,12 @@ strings:
   1886: "{SMALLFONT}{COLOUR BLACK}Nincs szükségünk új utakra a városban, csak buszmegállókra..."
   1887: "{SMALLFONT}{COLOUR BLACK}A buszunk a város egyik feléből a másikba fog közlekedni..."
   1888: "{SMALLFONT}{COLOUR BLACK}A kékkel jelölt rész az állomás vonzáskörzete. Minél több épület van benne, annál több az utas..."
-  1889: "{SMALLFONT}{COLOUR BLACK}Ellenőrizd, hogy a megálló elfogad-e utasokat az adott helyen, különben nem tudsz pénzt keresni. Figyeld az építési ablak alján a „Vonáskörzet” szöveget..."
+  1889: "{SMALLFONT}{COLOUR BLACK}Ellenőrizd, hogy a megálló elfogad-e utasokat az adott helyen, különben nem tudsz pénzt keresni. Figyeld az építési ablak alján a „Vonzáskörzet” szöveget..."
   1890: "{SMALLFONT}{COLOUR BLACK}Ha elégedett vagy a hellyel, kattints a bal gombbal az építéshez..."
   1891: "{SMALLFONT}{COLOUR BLACK}Építsük fel a második megállót a város túlsó felén..."
   1892: "{SMALLFONT}{COLOUR BLACK}Most vásárolnunk kell egy buszt..."
   1893: "{SMALLFONT}{COLOUR BLACK}Kétféle busz közül választhatunk. Válasszuk az újabb típust, amely több utast tud szállítani..."
-  1894: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egérmutatót egy útra, hogy a busz a kívánt helyen legyen, majd kattints a bal egérgombbal a elhelyezéséhez..."
+  1894: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egérmutatót egy útra, hogy a busz a kívánt helyen legyen, majd kattints a bal egérgombbal az elhelyezéséhez..."
   1895: "{SMALLFONT}{COLOUR BLACK}Mielőtt elindítjuk a buszt, meg kell adnunk, hová menjen. Válaszd a járműablakban az útvonal részletei fület..."
   1896: "{SMALLFONT}{COLOUR BLACK}Az útvonal beállításához egyszerűen kattints az állomásokra a nézetben..."
   1897: "{SMALLFONT}{COLOUR BLACK}Most már elindíthatjuk a buszt..."
@@ -1961,7 +1961,7 @@ strings:
   1914: "{SMALLFONT}{COLOUR BLACK}Mivel a pálya egy egyszerű vonal, nem kell útvonalat beállítani - csak indítsd el..."
   1915: "{SMALLFONT}{COLOUR BLACK}Bővítsük a pályát egy elágazással a harmadik város felé. Jobb klikk a vágányra az építéshez..."
   1916: "{SMALLFONT}{COLOUR BLACK}Mivel a hálózat már bonyolultabb, meg kell adnunk az útvonalat..."
-  1917: "{SMALLFONT}{COLOUR BLACK}Hozzádhatnánk egy második vonatot is, de előbb jelzőket kell építeni az ütközések elkerülésére..."
+  1917: "{SMALLFONT}{COLOUR BLACK}Hozzáadhatnánk egy második vonatot is, de előbb jelzőket kell építeni az ütközések elkerülésére..."
   1918: "{SMALLFONT}{COLOUR BLACK}A jelzők blokkokra osztják a pályát, egy blokkban egyszerre csak egy vonat lehet..."
 
   # Beállítások/Egyéb
@@ -2391,7 +2391,7 @@ strings:
   2336: Általános
   2337: Generátor
   2338: "{COLOUR WINDOW_2}Aktuális dombelem: {COLOUR BLACK}{STRINGID}"
-  2339: "{COLOUR WINDOW_2}Terepimítási lépések száma:"
+  2339: "{COLOUR WINDOW_2}Terepsimítási lépések száma:"
   2340: "PNG magasságtérkép"
   2341: "Magasságtérkép betöltése PNG-ből"
   2342: "Tallózás..."
