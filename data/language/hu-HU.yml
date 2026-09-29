@@ -218,7 +218,7 @@ strings:
   202: Fák listája
   203: Utasítások
   204: Állomáslista
-  205: Városlista
+  205: Településlista
   206: Gazdasági épületek listája
   207: Új gazdasági épületek
   208: Épületlista
@@ -239,7 +239,7 @@ strings:
   222: A színséma nem módosítható...
   223: Nagyítás
   224: Kicsinyítés
-  225: Városok
+  225: Települések
   226: Gazdasági épületek
   227: Repülőterek
   228: Kikötők
@@ -447,7 +447,7 @@ strings:
   426: Magassági jelzések a pályákon
   427: Magassági jelzések a terepen
   428: Egyirányú forgalmat jelző nyilak
-  429: Városnevek megjelenítése
+  429: Településnevek megjelenítése
   430: Állomásnevek megjelenítése
   431: "{NEWLINE}{COLOUR WINDOW_3}Elfogad: "
   432: "1/8 "
@@ -569,13 +569,13 @@ strings:
   548: "{INT16} hajó"
   549: "{INT16} hajó"
   550: Hajó {INT16}
-  551: város
-  552: város
-  553: Város
-  554: Város
-  555: "{INT16} város"
-  556: "{INT16} város"
-  557: Város {INT16}
+  551: település
+  552: település
+  553: Település
+  554: Település
+  555: "{INT16} település"
+  556: "{INT16} település"
+  557: Település {INT16}
   558: gazdasági épület
   559: gazdasági épület
   560: Gazdasági épület
@@ -750,7 +750,7 @@ strings:
   727: Új járművek építése
   728: Járműlista megjelenítése
   729: Állomáslista megjelenítése
-  730: Városlista megjelenítése
+  730: Településlista megjelenítése
   731: Gazdasági épületek listájának megjelenítése
   732: Térkép megjelenítése
   733: Vállalatok listájának megjelenítése
@@ -1204,7 +1204,7 @@ strings:
   1174: "{NEWLINE}+ {STRINGID}"
   1175: Túl sok állomás van a játékban!
   1176: Az állomás túl nagy!
-  1177: Előbb várost kell alapítani!
+  1177: Előbb települést kell alapítani!
   1178: "{SMALLFONT}{COLOUR BLACK}Térkép megjelenítése"
   1179: "{SMALLFONT}{COLOUR BLACK}Járművek mutatása a térképen"
   1180: "{SMALLFONT}{COLOUR BLACK}Gazdasági épületek mutatása a térképen"
@@ -1318,9 +1318,9 @@ strings:
   1288: "{POP16}{POP16}{NEWLINE 31 8} {STRINGID}"
   1289: "{SPRITE}{NEWLINE 31 8} {STRINGID} építése"
   1290: "{STRINGID} önkormányzata megtagadta az engedélyt!"
-  1291: Városok
-  1292: Új városok alapítása
-  1293: Egyedi városi épületek építése
+  1291: Települések
+  1292: Új települések alapítása
+  1293: Egyedi települési épületek építése
   1294: Egyéb épületek építése
   1295: "{COLOUR BLACK}Lakosság"
   1296: "{COLOUR BLACK}Lakosság ▼"
@@ -1329,16 +1329,16 @@ strings:
   1299: "{COLOUR BLACK}Állomások"
   1300: "{COLOUR BLACK}Állomások ▼"
   1301: "{SMALLFONT}{COLOUR BLACK}Rendezés állomások száma szerint"
-  1302: "{COLOUR BLACK}Város"
-  1303: "{COLOUR BLACK}Város ▼"
+  1302: "{COLOUR BLACK}Település"
+  1303: "{COLOUR BLACK}Település ▼"
   1304: "{STRINGID} lakossága: {INT32}"
-  1305: "{SMALLFONT}{COLOUR BLACK}Rendezés várostípus szerint"
+  1305: "{SMALLFONT}{COLOUR BLACK}Rendezés településtípus szerint"
   1306: "{COLOUR BLACK}Típus"
   1307: "{COLOUR BLACK}Típus ▼"
-  1308: Városnév
+  1308: Településnév
   1309: "Írj be új nevet {STRINGID} számára:"
   1310: "{COLOUR BLACK}{STRINGID} lakossága: {INT32}"
-  1311: Nem lehet átnevezni a várost...
+  1311: Nem lehet átnevezni a települést...
   1312: Új állomás
   1313: "{COLOUR BLACK}({STRINGID})"
   1314: "{COLOUR WINDOW_2}Vonzáskörzet{NEWLINE}  Elfogad: "
@@ -1348,9 +1348,9 @@ strings:
   1318: Gazdasági épületek
   1319: Új gazdasági épületek támogatása
   1320: Gazdasági épületek építése
-  1321: "{SMALLFONT}{COLOUR BLACK}Városlista"
-  1322: "{SMALLFONT}{COLOUR BLACK}Városok építése"
-  1323: "{SMALLFONT}{COLOUR BLACK}Egyedi városi épületek építése"
+  1321: "{SMALLFONT}{COLOUR BLACK}Településlista"
+  1322: "{SMALLFONT}{COLOUR BLACK}Települések építése"
+  1323: "{SMALLFONT}{COLOUR BLACK}Egyedi települési épületek építése"
   1324: "{SMALLFONT}{COLOUR BLACK}Egyéb épületek építése"
   1325: "{SMALLFONT}{COLOUR BLACK}Gazdasági épületek listája"
   1326: "{SMALLFONT}{COLOUR BLACK}Új gazdasági épületek finanszírozása"
@@ -1394,12 +1394,12 @@ strings:
   1364: "{STRINGID} {STRINGID}"
   1365: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület lebontása"
   1366: Építés alatt
-  1367: "Aktuális termelés: "
+  1367: "Termel: "
   1368: "Termel: "
-  1369: "Kimenet: "
-  1370: " a következő termeléséhez: "
-  1371: "Szükséges hozzá: "
-  1372: "Szüksége van: "
+  1369: "Termel: "
+  1370: ", hogy előállítsa: "
+  1371: "Szükséges: "
+  1372: "Szükséges: "
   1373: " és "
   1374: " vagy "
   1375: ", "
@@ -1413,19 +1413,19 @@ strings:
   1383: "{COLOUR BLACK}Gazdasági épület"
   1384: "{COLOUR BLACK}Gazdasági épület ▼"
   1385: "{COLOUR BLACK}Nincs elérhető gazdasági épület"
-  1386: "{SMALLFONT}{COLOUR BLACK}Város"
+  1386: "{SMALLFONT}{COLOUR BLACK}Település"
   1387: "{SMALLFONT}{COLOUR BLACK}Lakossági grafikon"
-  1388: "{SMALLFONT}{COLOUR BLACK}A város véleménye a vállalatokról"
+  1388: "{SMALLFONT}{COLOUR BLACK}A település véleménye a vállalatokról"
   1389: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület"
   1390: "{SMALLFONT}{COLOUR BLACK}Termelési grafikon"
   1391: "{COLOUR BLACK}{SMALLFONT}({STRINGID})"
-  1392: "{SMALLFONT}{COLOUR BLACK}A város (és a közeli gazdasági épületek) teljes lebontása "
-  1393: Nem lehet eltávolítani a várost...
+  1392: "{SMALLFONT}{COLOUR BLACK}A település (és a közeli gazdasági épületek) teljes lebontása "
+  1393: Nem lehet eltávolítani a települést...
   1394: Előbb minden közeli állomást el kell távolítani
-  1395: Túl közel van egy másik városhoz
-  1396: Túl sok város van
-  1397: Túl közel van egy másik városhoz, vagy nem megfelelő a hely
-  1398: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építendő város méretét"
+  1395: Túl közel van egy másik településhez
+  1396: Túl sok település van
+  1397: Túl közel van egy másik településhez, vagy nem megfelelő a hely
+  1398: "{SMALLFONT}{COLOUR BLACK}Válaszd ki az építendő település méretét"
   1399: 1 (kicsi)
   1400: "2"
   1401: 3 (közepes)
@@ -1434,11 +1434,11 @@ strings:
   1404: 6 (nagy)
   1405: "7"
   1406: 8 (óriási)
-  1407: "{COLOUR BLACK}Város mérete:"
-  1408: "{COLOUR BLACK}(Kattints a tájra az új város építéséhez)"
-  1409: "{SMALLFONT}{COLOUR BLACK}Város bővítése"
+  1407: "{COLOUR BLACK}Település mérete:"
+  1408: "{COLOUR BLACK}(Kattints a tájra az új település építéséhez)"
+  1409: "{SMALLFONT}{COLOUR BLACK}Település bővítése"
   1410: Túl közel van egy másik gazdasági épülethez
-  1411: Előbb várost kell alapítani a közelben
+  1411: Előbb települést kell alapítani a közelben
   1412: "{SMALLFONT}{COLOUR BLACK}Egy facsoport ültetése a kiválasztott típusból"
   1413: "{SMALLFONT}{COLOUR BLACK}Véletlenszerű fák ültetése"
   1414: "{SMALLFONT}{COLOUR BLACK}Statisztikák"
@@ -1621,12 +1621,12 @@ strings:
   1585: Tájgenerálás - Beállítások
   1586: Tájgenerálás - Felszín
   1587: Tájgenerálás - Erdők
-  1588: Tájgenerálás - Városok
+  1588: Tájgenerálás - Települések
   1589: Tájgenerálás - Gazdasági épület
   1590: "{SMALLFONT}{COLOUR BLACK}Általános tájgenerálási beállítások"
   1591: "{SMALLFONT}{COLOUR BLACK}Felszíngenerálási beállítások"
   1592: "{SMALLFONT}{COLOUR BLACK}Erdőgenerálási beállítások"
-  1593: "{SMALLFONT}{COLOUR BLACK}Városgenerálási beállítások"
+  1593: "{SMALLFONT}{COLOUR BLACK}Településgenerálási beállítások"
   1594: "{SMALLFONT}{COLOUR BLACK}Gazdasági épület-generálási beállítások"
 
   1595: "[Nincs]"
@@ -1699,14 +1699,14 @@ strings:
   1661: Fele hegy, fele sík
   1662: "{COLOUR WINDOW_2}Dombok sűrűsége:"
   1663: "{INT16}%"
-  1664: "{COLOUR WINDOW_2}Városok száma:"
+  1664: "{COLOUR WINDOW_2}Települések száma:"
   1665: "{INT16}"
-  1666: "{COLOUR WINDOW_2}Városok max. mérete:"
+  1666: "{COLOUR WINDOW_2}Települések max. mérete:"
   1667: Alacsony
   1668: Közepes
   1669: Magas
   1670: "{COLOUR WINDOW_2}Gazdasági épületek száma:"
-  1671: Legalább egy várost fel kell építeni
+  1671: Legalább egy települést fel kell építeni
   1672: Nem lehet a következő szerkesztési szakaszba lépni...
   1673: Még nem lehet menteni a pályát...
   1674: "{SMALLFONT}{COLOUR BLACK}Pálya beállításai"
@@ -1837,14 +1837,14 @@ strings:
   1799: "{SMALLFONT}{COLOUR BLACK}Menetidő"
   1800: "*  Szünet  *"
   1801: A helyi önkormányzat nem engedélyezi több repülőtér építését
-  1802: Város
-  1803: Gazdasági épületek
+  1802: Település
+  1803: Gazdasági épület
   1804: Út
   1805: Vasút
   1806: Állomás
   1807: Növényzet
-  1808: Repülőgép-útvonalak
-  1809: Hajóútvonalak
+  1808: Repülőgép-útvonal
+  1809: Hajóútvonal
   1810: ""
   1811: "{STRINGID} építése {STRINGID} közelében"
   1812: "{STRINGID} építése {STRINGID} közelében"
@@ -1917,21 +1917,21 @@ strings:
   1877: "{NEWLINE}Megáll itt: {STRINGID}"
   1878: ", {STRINGID}"
 
-  1879: "Tutorial 1: Buszjárat indítása városon belül"
-  1880: "Tutorial 2: Buszjárat építése két város között"
-  1881: "Tutorial 3: Vasúti járat építése két város között"
+  1879: "Tutorial 1: Buszjárat indítása településen belül"
+  1880: "Tutorial 2: Buszjárat építése két település között"
+  1881: "Tutorial 3: Vasúti járat építése két település között"
 
   # Tutorial 1
-  1882: "{SMALLFONT}{COLOUR BLACK}Buszjáratot fogunk indítani egy városon belül, első lépésként válasszunk egy várost..."
+  1882: "{SMALLFONT}{COLOUR BLACK}Buszjáratot fogunk indítani egy településen belül, első lépésként válasszunk egy települést..."
   1883: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egeret a jobb gombot nyomva tartva a nézet görgetéséhez..."
-  1884: "{SMALLFONT}{COLOUR BLACK}Boulder Bay a legnagyobb város, itt lesz a legtöbb utas. Nagyíts rá az egérgörgővel vagy a nagyítás ikonra kattintva..."
+  1884: "{SMALLFONT}{COLOUR BLACK}Boulder Bay a legnagyobb település, itt lesz a legtöbb utas. Nagyíts rá az egérgörgővel vagy a nagyítás ikonra kattintva..."
   1885: "{SMALLFONT}{COLOUR BLACK}Minden közúti építkezés az útépítés ablakban történik..."
-  1886: "{SMALLFONT}{COLOUR BLACK}Nincs szükségünk új utakra a városban, csak buszmegállókra..."
-  1887: "{SMALLFONT}{COLOUR BLACK}A buszunk a város egyik feléből a másikba fog közlekedni..."
+  1886: "{SMALLFONT}{COLOUR BLACK}Nincs szükségünk új utakra a településen, csak buszmegállókra..."
+  1887: "{SMALLFONT}{COLOUR BLACK}A buszunk a település egyik feléből a másikba fog közlekedni..."
   1888: "{SMALLFONT}{COLOUR BLACK}A kékkel jelölt rész az állomás vonzáskörzete. Minél több épület van benne, annál több az utas..."
   1889: "{SMALLFONT}{COLOUR BLACK}Ellenőrizd, hogy a megálló elfogad-e utasokat az adott helyen, különben nem tudsz pénzt keresni. Figyeld az építési ablak alján a „Vonzáskörzet” szöveget..."
   1890: "{SMALLFONT}{COLOUR BLACK}Ha elégedett vagy a hellyel, kattints a bal gombbal az építéshez..."
-  1891: "{SMALLFONT}{COLOUR BLACK}Építsük fel a második megállót a város túlsó felén..."
+  1891: "{SMALLFONT}{COLOUR BLACK}Építsük fel a második megállót a település túlsó felén..."
   1892: "{SMALLFONT}{COLOUR BLACK}Most vásárolnunk kell egy buszt..."
   1893: "{SMALLFONT}{COLOUR BLACK}Kétféle busz közül választhatunk. Válasszuk az újabb típust, amely több utast tud szállítani..."
   1894: "{SMALLFONT}{COLOUR BLACK}Mozgasd az egérmutatót egy útra, hogy a busz a kívánt helyen legyen, majd kattints a bal egérgombbal az elhelyezéséhez..."
@@ -1954,12 +1954,12 @@ strings:
   1909: "{SMALLFONT}{COLOUR BLACK}Ha gyorsan szeretnéd átmásolni Busz 1 teljes útvonalát Busz 2-re, egyszerűen kattints a Busz 1-nél az „utasításlista vége” szövegre..."
 
   # Tutorial 3
-  1910: "{SMALLFONT}{COLOUR BLACK}Építsünk vasúti személyszállító járatot a két legnagyobb város közé..."
+  1910: "{SMALLFONT}{COLOUR BLACK}Építsünk vasúti személyszállító járatot a két legnagyobb település közé..."
   1911: "{SMALLFONT}{COLOUR BLACK}Vasútállomás csak egyenes vágányra építhető és elég hosszúnak kell lennie a vonathoz..."
   1912: "{SMALLFONT}{COLOUR BLACK}Most építsük fel az állomásokat..."
   1913: "{SMALLFONT}{COLOUR BLACK}Most jöhet a vonat. Kell egy mozdony és vagonok az utasoknak..."
   1914: "{SMALLFONT}{COLOUR BLACK}Mivel a pálya egy egyszerű vonal, nem kell útvonalat beállítani - csak indítsd el..."
-  1915: "{SMALLFONT}{COLOUR BLACK}Bővítsük a pályát egy elágazással a harmadik város felé. Jobb klikk a vágányra az építéshez..."
+  1915: "{SMALLFONT}{COLOUR BLACK}Bővítsük a pályát egy elágazással a harmadik település felé. Jobb klikk a vágányra az építéshez..."
   1916: "{SMALLFONT}{COLOUR BLACK}Mivel a hálózat már bonyolultabb, meg kell adnunk az útvonalat..."
   1917: "{SMALLFONT}{COLOUR BLACK}Hozzáadhatnánk egy második vonatot is, de előbb jelzőket kell építeni az ütközések elkerülésére..."
   1918: "{SMALLFONT}{COLOUR BLACK}A jelzők blokkokra osztják a pályát, egy blokkban egyszerre csak egy vonat lehet..."
@@ -2112,7 +2112,7 @@ strings:
   2057: Függőleges terepfalak
   2058: Víz
   2059: Felszín
-  2060: Városnevek
+  2060: Településnevek
   2061: Rakomány
   2062: Falak
   2063: Jelzők
@@ -2150,7 +2150,7 @@ strings:
   2095: "{COLOUR WHITE}{BIGFONT}£"
   2096: Új objektumok sikeresen telepítve
   2097: Legalább egy gazdasági épületet ki kell választani
-  2098: Legalább egy városi épületet ki kell választani
+  2098: Legalább egy települési épületet ki kell választani
   2099: Vállalati székház épülettípust ki kell választani
   2100: Csak egy vállalati székház épülettípust lehet kiválasztani
   2101: Egy felülettípust ki kell választani
@@ -2158,7 +2158,7 @@ strings:
   2103: Legalább egy talajtípust ki kell választani
   2104: Egy pénznemet ki kell választani
   2105: Egy víztípust ki kell választani
-  2106: Egy városnév-stílust ki kell választani
+  2106: Egy településnév-stílust ki kell választani
   2107: Legalább egy vasúti átjárót ki kell választani
   2108: Egy lámpatípust ki kell választani
   2109: Hótípust ki kell választani (akkor is, ha nincs használatban)
@@ -2240,7 +2240,7 @@ strings:
   2185: "Pénzügyi csalások"
   2186: "Vállalati csalások"
   2187: "Járműcsalások"
-  2188: "Város csalások"
+  2188: "Település csalások"
   2189: "Hitel törlése"
   2190: "Törlés"
   2191: "{COLOUR BLACK}{CURRENCY32}"
@@ -2323,8 +2323,8 @@ strings:
   2268: "Játékmenet finomhangolása"
   2269: "Preferált tulajdonos"
   2270: "Automentés beállításai"
-  2271: "Városfejlődés tiltása"
-  2272: "{SMALLFONT}{COLOUR BLACK}Megakadályozza a városok terjeszkedését és épületek cseréjét."
+  2271: "Településfejlődés tiltása"
+  2272: "{SMALLFONT}{COLOUR BLACK}Megakadályozza a települések terjeszkedését és épületek cseréjét."
   2273: "Pályakihívás kényszerített teljesítése"
   2274: "Törlés"
   2275: "Hiba az objektumok betöltésekor"
