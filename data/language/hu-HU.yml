@@ -607,17 +607,17 @@ strings:
   586: Kérjük, helyezd be a Locomotion CD-t a következő meghajtóba:-
   587: "{COLOUR WINDOW_2}Kiadások/Bevételek"
   588: Vonatok bevétele
-  589: Vonatok üzemeltetési költsége
+  589: Vonatok üzemeltetése
   590: Buszok bevétele
-  591: Buszok üzemeltetési költsége
+  591: Buszok üzemeltetése
   592: Teherautók bevétele
-  593: Teherautók üzemeltetési költsége
+  593: Teherautók üzemeltetése
   594: Villamosok bevétele
-  595: Villamosok üzemeltetési költsége
+  595: Villamosok üzemeltetése
   596: Repülőgépek bevétele
-  597: Repülőgépek üzemeltetési költsége
+  597: Repülőgépek üzemeltetése
   598: Hajók bevétele
-  599: Hajók üzemeltetési költsége
+  599: Hajók üzemeltetése
   600: Építkezés
   601: Járművásárlások
   602: Járművek selejtezése
@@ -1162,7 +1162,7 @@ strings:
   1132: "{STRINGID} - Kikötők"
   1133: Összes állomás
   1134: Vasútállomások
-  1135: Közúti megállók
+  1135: Közúti állomások
   1136: Repülőterek
   1137: Kikötők
   1138: "{COLOUR WINDOW_2}{STRINGID} - {STRINGID}"
@@ -1669,8 +1669,8 @@ strings:
   1631: OK
   1632: Új táj generálása
   1633: Véletlen táj beállításai
-  1634: Biztosan új tájat generálsz? A jelenlegi elveszik.
-  1635: Biztosan véletlen tájat generálsz minden játék kezdetekor?{NEWLINE}Ezzel a jelenlegi táj elveszik.
+  1634: Biztosan új tájat generálsz? A jelenlegi el fog veszni.
+  1635: Biztosan véletlen tájat generálsz minden játék kezdetekor?{NEWLINE}Ezzel a jelenlegi táj el fog veszni.
   1636: "{COLOUR WINDOW_2}Tengerszint:"
   1637: +{INT16} egység
   1638: "{COLOUR WINDOW_2}Erdők száma:"
@@ -1882,7 +1882,7 @@ strings:
   1844: " és légy a legjobban teljesítő vállalat"
   1845: " és légy az első 3 vállalat egyike"
   1846: " {INT16} éven belül"
-  1847: " {UINT16 RAW} végéig"
+  1847: " {UINT16 RAW} vége előtt"
   1848: ...és légy az első vállalat
   1849: ...és légy az első 3 vállalat között
   1850: "...időkorláttal:"
@@ -1896,7 +1896,7 @@ strings:
   1858: "{INT16_1DP}%"
   1859: "{INT32}"
   1860: "{INT16} év"
-  1861: "{SMALLFONT}(Teljesítette: {STRINGID}, ideje: {INT16} év {INT16} hónap)"
+  1861: "{SMALLFONT}(Teljesítette: {STRINGID}, időtartama: {INT16} év {INT16} hónap)"
   1862: "{COLOUR WINDOW_2}Siker!{NEWLINE}{COLOUR BLACK}  A kihívást {INT16} év {INT16} hónap alatt teljesítetted"
   1863: "{COLOUR WINDOW_2}Kudarc!{NEWLINE}{COLOUR BLACK}  Nem sikerült teljesíteni a kihívást"
   1864: "{COLOUR WINDOW_2}A másik játékos legyőzött!{NEWLINE}{COLOUR BLACK}  A kihívást {STRINGID} teljesítette {INT16} év {INT16} hónap alatt"
