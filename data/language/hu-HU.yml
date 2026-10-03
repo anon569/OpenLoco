@@ -479,7 +479,7 @@ strings:
   458: "{COLOUR WHITE}{STRINGID}"
   459: Megáll{POP16}{POP16}
   460: Jelzőnél várakozik{POP16}{POP16}
-  461: "{VELOCITY} sebességgel halad{POP16}"
+  461: "{VELOCITY}{POP16}-val"
   462: "{COLOUR RED}Balesetet szenvedett!{POP16}{POP16}"
   463: "{COLOUR RED}Elakadt!{POP16}{POP16}"
   464: "{COLOUR RED}Meghibásodott!{POP16}{POP16}"
@@ -699,8 +699,8 @@ strings:
   676: Víz módosítása
   677: "{SMALLFONT}{COLOUR BLACK}Kattints a tájra és húzd fel/le a vízszint módosításához"
   678: "{SMALLFONT}{COLOUR BLACK}Kattints a tájra és húzd fel/le a talajszint módosításához"
-  679: Terület tisztítása
-  680: Terület tisztítása
+  679: Terület megtisztítása
+  680: Terület megtisztítása
   681: Talaj módosítása
   682: Víz módosítása
   683: Faültetés
@@ -2165,8 +2165,8 @@ strings:
   2110: Klímatípust ki kell választani
   2111: Térképgenerálási adattípust ki kell választani
   2112: Régiótípust ki kell választani
-  2113: mérföld/h
-  2114: km/h
+  2113:  mérföld/h
+  2114:  km/h
   2115: "óra:"
   2116: "óra:"
   2117: perc
@@ -2487,8 +2487,8 @@ strings:
   2432: "Kapacitás"
   2433: "Elavulás"
   2434: "Jármű rakománya"
-  2435: "Keep vehicle cargo on modify or pickup"
-  2436: "{SMALLFONT}{COLOUR BLACK}When enabled, cargo will not be cleared from the entire vehicle when adding cars, moving cars or picking up the vehicle"
+  2435: "Jármű rakományának megtartása módosításkor vagy felvételkor"
+  2436: "{SMALLFONT}{COLOUR BLACK}Bekapcsolásával a jármű teljes rakománya megmarad kocsik hozzáadása, kocsik áthelyezése vagy a jármű felvétele után"
   2437: "Rendezés"
   2438: "Előnyben részesített vállalat"
   2439: "Új játék indításakor az előnyben részesített vállalatnév használata"
@@ -2514,10 +2514,10 @@ strings:
   2459: "Hibakereső ablak"
   2460: "Eszköztármenük megjelenítése rámutatáskor kattintás helyett"
   2461: "Az eszköztár gombjainak vízszintes középre igazítása"
-  2462: "Repeated placement"
-  2463: "{SMALLFONT}{COLOUR BLACK}Place signals repeatedly at every ‘step size’ track elements"
-  2464: "Step size:"
-  2465: "Signals block"
-  2466: "Has cargo order"
-  2467: "Transports cargo"
+  2462: "Ismételt elhelyezés"
+  2463: "{SMALLFONT}{COLOUR BLACK}Jelzők ismételt elhelyezése minden „lépésköznyi” vágányelemnél"
+  2464: "Lépésköz:"
+  2465: "Jelzőblokk"
+  2466: "Van rakományutasítása"
+  2467: "Szállít rakományt"
   2468: "{INT16} x {INT16}"
