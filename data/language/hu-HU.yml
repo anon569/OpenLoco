@@ -1572,7 +1572,7 @@ strings:
   1536: "{SMALLFONT}{COLOUR BLACK}Zene leállítása"
   1537: "{SMALLFONT}{COLOUR BLACK}Zene lejátszása"
   1538: "{SMALLFONT}{COLOUR BLACK}Következő zeneszám"
-  1539: Csak az adott korszak zenéinek lejátszása
+  1539: Csak az aktuális korszak zenéinek lejátszása
   1540: Összes zene lejátszása
   1541: Egyedi zenei válogatás lejátszása
   1542: Válogatás szerkesztése...
@@ -1583,7 +1583,7 @@ strings:
   1547: "{COLOUR WINDOW_2}Hangerő:"
   1548: "{SMALLFONT}{COLOUR BLACK}Zene hangerejének beállítása"
   1549: Zenei beállítások
-  1550: "Tulajdonos arcának kiválasztása ehhez: {STRINGID}"
+  1550: "{STRINGID} tulajdonosi arcának kiválasztása"
   1551: "{SMALLFONT}{COLOUR BLACK}Kattints a vállalat/tulajdonos arcának kiválasztásához"
   1552: Már ki van választva egy másik vállalathoz
   1553: Nem választható ki az arc...
@@ -1776,7 +1776,7 @@ strings:
   1738: Sziklák körül
   1739: Dombok létrehozása a térkép széléig
   1740: "{SMALLFONT}{COLOUR BLACK}Pályaszerkesztő"
-  1741: "{STRINGID} Szállítás"
+  1741: "{STRINGID} Szállítmányozás"
   1742: Térkép
   1743: "{NEWLINE 1 2}{SPRITE}{NEWLINE 33 8}Vállalatlista"
   1744: "{NEWLINE 0 8}{STRINGID}{NEWLINE 25 2}{SPRITE}{NEWLINE 51 2}{STRINGID}{NEWLINE 51 12}{COLOUR WINDOW_1}{INT16_1DP}% “{STRINGID}”"
@@ -2423,25 +2423,25 @@ strings:
   2368: "Refit component"
   2369: "{SMALLFONT}{COLOUR BLACK}Hangbeállítások"
   2370: "Beállítások - Hang"
-  2371: "Sound"
-  2372: "Jukebox"
-  2373: "{COLOUR WINDOW_2}Music volume:"
-  2374: Show planned AI track/road as ghosts
-  2375: "{SMALLFONT}{COLOUR BLACK}This shows the routes planned by AI companies as regular ghost elements."
-  2376: "{MOVE_X 15}{COLOUR BLACK}Title"
-  2377: "{MOVE_X 15}{COLOUR BLACK}Title ▲"
-  2378: "{MOVE_X 15}{COLOUR BLACK}Title ▼"
-  2379: "{COLOUR BLACK}Years"
-  2380: "{COLOUR BLACK}Years ▲"
-  2381: "{COLOUR BLACK}Years ▼"
-  2382: "{SMALLFONT}{COLOUR BLACK}Sort list by track title"
-  2383: "{SMALLFONT}{COLOUR BLACK}Sort list by years each track plays in ‘current era’ mode"
+  2371: "Hang"
+  2372: "Zenegép"
+  2373: "{COLOUR WINDOW_2}Zene hangereje:"
+  2374: MI által tervezett vágány/út megjelenítése szellemként
+  2375: "{SMALLFONT}{COLOUR BLACK}Az MI-vállalatok által tervezett útvonalakat normál szellemelemként jeleníti meg."
+  2376: "{MOVE_X 15}{COLOUR BLACK}Cím"
+  2377: "{MOVE_X 15}{COLOUR BLACK}Cím ▲"
+  2378: "{MOVE_X 15}{COLOUR BLACK}Cím ▼"
+  2379: "{COLOUR BLACK}Évek"
+  2380: "{COLOUR BLACK}Évek ▲"
+  2381: "{COLOUR BLACK}Évek ▼"
+  2382: "{SMALLFONT}{COLOUR BLACK}Lista rendezése a zeneszámok címe szerint"
+  2383: "{SMALLFONT}{COLOUR BLACK}Lista rendezése az alapján, hogy az egyes zeneszámok mikor lesznek lejátszva „aktuális korszak” módban"
   2384: "{UINT16}-{UINT16}"
   2385: "{UINT16}-"
   2386: "-{UINT16}"
   2387: "-"
-  2388: "{UINT16} music track selected"
-  2389: "{UINT16} music tracks selected"
+  2388: "{UINT16} zeneszám kijelölve"
+  2389: "{UINT16} zeneszám kijelölve"
   2390: "User interface"
   2391: "Window frame style:"
   2392: "{SMALLFONT}{COLOUR BLACK}This is the style used to decorate windows."
@@ -2505,9 +2505,9 @@ strings:
   2450: "R.ALT + "
   2451: "{STRINGID}{STRINGID}{STRINGID}{STRINGID}{STRINGID}"
   2452: "{COLOUR BLACK}“{STRINGID}”"
-  2453: "Music"
-  2454: "{COLOUR WINDOW_2}Play music during gameplay"
-  2455: "Open jukebox..."
+  2453: "Zene"
+  2454: "{COLOUR WINDOW_2}Zene lejátszása játék közben"
+  2455: "Zenegép megnyitása..."
   2456: "{COLOUR WINDOW_2}Cargo awaiting processing:"
   2457: "{COLOUR WINDOW_2}Cargo awaiting transport:"
   2458: "{STRINGID}{STRINGID}"
