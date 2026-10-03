@@ -1521,7 +1521,7 @@ strings:
   1489: "{SMALLFONT}{COLOUR BLACK}Regionális beállítások"
   1490: "{SMALLFONT}{COLOUR BLACK}Irányítási beállítások"
   1491: "{SMALLFONT}{COLOUR BLACK}Egyéb beállítások"
-  1492: Beállítások - Megjelenítés
+  1492: Beállítások - Képernyő
   1493: Beállítások - Hang
   1494: Beállítások - Zene
   1495: Beállítások - Regionális
@@ -2413,7 +2413,7 @@ strings:
   2358: "Toggle paint tool"
   2359: "{SMALLFONT}{COLOUR BLACK}{POP16}{STRINGID} átfestése{NEWLINE}Shift+kattintás az összes festéséhez{NEWLINE}Ctrl+kattintás az aljárművek festéséhez"
   2360: "Paint all connected"
-  2361: "Options - Rendering"
+  2361: "Beállítások - Megjelenítés"
   2362: "{SMALLFONT}{COLOUR BLACK}Rendering options"
   2363: "Confirm sell component"
   2364: "Selling this vehicle component will remove all cargo aboard the entire vehicle. Continue?"
@@ -2421,8 +2421,8 @@ strings:
   2366: "Confirm refit component"
   2367: "Refitting this vehicle component will remove all cargo aboard the entire vehicle. Continue?"
   2368: "Refit component"
-  2369: "{SMALLFONT}{COLOUR BLACK}Audio options"
-  2370: "Options - Audio"
+  2369: "{SMALLFONT}{COLOUR BLACK}Hangbeállítások"
+  2370: "Beállítások - Hang"
   2371: "Sound"
   2372: "Jukebox"
   2373: "{COLOUR WINDOW_2}Music volume:"
@@ -2511,7 +2511,7 @@ strings:
   2456: "{COLOUR WINDOW_2}Cargo awaiting processing:"
   2457: "{COLOUR WINDOW_2}Cargo awaiting transport:"
   2458: "{STRINGID}{STRINGID}"
-  2459: "Debug window"
+  2459: "Hibakereső ablak"
   2460: "Show toolbar menus on hover instead of click"
   2461: "Align toolbar buttons horizontally centred"
   2462: "Repeated placement"
